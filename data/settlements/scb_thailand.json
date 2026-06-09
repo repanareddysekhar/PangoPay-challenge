@@ -1,0 +1,1412 @@
+[
+  {
+    "settlement_id": "STL-b21b46aa58ad",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 55377.31,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T09:17:00",
+    "fee_charged": 1384.43,
+    "settlement_status": "settled",
+    "order_id": "ORD-0322329623a8"
+  },
+  {
+    "settlement_id": "STL-fa05c5e7ecc8",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 19283.37,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T04:52:00",
+    "fee_charged": 482.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-9b6a70082abe"
+  },
+  {
+    "settlement_id": "STL-f34ad846b18d",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 61485.25,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T21:40:00",
+    "fee_charged": 1537.13,
+    "settlement_status": "settled",
+    "order_id": "ORD-4aea1e65b8ee"
+  },
+  {
+    "settlement_id": "STL-2270ac047c4d",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 48116.09,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T10:58:00",
+    "fee_charged": 1202.9,
+    "settlement_status": "settled",
+    "order_id": "ORD-3eef83ce5578"
+  },
+  {
+    "settlement_id": "STL-a341b502ba5c",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 15363.31,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T14:51:00",
+    "fee_charged": 384.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-148e241deb58"
+  },
+  {
+    "settlement_id": "STL-45a27dbf989f",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 30710.75,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T11:54:00",
+    "fee_charged": 767.77,
+    "settlement_status": "settled",
+    "order_id": "ORD-452e8ae9c46a"
+  },
+  {
+    "settlement_id": "STL-ada870627a81",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 15596.88,
+    "currency": "THB",
+    "settlement_date": "2025-11-23T15:31:00",
+    "fee_charged": 389.92,
+    "settlement_status": "settled",
+    "order_id": "ORD-aa07e5a128c0"
+  },
+  {
+    "settlement_id": "STL-bc5c7bbb1e33",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 6541.72,
+    "currency": "THB",
+    "settlement_date": "2025-11-14T10:45:00",
+    "fee_charged": 163.54,
+    "settlement_status": "settled",
+    "order_id": "ORD-f4fa955da3f3"
+  },
+  {
+    "settlement_id": "STL-40da89c2f098",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 11600.61,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T00:09:00",
+    "fee_charged": 290.02,
+    "settlement_status": "settled",
+    "order_id": "ORD-1eba12fe8038"
+  },
+  {
+    "settlement_id": "STL-685d16c8abe8",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 30269.64,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T17:46:00",
+    "fee_charged": 756.74,
+    "settlement_status": "settled",
+    "order_id": "ORD-f54d0b656f42"
+  },
+  {
+    "settlement_id": "STL-4d93c8d98ea1",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 42821.02,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T14:32:00",
+    "fee_charged": 1070.53,
+    "settlement_status": "settled",
+    "order_id": "ORD-1cd2c3965a85"
+  },
+  {
+    "settlement_id": "STL-d157192568cd",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 53620.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-09T22:36:00",
+    "fee_charged": 1340.52,
+    "settlement_status": "settled",
+    "order_id": "ORD-3b636e83a638"
+  },
+  {
+    "settlement_id": "STL-e168828aa090",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 77078.27,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T21:24:00",
+    "fee_charged": 1926.96,
+    "settlement_status": "settled",
+    "order_id": "ORD-793216b06f50"
+  },
+  {
+    "settlement_id": "STL-9138c1d92d1e",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 10992.64,
+    "currency": "THB",
+    "settlement_date": "2025-11-02T02:59:00",
+    "fee_charged": 274.82,
+    "settlement_status": "settled",
+    "order_id": "ORD-d2e55304ad20"
+  },
+  {
+    "settlement_id": "STL-c67e2913f016",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 29721.1,
+    "currency": "THB",
+    "settlement_date": "2025-11-09T13:22:00",
+    "fee_charged": 743.03,
+    "settlement_status": "settled",
+    "order_id": "ORD-25f6096de5f6"
+  },
+  {
+    "settlement_id": "STL-6d76a9f5effe",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 11279.32,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T08:52:00",
+    "fee_charged": 281.98,
+    "settlement_status": "settled",
+    "order_id": "ORD-567fd2a24190"
+  },
+  {
+    "settlement_id": "STL-32856617be70",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 16384.1,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T06:59:00",
+    "fee_charged": 409.6,
+    "settlement_status": "settled",
+    "order_id": "ORD-50526057a811"
+  },
+  {
+    "settlement_id": "STL-016925cfac23",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 64089.52,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T00:34:00",
+    "fee_charged": 1602.24,
+    "settlement_status": "settled",
+    "order_id": "ORD-ce13276c75b4"
+  },
+  {
+    "settlement_id": "STL-30bee45a534d",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 58755.39,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T07:29:00",
+    "fee_charged": 1468.88,
+    "settlement_status": "settled",
+    "order_id": "ORD-f34d8c45b6c7"
+  },
+  {
+    "settlement_id": "STL-6c8ffac79ac6",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 12340.78,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T18:33:00",
+    "fee_charged": 308.52,
+    "settlement_status": "settled",
+    "order_id": "ORD-8e3aeed41549"
+  },
+  {
+    "settlement_id": "STL-9d10e04fda23",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 16983.67,
+    "currency": "THB",
+    "settlement_date": "2025-11-03T23:08:00",
+    "fee_charged": 424.59,
+    "settlement_status": "settled",
+    "order_id": "ORD-0330ddf7b921"
+  },
+  {
+    "settlement_id": "STL-a2e92ac81eb7",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 56279.93,
+    "currency": "THB",
+    "settlement_date": "2025-11-20T00:50:00",
+    "fee_charged": 1407.0,
+    "settlement_status": "settled",
+    "order_id": "ORD-9f533916efcb"
+  },
+  {
+    "settlement_id": "STL-9fa738efbfd1",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 6774.7,
+    "currency": "THB",
+    "settlement_date": "2025-11-09T21:46:00",
+    "fee_charged": 169.37,
+    "settlement_status": "settled",
+    "order_id": "ORD-ac7dde702e1c"
+  },
+  {
+    "settlement_id": "STL-ac3a0aba67b9",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 68923.22,
+    "currency": "THB",
+    "settlement_date": "2025-11-05T05:54:00",
+    "fee_charged": 1723.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-7001a6c685de"
+  },
+  {
+    "settlement_id": "STL-46dd9eb9a5f9",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 43754.52,
+    "currency": "THB",
+    "settlement_date": "2025-11-18T21:04:00",
+    "fee_charged": 1093.86,
+    "settlement_status": "settled",
+    "order_id": "ORD-dcf0b0e293c5"
+  },
+  {
+    "settlement_id": "STL-83c60503aa2c",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 50805.27,
+    "currency": "THB",
+    "settlement_date": "2025-11-20T22:22:00",
+    "fee_charged": 1270.13,
+    "settlement_status": "settled",
+    "order_id": "ORD-c30fa6e37f5f"
+  },
+  {
+    "settlement_id": "STL-36c6b67574b9",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 41715.93,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T22:03:00",
+    "fee_charged": 1042.9,
+    "settlement_status": "settled",
+    "order_id": "ORD-400329804fab"
+  },
+  {
+    "settlement_id": "STL-4590cc9b58b9",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 57494.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-15T22:43:00",
+    "fee_charged": 1437.37,
+    "settlement_status": "settled",
+    "order_id": "ORD-46a37dcd81d8"
+  },
+  {
+    "settlement_id": "STL-ef8e502718f9",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 2541.43,
+    "currency": "THB",
+    "settlement_date": "2025-11-07T20:06:00",
+    "fee_charged": 63.54,
+    "settlement_status": "settled",
+    "order_id": "ORD-a1d6a48ad597"
+  },
+  {
+    "settlement_id": "STL-c9e83fccff0c",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 56910.77,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T19:04:00",
+    "fee_charged": 1422.77,
+    "settlement_status": "settled",
+    "order_id": "ORD-c1ea8dd86c6a"
+  },
+  {
+    "settlement_id": "STL-dd22ddce6358",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 6634.62,
+    "currency": "THB",
+    "settlement_date": "2025-11-09T02:08:00",
+    "fee_charged": 165.87,
+    "settlement_status": "settled",
+    "order_id": "ORD-ceef0c7d496c"
+  },
+  {
+    "settlement_id": "STL-5681be20865e",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 41619.22,
+    "currency": "THB",
+    "settlement_date": "2025-11-08T11:22:00",
+    "fee_charged": 1040.48,
+    "settlement_status": "settled",
+    "order_id": "ORD-4703428d33f1"
+  },
+  {
+    "settlement_id": "STL-a35d8fcf4076",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 19103.23,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T15:18:00",
+    "fee_charged": 477.58,
+    "settlement_status": "settled",
+    "order_id": "ORD-e4d334760249"
+  },
+  {
+    "settlement_id": "STL-eb0fed140416",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 33285.18,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T07:03:00",
+    "fee_charged": 832.13,
+    "settlement_status": "settled",
+    "order_id": "ORD-40148199afbd"
+  },
+  {
+    "settlement_id": "STL-baa3837f1a27",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 45058.76,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T13:30:00",
+    "fee_charged": 1126.47,
+    "settlement_status": "settled",
+    "order_id": "ORD-69cc82caae45"
+  },
+  {
+    "settlement_id": "STL-2972e16d4b99",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 63690.28,
+    "currency": "THB",
+    "settlement_date": "2025-11-09T01:51:00",
+    "fee_charged": 1592.26,
+    "settlement_status": "settled",
+    "order_id": "ORD-00e4d43c61d3"
+  },
+  {
+    "settlement_id": "STL-943d5e457735",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 78522.4,
+    "currency": "THB",
+    "settlement_date": "2025-11-02T20:14:00",
+    "fee_charged": 1963.06,
+    "settlement_status": "settled",
+    "order_id": "ORD-c04ab23c5fa9"
+  },
+  {
+    "settlement_id": "STL-40d76c762edb",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 73069.91,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T02:15:00",
+    "fee_charged": 1826.75,
+    "settlement_status": "settled",
+    "order_id": "ORD-77656660c881"
+  },
+  {
+    "settlement_id": "STL-976c946702e3",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 36393.15,
+    "currency": "THB",
+    "settlement_date": "2025-11-12T16:57:00",
+    "fee_charged": 909.83,
+    "settlement_status": "settled",
+    "order_id": "ORD-15f7bf642ed2"
+  },
+  {
+    "settlement_id": "STL-c5fb96b4cbaa",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 45975.85,
+    "currency": "THB",
+    "settlement_date": "2025-11-11T02:41:00",
+    "fee_charged": 1149.4,
+    "settlement_status": "settled",
+    "order_id": "ORD-76a14ba118cd"
+  },
+  {
+    "settlement_id": "STL-b856c547286d",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 71834.35,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T00:58:00",
+    "fee_charged": 1795.86,
+    "settlement_status": "settled",
+    "order_id": "ORD-704af841f411"
+  },
+  {
+    "settlement_id": "STL-b7a101021530",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 41473.0,
+    "currency": "THB",
+    "settlement_date": "2025-11-29T20:20:00",
+    "fee_charged": 1036.83,
+    "settlement_status": "settled",
+    "order_id": "ORD-f383fffe67ff"
+  },
+  {
+    "settlement_id": "STL-0f198b744dbc",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 67636.51,
+    "currency": "THB",
+    "settlement_date": "2025-12-02T07:05:00",
+    "fee_charged": 1690.91,
+    "settlement_status": "settled",
+    "order_id": "ORD-404981a44b9a"
+  },
+  {
+    "settlement_id": "STL-a34ec781f07b",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 53595.12,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T02:33:00",
+    "fee_charged": 1339.88,
+    "settlement_status": "settled",
+    "order_id": "ORD-9e8a128305a2"
+  },
+  {
+    "settlement_id": "STL-18bea298003d",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 38362.85,
+    "currency": "THB",
+    "settlement_date": "2025-11-18T13:56:00",
+    "fee_charged": 959.07,
+    "settlement_status": "settled",
+    "order_id": "ORD-d9d3a484b719"
+  },
+  {
+    "settlement_id": "STL-ee9711c242ac",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 20177.21,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T04:24:00",
+    "fee_charged": 504.43,
+    "settlement_status": "settled",
+    "order_id": "ORD-78f19fff7e46"
+  },
+  {
+    "settlement_id": "STL-210c8eb32d61",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 1240.58,
+    "currency": "THB",
+    "settlement_date": "2025-11-11T05:20:00",
+    "fee_charged": 31.01,
+    "settlement_status": "settled",
+    "order_id": "ORD-747f606ed88d"
+  },
+  {
+    "settlement_id": "STL-738ea75bd7b3",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 67995.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-12T02:48:00",
+    "fee_charged": 1699.9,
+    "settlement_status": "settled",
+    "order_id": "ORD-e971bb217773"
+  },
+  {
+    "settlement_id": "STL-87ddc320e4a3",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 76764.17,
+    "currency": "THB",
+    "settlement_date": "2025-11-10T07:05:00",
+    "fee_charged": 1919.1,
+    "settlement_status": "settled",
+    "order_id": "ORD-1a96c5866822"
+  },
+  {
+    "settlement_id": "STL-e4a6570d6b07",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 18442.13,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T07:50:00",
+    "fee_charged": 461.05,
+    "settlement_status": "settled",
+    "order_id": "ORD-ae7063317df5"
+  },
+  {
+    "settlement_id": "STL-3857e4f665c6",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 70706.24,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T01:47:00",
+    "fee_charged": 1767.66,
+    "settlement_status": "settled",
+    "order_id": "ORD-56ded7eedbb5"
+  },
+  {
+    "settlement_id": "STL-8be526a05824",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 67269.1,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T21:48:00",
+    "fee_charged": 1681.73,
+    "settlement_status": "settled",
+    "order_id": "ORD-665d218e768e"
+  },
+  {
+    "settlement_id": "STL-eb95e97a6cfd",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 13398.65,
+    "currency": "THB",
+    "settlement_date": "2025-11-07T10:24:00",
+    "fee_charged": 334.97,
+    "settlement_status": "settled",
+    "order_id": "ORD-8ef6343bbc86"
+  },
+  {
+    "settlement_id": "STL-587862516db0",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 64501.14,
+    "currency": "THB",
+    "settlement_date": "2025-11-02T21:52:00",
+    "fee_charged": 1612.53,
+    "settlement_status": "settled",
+    "order_id": "ORD-0b545c07ad37"
+  },
+  {
+    "settlement_id": "STL-109f2ac7e8d2",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 2556.26,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T09:38:00",
+    "fee_charged": 63.91,
+    "settlement_status": "settled",
+    "order_id": "ORD-e160178a369c"
+  },
+  {
+    "settlement_id": "STL-0a4dc76e24f2",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 35469.87,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T10:15:00",
+    "fee_charged": 886.75,
+    "settlement_status": "settled",
+    "order_id": "ORD-91b79509390a"
+  },
+  {
+    "settlement_id": "STL-c4baa79025ce",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 24891.1,
+    "currency": "THB",
+    "settlement_date": "2025-11-03T05:07:00",
+    "fee_charged": 622.28,
+    "settlement_status": "settled",
+    "order_id": "ORD-bfa20c090fab"
+  },
+  {
+    "settlement_id": "STL-248acbc28832",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 42683.08,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T04:40:00",
+    "fee_charged": 1067.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-802f129789f7"
+  },
+  {
+    "settlement_id": "STL-9c36d318d01e",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 46671.26,
+    "currency": "THB",
+    "settlement_date": "2025-11-12T18:47:00",
+    "fee_charged": 1166.78,
+    "settlement_status": "settled",
+    "order_id": "ORD-14f06c3a784d"
+  },
+  {
+    "settlement_id": "STL-3c6d9d07d998",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 1236.74,
+    "currency": "THB",
+    "settlement_date": "2025-11-29T04:56:00",
+    "fee_charged": 30.92,
+    "settlement_status": "settled",
+    "order_id": "ORD-a99dfa860d98"
+  },
+  {
+    "settlement_id": "STL-8dd1be052445",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 68841.01,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T02:04:00",
+    "fee_charged": 1721.03,
+    "settlement_status": "settled",
+    "order_id": "ORD-9e2028f738f4"
+  },
+  {
+    "settlement_id": "STL-4e2019f69682",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 77513.66,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T03:11:00",
+    "fee_charged": 1937.84,
+    "settlement_status": "settled",
+    "order_id": "ORD-22d87cba0f72"
+  },
+  {
+    "settlement_id": "STL-d51c663e6d9f",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 6764.62,
+    "currency": "THB",
+    "settlement_date": "2025-11-18T10:59:00",
+    "fee_charged": 169.12,
+    "settlement_status": "settled",
+    "order_id": "ORD-dfeaa0db3b47"
+  },
+  {
+    "settlement_id": "STL-b8bef76ec49e",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 34042.78,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T06:05:00",
+    "fee_charged": 851.07,
+    "settlement_status": "settled",
+    "order_id": "ORD-0010c5a9cb8a"
+  },
+  {
+    "settlement_id": "STL-29a5d140c59c",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 26524.54,
+    "currency": "THB",
+    "settlement_date": "2025-11-06T08:16:00",
+    "fee_charged": 663.11,
+    "settlement_status": "settled",
+    "order_id": "ORD-73fda91ef38d"
+  },
+  {
+    "settlement_id": "STL-c85e2abf242f",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 24051.59,
+    "currency": "THB",
+    "settlement_date": "2025-11-20T22:06:00",
+    "fee_charged": 601.29,
+    "settlement_status": "settled",
+    "order_id": "ORD-679878b0f147"
+  },
+  {
+    "settlement_id": "STL-225fc88b91f2",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 53521.21,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T11:13:00",
+    "fee_charged": 1338.03,
+    "settlement_status": "settled",
+    "order_id": "ORD-6d1e54da4726"
+  },
+  {
+    "settlement_id": "STL-16bbc9a855b4",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 73221.92,
+    "currency": "THB",
+    "settlement_date": "2025-11-10T23:09:00",
+    "fee_charged": 1830.55,
+    "settlement_status": "settled",
+    "order_id": "ORD-70b1db48e33c"
+  },
+  {
+    "settlement_id": "STL-5107c097cd56",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 66850.3,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T01:34:00",
+    "fee_charged": 1671.26,
+    "settlement_status": "settled",
+    "order_id": "ORD-b1a4aa7ba645"
+  },
+  {
+    "settlement_id": "STL-114dac10c883",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 64436.49,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T00:47:00",
+    "fee_charged": 1610.91,
+    "settlement_status": "settled",
+    "order_id": "ORD-767b0f4c69eb"
+  },
+  {
+    "settlement_id": "STL-bef3554f1d8b",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 12860.62,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T11:21:00",
+    "fee_charged": 321.52,
+    "settlement_status": "settled",
+    "order_id": "ORD-27a44d263a48"
+  },
+  {
+    "settlement_id": "STL-ad8729a67c4b",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 57851.31,
+    "currency": "THB",
+    "settlement_date": "2025-11-27T14:36:00",
+    "fee_charged": 1446.28,
+    "settlement_status": "settled",
+    "order_id": "ORD-f9845b4ebc67"
+  },
+  {
+    "settlement_id": "STL-c5e974c2f4e3",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 6709.17,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T13:33:00",
+    "fee_charged": 167.73,
+    "settlement_status": "settled",
+    "order_id": "ORD-8f69e242b0ce"
+  },
+  {
+    "settlement_id": "STL-c3e06517c372",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 35179.46,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T10:55:00",
+    "fee_charged": 879.49,
+    "settlement_status": "settled",
+    "order_id": "ORD-f030da6eb09f"
+  },
+  {
+    "settlement_id": "STL-54114b3cd716",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 41303.2,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T00:29:00",
+    "fee_charged": 1032.58,
+    "settlement_status": "settled",
+    "order_id": "ORD-8d3de2629312"
+  },
+  {
+    "settlement_id": "STL-09fc119f5ed7",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 50980.77,
+    "currency": "THB",
+    "settlement_date": "2025-11-23T16:04:00",
+    "fee_charged": 1274.52,
+    "settlement_status": "settled",
+    "order_id": "ORD-7871e8410728"
+  },
+  {
+    "settlement_id": "STL-be42bd1f88ab",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 27520.08,
+    "currency": "THB",
+    "settlement_date": "2025-11-06T20:17:00",
+    "fee_charged": 688.0,
+    "settlement_status": "settled",
+    "order_id": "ORD-c6620207ed77"
+  },
+  {
+    "settlement_id": "STL-4e8fe7be7624",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 10038.76,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T23:18:00",
+    "fee_charged": 250.97,
+    "settlement_status": "settled",
+    "order_id": "ORD-ebb6d7a7abf7"
+  },
+  {
+    "settlement_id": "STL-30325d568f14",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 54001.72,
+    "currency": "THB",
+    "settlement_date": "2025-11-29T09:04:00",
+    "fee_charged": 1350.04,
+    "settlement_status": "settled",
+    "order_id": "ORD-0b8faff36a8a"
+  },
+  {
+    "settlement_id": "STL-c073967a2657",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 37761.49,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T02:28:00",
+    "fee_charged": 944.04,
+    "settlement_status": "settled",
+    "order_id": "ORD-cdc5c5d22ad0"
+  },
+  {
+    "settlement_id": "STL-b89d480aa453",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 44439.76,
+    "currency": "THB",
+    "settlement_date": "2025-11-03T14:24:00",
+    "fee_charged": 1110.99,
+    "settlement_status": "settled",
+    "order_id": "ORD-a13353dcd94b"
+  },
+  {
+    "settlement_id": "STL-6ec87ccbf59d",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 72965.48,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T11:00:00",
+    "fee_charged": 1824.14,
+    "settlement_status": "settled",
+    "order_id": "ORD-a05ad9895298"
+  },
+  {
+    "settlement_id": "STL-79f0b216263c",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 66197.74,
+    "currency": "THB",
+    "settlement_date": "2025-11-03T22:51:00",
+    "fee_charged": 1654.94,
+    "settlement_status": "settled",
+    "order_id": "ORD-2f9576931cc8"
+  },
+  {
+    "settlement_id": "STL-1d99e54fd1ff",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 11183.65,
+    "currency": "THB",
+    "settlement_date": "2025-11-23T14:55:00",
+    "fee_charged": 279.59,
+    "settlement_status": "settled",
+    "order_id": "ORD-916748de38c2"
+  },
+  {
+    "settlement_id": "STL-936e535faf7e",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 15591.81,
+    "currency": "THB",
+    "settlement_date": "2025-12-02T05:46:00",
+    "fee_charged": 389.8,
+    "settlement_status": "settled",
+    "order_id": "ORD-8d55791019d0"
+  },
+  {
+    "settlement_id": "STL-41852926bc60",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 15824.69,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T01:01:00",
+    "fee_charged": 395.62,
+    "settlement_status": "settled",
+    "order_id": "ORD-048ed86ac4e2"
+  },
+  {
+    "settlement_id": "STL-55c063e806fc",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 67218.69,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T09:15:00",
+    "fee_charged": 1680.47,
+    "settlement_status": "settled",
+    "order_id": "ORD-df03d40a96ef"
+  },
+  {
+    "settlement_id": "STL-212b1115f86c",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 53705.84,
+    "currency": "THB",
+    "settlement_date": "2025-11-18T19:05:00",
+    "fee_charged": 1342.65,
+    "settlement_status": "settled",
+    "order_id": "ORD-85d934db7e5d"
+  },
+  {
+    "settlement_id": "STL-0af09994f15a",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 57806.77,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T21:41:00",
+    "fee_charged": 1445.17,
+    "settlement_status": "settled",
+    "order_id": "ORD-38796aae708c"
+  },
+  {
+    "settlement_id": "STL-6251fd48e56a",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 43792.71,
+    "currency": "THB",
+    "settlement_date": "2025-12-02T01:27:00",
+    "fee_charged": 1094.82,
+    "settlement_status": "settled",
+    "order_id": "ORD-e48db8514992"
+  },
+  {
+    "settlement_id": "STL-c983569fffb1",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 60920.33,
+    "currency": "THB",
+    "settlement_date": "2025-11-27T22:34:00",
+    "fee_charged": 1523.01,
+    "settlement_status": "settled",
+    "order_id": "ORD-a121cdbbb3e5"
+  },
+  {
+    "settlement_id": "STL-1a989466a013",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 19072.09,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T09:28:00",
+    "fee_charged": 476.8,
+    "settlement_status": "settled",
+    "order_id": "ORD-4767528c9b05"
+  },
+  {
+    "settlement_id": "STL-6687d8111a7a",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 3074.63,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T02:24:00",
+    "fee_charged": 76.87,
+    "settlement_status": "settled",
+    "order_id": "ORD-21ff04e2160f"
+  },
+  {
+    "settlement_id": "STL-542bbecf6be1",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 3973.55,
+    "currency": "THB",
+    "settlement_date": "2025-11-26T10:46:00",
+    "fee_charged": 99.34,
+    "settlement_status": "settled",
+    "order_id": "ORD-4715ec5151d1"
+  },
+  {
+    "settlement_id": "STL-d1256d3af993",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 41138.33,
+    "currency": "THB",
+    "settlement_date": "2025-11-15T17:28:00",
+    "fee_charged": 1028.46,
+    "settlement_status": "settled",
+    "order_id": "ORD-352c674b4284"
+  },
+  {
+    "settlement_id": "STL-95768b4f54be",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 23583.8,
+    "currency": "THB",
+    "settlement_date": "2025-11-24T12:35:00",
+    "fee_charged": 589.6,
+    "settlement_status": "settled",
+    "order_id": "ORD-b5cfcd83eac8"
+  },
+  {
+    "settlement_id": "STL-fe62251456f0",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 73603.56,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T05:53:00",
+    "fee_charged": 1840.09,
+    "settlement_status": "settled",
+    "order_id": "ORD-4632b27fe53d"
+  },
+  {
+    "settlement_id": "STL-13a1a873c875",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 63142.87,
+    "currency": "THB",
+    "settlement_date": "2025-11-07T02:53:00",
+    "fee_charged": 1578.57,
+    "settlement_status": "settled",
+    "order_id": "ORD-a266b0dc556b"
+  },
+  {
+    "settlement_id": "STL-7d79d7e48d4b",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 6389.53,
+    "currency": "THB",
+    "settlement_date": "2025-11-05T08:25:00",
+    "fee_charged": 159.74,
+    "settlement_status": "settled",
+    "order_id": "ORD-bf31548a73ac"
+  },
+  {
+    "settlement_id": "STL-68b2293b8838",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 3353.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T18:55:00",
+    "fee_charged": 83.85,
+    "settlement_status": "settled",
+    "order_id": "ORD-b62234308bf8"
+  },
+  {
+    "settlement_id": "STL-cdb153620e28",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 70890.4,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T13:37:00",
+    "fee_charged": 1772.26,
+    "settlement_status": "settled",
+    "order_id": "ORD-5a43f5003035"
+  },
+  {
+    "settlement_id": "STL-792128a500eb",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 8550.0,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T14:10:00",
+    "fee_charged": 213.75,
+    "settlement_status": "settled",
+    "order_id": "ORD-bdc802ebdd90"
+  },
+  {
+    "settlement_id": "STL-316b51ddfff7",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 22481.72,
+    "currency": "THB",
+    "settlement_date": "2025-11-06T21:13:00",
+    "fee_charged": 562.04,
+    "settlement_status": "settled",
+    "order_id": "ORD-d4fd0a7a79f6"
+  },
+  {
+    "settlement_id": "STL-341b66f609e2",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 17897.87,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T13:49:00",
+    "fee_charged": 447.45,
+    "settlement_status": "settled",
+    "order_id": "ORD-a1dd3da78ee8"
+  },
+  {
+    "settlement_id": "STL-038eb0b63b23",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 77466.22,
+    "currency": "THB",
+    "settlement_date": "2025-11-27T16:25:00",
+    "fee_charged": 1936.66,
+    "settlement_status": "settled",
+    "order_id": "ORD-c006f9a72138"
+  },
+  {
+    "settlement_id": "STL-a4acd28636eb",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 27002.28,
+    "currency": "THB",
+    "settlement_date": "2025-12-01T18:55:00",
+    "fee_charged": 675.06,
+    "settlement_status": "settled",
+    "order_id": "ORD-30d2beb6d170"
+  },
+  {
+    "settlement_id": "STL-a5d88c80c4fd",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 26520.42,
+    "currency": "THB",
+    "settlement_date": "2025-11-28T10:49:00",
+    "fee_charged": 663.01,
+    "settlement_status": "settled",
+    "order_id": "ORD-119471573b51"
+  },
+  {
+    "settlement_id": "STL-6ce5ed83e2eb",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 38124.21,
+    "currency": "THB",
+    "settlement_date": "2025-11-12T02:37:00",
+    "fee_charged": 953.11,
+    "settlement_status": "settled",
+    "order_id": "ORD-df562ea8381c"
+  },
+  {
+    "settlement_id": "STL-4a4961513c61",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 75411.31,
+    "currency": "THB",
+    "settlement_date": "2025-11-28T04:07:00",
+    "fee_charged": 1885.28,
+    "settlement_status": "settled",
+    "order_id": "ORD-c4eabc91e7a3"
+  },
+  {
+    "settlement_id": "STL-f5620d48b11a",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 48034.46,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T12:20:00",
+    "fee_charged": 1200.86,
+    "settlement_status": "settled",
+    "order_id": "ORD-4fd0d0b3f4d5"
+  },
+  {
+    "settlement_id": "STL-471fcb52aa90",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 6865.48,
+    "currency": "THB",
+    "settlement_date": "2025-11-18T19:20:00",
+    "fee_charged": 171.64,
+    "settlement_status": "settled",
+    "order_id": "ORD-caf9058f7fa0"
+  },
+  {
+    "settlement_id": "STL-34e2a7f7a815",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 35237.63,
+    "currency": "THB",
+    "settlement_date": "2025-11-11T19:07:00",
+    "fee_charged": 880.94,
+    "settlement_status": "settled",
+    "order_id": "ORD-efd4e175fde0"
+  },
+  {
+    "settlement_id": "STL-32d7dd44444d",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 1619.69,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T23:45:00",
+    "fee_charged": 40.49,
+    "settlement_status": "settled",
+    "order_id": "ORD-50a7a948b172"
+  },
+  {
+    "settlement_id": "STL-57ecaaa7732c",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 79068.25,
+    "currency": "THB",
+    "settlement_date": "2025-11-06T23:27:00",
+    "fee_charged": 1976.71,
+    "settlement_status": "settled",
+    "order_id": "ORD-27bf68173919"
+  },
+  {
+    "settlement_id": "STL-6e1c6e6bccfe",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 21596.72,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T05:01:00",
+    "fee_charged": 539.92,
+    "settlement_status": "settled",
+    "order_id": "ORD-514c67bf50fc"
+  },
+  {
+    "settlement_id": "STL-7082469887e8",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 65882.18,
+    "currency": "THB",
+    "settlement_date": "2025-11-23T06:37:00",
+    "fee_charged": 1647.05,
+    "settlement_status": "settled",
+    "order_id": "ORD-09897eff3672"
+  },
+  {
+    "settlement_id": "STL-41dbb27b013d",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 8261.03,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T14:22:00",
+    "fee_charged": 206.53,
+    "settlement_status": "settled",
+    "order_id": "ORD-3e9c78104ba4"
+  },
+  {
+    "settlement_id": "STL-98f14b880890",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 63132.33,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T05:14:00",
+    "fee_charged": 1578.31,
+    "settlement_status": "settled",
+    "order_id": "ORD-2d52527dafd5"
+  },
+  {
+    "settlement_id": "STL-c9e054d79f4a",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 2742.42,
+    "currency": "THB",
+    "settlement_date": "2025-11-24T01:58:00",
+    "fee_charged": 68.56,
+    "settlement_status": "settled",
+    "order_id": "ORD-11cffdb7d257"
+  },
+  {
+    "settlement_id": "STL-eb59000c92b2",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 27256.61,
+    "currency": "THB",
+    "settlement_date": "2025-11-22T23:37:00",
+    "fee_charged": 681.42,
+    "settlement_status": "settled",
+    "order_id": "ORD-cc626064ddaa"
+  },
+  {
+    "settlement_id": "STL-f50f96f977a6",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 66543.12,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T02:20:00",
+    "fee_charged": 1663.58,
+    "settlement_status": "settled",
+    "order_id": "ORD-2a4811d73d16"
+  },
+  {
+    "settlement_id": "STL-fbf5ce6feda7",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 79817.37,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T05:09:00",
+    "fee_charged": 1995.43,
+    "settlement_status": "settled",
+    "order_id": "ORD-dd914ebc879e"
+  },
+  {
+    "settlement_id": "STL-92012f11e8cd",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 59741.19,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T18:58:00",
+    "fee_charged": 1493.53,
+    "settlement_status": "settled",
+    "order_id": "ORD-fcf8d2b83d09"
+  },
+  {
+    "settlement_id": "STL-0d3f2dc97d1c",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 37043.25,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T15:20:00",
+    "fee_charged": 926.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-f3edeb26d143"
+  },
+  {
+    "settlement_id": "STL-350637ad426a",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 66522.57,
+    "currency": "THB",
+    "settlement_date": "2025-11-13T09:32:00",
+    "fee_charged": 1663.06,
+    "settlement_status": "settled",
+    "order_id": "ORD-a292dda8e856"
+  },
+  {
+    "settlement_id": "STL-66f8cc37e985",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 73542.28,
+    "currency": "THB",
+    "settlement_date": "2025-11-20T05:17:00",
+    "fee_charged": 1849.27,
+    "settlement_status": "settled",
+    "order_id": "ORD-d839e57cd824"
+  },
+  {
+    "settlement_id": "STL-53408f72c768",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 23093.95,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T16:02:00",
+    "fee_charged": 585.11,
+    "settlement_status": "settled",
+    "order_id": "ORD-73abc2e1b0df"
+  },
+  {
+    "settlement_id": "STL-1c43f2107b04",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 74205.5,
+    "currency": "THB",
+    "settlement_date": "2025-11-19T03:46:00",
+    "fee_charged": 1886.66,
+    "settlement_status": "settled",
+    "order_id": "ORD-9ef736555384"
+  },
+  {
+    "settlement_id": "STL-36d65ca6feb2",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 9368.4,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T13:49:00",
+    "fee_charged": 234.21,
+    "settlement_status": "settled",
+    "order_id": "ORD-708d07334934"
+  },
+  {
+    "settlement_id": "STL-ac57a2287616",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 18149.09,
+    "currency": "THB",
+    "settlement_date": "2025-11-04T15:06:00",
+    "fee_charged": 453.73,
+    "settlement_status": "settled",
+    "order_id": "ORD-4106c4255919"
+  },
+  {
+    "settlement_id": "STL-36b14ea5740f",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 52321.08,
+    "currency": "THB",
+    "settlement_date": "2025-11-30T02:28:00",
+    "fee_charged": 1308.03,
+    "settlement_status": "settled",
+    "order_id": "ORD-ee2e599f7838"
+  },
+  {
+    "settlement_id": "STL-18879383173d",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 7929.51,
+    "currency": "THB",
+    "settlement_date": "2025-11-25T06:58:00",
+    "fee_charged": 198.24,
+    "settlement_status": "settled",
+    "order_id": "ORD-82bd55c05538"
+  },
+  {
+    "settlement_id": "STL-32237a224c01",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 39005.14,
+    "currency": "THB",
+    "settlement_date": "2025-11-28T06:28:00",
+    "fee_charged": 975.13,
+    "settlement_status": "settled",
+    "order_id": "ORD-edd9f70d58db"
+  },
+  {
+    "settlement_id": "STL-c2dd24611288",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 7121.94,
+    "currency": "THB",
+    "settlement_date": "2025-11-21T11:07:00",
+    "fee_charged": 356.1,
+    "settlement_status": "partial_refund",
+    "order_id": "ORD-509d2bf5dbd3"
+  },
+  {
+    "settlement_id": "STL-57ed506ea49a",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 7121.94,
+    "currency": "THB",
+    "settlement_date": "2025-11-20T19:07:00",
+    "fee_charged": 356.1,
+    "settlement_status": "settled",
+    "order_id": "ORD-509d2bf5dbd3"
+  },
+  {
+    "settlement_id": "STL-5eec2aa14bef",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 13203.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T00:50:00",
+    "fee_charged": 660.2,
+    "settlement_status": "partial_refund",
+    "order_id": "ORD-cc07e42b11a0"
+  },
+  {
+    "settlement_id": "STL-115f38e93a73",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 13203.98,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T13:50:00",
+    "fee_charged": 660.2,
+    "settlement_status": "settled",
+    "order_id": "ORD-cc07e42b11a0"
+  },
+  {
+    "settlement_id": "STL-5b97f8735753",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 32987.41,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T13:00:00",
+    "fee_charged": 824.69,
+    "settlement_status": "settled",
+    "order_id": "ORD-3611100e5648"
+  },
+  {
+    "settlement_id": "STL-f03ed9c01f4a",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 30314.88,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T14:00:00",
+    "fee_charged": 757.87,
+    "settlement_status": "settled",
+    "order_id": "ORD-1ccf8ca27355"
+  },
+  {
+    "settlement_id": "STL-017ee5a682f2",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 33003.18,
+    "currency": "THB",
+    "settlement_date": "2025-11-16T07:00:00",
+    "fee_charged": 825.08,
+    "settlement_status": "settled",
+    "order_id": "ORD-49929e54da7b"
+  },
+  {
+    "settlement_id": "STL-d692193e1e63",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 79347.99,
+    "currency": "THB",
+    "settlement_date": "2025-11-17T02:00:00",
+    "fee_charged": 1983.7,
+    "settlement_status": "settled",
+    "order_id": "ORD-58d791b0c886"
+  }
+]
