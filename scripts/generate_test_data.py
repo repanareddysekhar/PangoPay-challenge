@@ -17,26 +17,34 @@ CURRENCIES = {
     "mpesa_tanzania": ("TZS", "M-Pesa Tanzania"),
     "ovo_indonesia": ("IDR", "OVO Indonesia"),
     "scb_thailand": ("THB", "SCB Thailand"),
-    "stripe_kenya": ("KES", "Stripe Kenya"),
 }
+# Only the three acquirers with settlement feeds
 PROCESSORS = [
-    ("mpesa_tanzania", 0.30),
-    ("ovo_indonesia", 0.35),
-    ("scb_thailand", 0.25),
-    ("stripe_kenya", 0.10),
+    ("mpesa_tanzania", 0.34),
+    ("ovo_indonesia", 0.33),
+    ("scb_thailand", 0.33),
 ]
 
 START_DATE = datetime(2025, 11, 1)
 DAYS = 30
-LEDGER_SIZE = 580  # sized to fit all scenario budgets (~90% acquirer-backed)
 
-# Scenario budgets
+# Scenario budgets (must fit within acquirer-backed ledger rows)
 NORMAL_MATCHES = 400
 AMOUNT_MISMATCHES = 10
 STATUS_CONFLICTS = 10
-SPLIT_SETTLEMENTS = 20  # 20 internal txs → 40 settlement rows
+SPLIT_SETTLEMENTS = 20
 ORPHANED_SETTLEMENTS = 10
 MISSING_SETTLEMENTS = 55
+FILLER_ROWS = 25  # extra ledger rows with failed/pending (not reconciled)
+
+LEDGER_SIZE = (
+    MISSING_SETTLEMENTS
+    + NORMAL_MATCHES
+    + AMOUNT_MISMATCHES
+    + STATUS_CONFLICTS
+    + SPLIT_SETTLEMENTS
+    + FILLER_ROWS
+)
 
 
 def pick_processor() -> str:
@@ -52,20 +60,7 @@ def pick_processor() -> str:
 def random_amount(currency: str) -> float:
     if currency == "IDR":
         return round(random.uniform(50_000, 5_000_000), 0)
-    if currency in ("KES", "TZS", "THB"):
-        return round(random.uniform(500, 80_000), 2)
-    return round(random.uniform(5, 2000), 2)
-
-
-def random_status() -> str:
-    r = random.random()
-    if r < 0.80:
-        return "settled"
-    if r < 0.90:
-        return "refunded"
-    if r < 0.95:
-        return "failed"
-    return random.choice(["captured", "pending"])
+    return round(random.uniform(500, 80_000), 2)
 
 
 def gen_id(prefix: str) -> str:
@@ -82,21 +77,19 @@ def generate_ledger() -> list[dict]:
             hours=random.randint(0, 23),
             minutes=random.randint(0, 59),
         )
-        tx_id = gen_id("TXN")
-        order_id = gen_id("ORD")
-        proc_ref = gen_id("PRC") if processor != "mpesa_tanzania" else None
-
         transactions.append(
             {
-                "transaction_id": tx_id,
+                "transaction_id": gen_id("TXN"),
                 "merchant_id": random.choice(MERCHANTS),
-                "order_id": order_id,
+                "order_id": gen_id("ORD"),
                 "amount": random_amount(currency),
                 "currency": currency,
-                "status": random_status(),
+                "status": "settled",
                 "created_at": created.strftime("%Y-%m-%dT%H:%M:%S"),
                 "processor_name": processor_name,
-                "processor_reference": proc_ref,
+                "processor_reference": (
+                    gen_id("PRC") if processor != "mpesa_tanzania" else None
+                ),
                 "_processor_key": processor,
                 "_idx": i,
             }
@@ -161,17 +154,12 @@ def main() -> None:
     ovo_settlements: list[dict] = []
     scb_settlements: list[dict] = []
 
-    acquirer_txs = [
-        tx for tx in ledger
-        if tx["_processor_key"] in ("mpesa_tanzania", "ovo_indonesia", "scb_thailand")
-    ]
-    random.shuffle(acquirer_txs)
-
+    random.shuffle(ledger)
     used: set[int] = set()
 
     def take(count: int, *, processor: str | None = None) -> list[dict]:
         picked = []
-        for tx in acquirer_txs:
+        for tx in ledger:
             if len(picked) >= count:
                 break
             if tx["_idx"] in used:
@@ -182,19 +170,14 @@ def main() -> None:
             picked.append(tx)
         return picked
 
-    # 1. Reserve missing settlements (no settlement rows created)
     missing_txs = take(MISSING_SETTLEMENTS)
     for tx in missing_txs:
         tx["status"] = random.choice(["settled", "captured"])
 
-    # 2. Normal matches
-    normal_txs = take(NORMAL_MATCHES)
-    for tx in normal_txs:
-        if tx["status"] not in ("settled", "captured"):
-            tx["status"] = "settled"
+    for tx in take(NORMAL_MATCHES):
+        tx["status"] = "settled"
         append_settlement(tx, mpesa_settlements, ovo_settlements, scb_settlements)
 
-    # 3. Amount mismatches
     for tx in take(AMOUNT_MISMATCHES):
         tx["status"] = "settled"
         delta = round(tx["amount"] * random.uniform(-0.02, -0.005), 2)
@@ -206,7 +189,6 @@ def main() -> None:
             {"settlement_amount": tx["amount"] + delta},
         )
 
-    # 4. Status conflicts
     for tx in take(STATUS_CONFLICTS):
         tx["status"] = "refunded"
         append_settlement(
@@ -217,8 +199,8 @@ def main() -> None:
             {"settlement_status": "settled"},
         )
 
-    # 5. Split / partial refund (one internal → two settlements)
-    split_txs = take(SPLIT_SETTLEMENTS, processor="ovo_indonesia")
+    # OVO uses processor_reference; SCB uses fuzzy with partial-leg support
+    split_txs = take(SPLIT_SETTLEMENTS // 2, processor="ovo_indonesia")
     split_txs += take(SPLIT_SETTLEMENTS - len(split_txs), processor="scb_thailand")
     for tx in split_txs:
         tx["status"] = "settled"
@@ -239,9 +221,8 @@ def main() -> None:
             {"settlement_amount": remainder, "settlement_status": "settled"},
         )
 
-    # 6. Orphaned settlements (no internal record)
     for _ in range(ORPHANED_SETTLEMENTS):
-        processor = random.choice(["mpesa_tanzania", "ovo_indonesia", "scb_thailand"])
+        processor = random.choice(list(CURRENCIES.keys()))
         currency, _ = CURRENCIES[processor]
         fake = {
             "transaction_id": gen_id("TXN"),
@@ -255,6 +236,11 @@ def main() -> None:
             "_idx": -1,
         }
         append_settlement(fake, mpesa_settlements, ovo_settlements, scb_settlements)
+
+    # Filler rows: failed/pending — should NOT appear as missing settlements
+    for tx in ledger:
+        if tx["_idx"] not in used:
+            tx["status"] = random.choice(["failed", "pending", "voided"])
 
     clean_ledger = [{k: v for k, v in tx.items() if not k.startswith("_")} for tx in ledger]
 
@@ -273,12 +259,13 @@ def main() -> None:
     print(f"  M-Pesa Tanzania: {len(mpesa_settlements)}")
     print(f"  OVO Indonesia:   {len(ovo_settlements)}")
     print(f"  SCB Thailand:    {len(scb_settlements)}")
-    print(f"  Normal matches:     {NORMAL_MATCHES}")
-    print(f"  Amount mismatches:  {AMOUNT_MISMATCHES}")
-    print(f"  Status conflicts:   {STATUS_CONFLICTS}")
+    print(f"  Normal matches:       {NORMAL_MATCHES}")
+    print(f"  Amount mismatches:    {AMOUNT_MISMATCHES}")
+    print(f"  Status conflicts:     {STATUS_CONFLICTS}")
     print(f"  Split settlements:    {SPLIT_SETTLEMENTS} ({SPLIT_SETTLEMENTS * 2} rows)")
     print(f"  Orphaned:             {ORPHANED_SETTLEMENTS}")
     print(f"  Missing settlements:  {len(missing_txs)}")
+    print(f"  Filler (failed/etc):  {FILLER_ROWS}")
 
 
 if __name__ == "__main__":

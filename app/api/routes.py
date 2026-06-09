@@ -1,142 +1,102 @@
-import json
-from pathlib import Path
 from typing import Any
 
 from fastapi import APIRouter, File, HTTPException, UploadFile
 
-from app.ingestion.normalizers import ingest_ledger, ingest_settlement_file, ingest_settlements
-from app.models.schemas import AcquirerType, NormalizedSettlement, ReconciliationReport
-from app.reconciliation.service import ReconciliationService
+from app.api.uploads import parse_ledger_upload, parse_settlement_upload
+from app.ingestion.normalizers import ingest_ledger, ingest_settlements
+from app.models.schemas import AcquirerType, ReconciliationReport
+from app.services.reconcile import run_reconciliation
 
 router = APIRouter()
 
-# In-memory store for demo; production would use a database
-_ledger: list[dict[str, Any]] = []
-_settlements: list[NormalizedSettlement] = []
-_last_report: ReconciliationReport | None = None
-
-
-@router.post("/ledger")
-async def upload_ledger(payload: dict[str, Any] | list[dict[str, Any]]):
-    """Ingest internal ledger transactions (JSON body)."""
-    global _ledger
-    records = payload if isinstance(payload, list) else payload.get("transactions", [])
-    if not records:
-        raise HTTPException(status_code=400, detail="No transactions provided")
-    _ledger = records
-    txs = ingest_ledger(records)
-    return {"ingested": len(txs), "message": "Ledger ingested successfully"}
-
-
-@router.post("/ledger/file")
-async def upload_ledger_file(file: UploadFile = File(...)):
-    """Upload internal ledger as JSON file."""
-    content = await file.read()
-    try:
-        data = json.loads(content)
-    except json.JSONDecodeError as e:
-        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}") from e
-    return await upload_ledger(data)
-
-
-@router.post("/settlements/{acquirer}")
-async def upload_settlements(acquirer: AcquirerType, payload: list[dict[str, Any]]):
-    """Ingest settlement report for a specific acquirer."""
-    global _settlements
-    if not payload:
-        raise HTTPException(status_code=400, detail="No settlement records provided")
-    normalized = ingest_settlements(acquirer, payload)
-    _settlements.extend(normalized)
-    return {
-        "acquirer": acquirer.value,
-        "ingested": len(normalized),
-        "total_settlements": len(_settlements),
-    }
-
-
-@router.post("/settlements/{acquirer}/file")
-async def upload_settlement_file(acquirer: AcquirerType, file: UploadFile = File(...)):
-    """Upload settlement report file (JSON or CSV)."""
-    suffix = Path(file.filename or "").suffix.lower()
-    if suffix not in (".json", ".csv"):
-        raise HTTPException(status_code=400, detail="Only JSON and CSV files supported")
-    tmp = Path(f"/tmp/{file.filename}")
-    content = await file.read()
-    tmp.write_bytes(content)
-    try:
-        normalized = ingest_settlement_file(tmp, acquirer)
-    finally:
-        tmp.unlink(missing_ok=True)
-    global _settlements
-    _settlements.extend(normalized)
-    return {
-        "acquirer": acquirer.value,
-        "ingested": len(normalized),
-        "total_settlements": len(_settlements),
-    }
+SETTLEMENT_FIELDS: dict[str, AcquirerType] = {
+    "mpesa_tanzania": AcquirerType.MPESA_TZ,
+    "ovo_indonesia": AcquirerType.OVO_ID,
+    "scb_thailand": AcquirerType.SCB_TH,
+}
 
 
 @router.post("/reconcile", response_model=ReconciliationReport)
-async def run_reconciliation():
-    """Run reconciliation against ingested ledger and settlements."""
-    global _last_report
-    if not _ledger:
-        raise HTTPException(status_code=400, detail="No ledger data ingested")
-    if not _settlements:
-        raise HTTPException(status_code=400, detail="No settlement data ingested")
+async def reconcile_files(
+    ledger: UploadFile = File(..., description="Internal ledger JSON or CSV (max 5MB)"),
+    mpesa_tanzania: UploadFile | None = File(
+        default=None, description="M-Pesa Tanzania settlement report"
+    ),
+    ovo_indonesia: UploadFile | None = File(
+        default=None, description="OVO Indonesia settlement report"
+    ),
+    scb_thailand: UploadFile | None = File(
+        default=None, description="SCB Thailand settlement report"
+    ),
+):
+    """
+    Stateless reconciliation: upload ledger + one or more acquirer settlement files.
+    Returns the full reconciliation report in a single response.
+    """
+    ledger_records = await parse_ledger_upload(ledger)
 
-    transactions = ingest_ledger(_ledger)
-    service = ReconciliationService(transactions, _settlements)
-    _last_report = service.run()
-    return _last_report
+    settlement_batches: list[tuple[AcquirerType, list[dict[str, Any]]]] = []
+    uploads = [
+        (mpesa_tanzania, AcquirerType.MPESA_TZ),
+        (ovo_indonesia, AcquirerType.OVO_ID),
+        (scb_thailand, AcquirerType.SCB_TH),
+    ]
+    for upload, acquirer in uploads:
+        if upload is not None and upload.filename:
+            settlement_batches.append(await parse_settlement_upload(upload, acquirer))
 
-
-@router.get("/report", response_model=ReconciliationReport)
-async def get_report():
-    """Get the most recent reconciliation report."""
-    if _last_report is None:
-        raise HTTPException(status_code=404, detail="No reconciliation run yet")
-    return _last_report
-
-
-@router.post("/demo/load")
-async def load_demo_data():
-    """Load bundled test data and run reconciliation."""
-    global _ledger, _settlements, _last_report
-    data_dir = Path(__file__).resolve().parents[2] / "data"
-
-    ledger_path = data_dir / "ledger.json"
-    if not ledger_path.exists():
+    if not settlement_batches:
         raise HTTPException(
-            status_code=404,
-            detail="Demo data not found. Run: python scripts/generate_test_data.py",
+            status_code=400,
+            detail="Provide at least one settlement file (mpesa_tanzania, ovo_indonesia, or scb_thailand)",
         )
 
-    with ledger_path.open() as f:
-        _ledger = json.load(f)["transactions"]
-
-    _settlements = []
-    acquirer_files = [
-        (AcquirerType.MPESA_TZ, "settlements/mpesa_tanzania.json"),
-        (AcquirerType.OVO_ID, "settlements/ovo_indonesia.json"),
-        (AcquirerType.SCB_TH, "settlements/scb_thailand.json"),
-    ]
-    for acquirer, rel_path in acquirer_files:
-        path = data_dir / rel_path
-        if path.exists():
-            _settlements.extend(ingest_settlement_file(path, acquirer))
-
-    transactions = ingest_ledger(_ledger)
-    service = ReconciliationService(transactions, _settlements)
-    _last_report = service.run()
-    return _last_report
+    return run_reconciliation(ledger_records, settlement_batches)
 
 
-@router.delete("/reset")
-async def reset_state():
-    """Clear all ingested data."""
-    global _ledger, _settlements, _last_report
-    _ledger = []
-    _settlements = []
-    _last_report = None
-    return {"message": "State cleared"}
+@router.post("/reconcile/json", response_model=ReconciliationReport)
+async def reconcile_json(payload: dict[str, Any]):
+    """
+    Stateless reconciliation via JSON body (no file upload).
+    Body: { "transactions": [...], "settlements": { "mpesa_tanzania": [...], ... } }
+    """
+    records = payload.get("transactions", [])
+    if not records:
+        raise HTTPException(status_code=400, detail="transactions array is required")
+
+    settlement_batches: list[tuple[AcquirerType, list[dict[str, Any]]]] = []
+    settlements_obj = payload.get("settlements", {})
+    if not settlements_obj:
+        raise HTTPException(status_code=400, detail="settlements object is required")
+
+    for key, acquirer in SETTLEMENT_FIELDS.items():
+        batch = settlements_obj.get(key, [])
+        if batch:
+            settlement_batches.append((acquirer, batch))
+
+    if not settlement_batches:
+        raise HTTPException(
+            status_code=400,
+            detail=f"settlements must include at least one of: {', '.join(SETTLEMENT_FIELDS)}",
+        )
+
+    return run_reconciliation(records, settlement_batches)
+
+
+@router.post("/validate/ledger")
+async def validate_ledger(ledger: UploadFile = File(...)):
+    """Parse and validate a ledger file without running reconciliation."""
+    records = await parse_ledger_upload(ledger)
+    txs = ingest_ledger(records)
+    return {"valid": True, "transaction_count": len(txs)}
+
+
+@router.post("/validate/settlements/{acquirer}")
+async def validate_settlements(
+    acquirer: AcquirerType,
+    file: UploadFile = File(...),
+):
+    """Parse and validate a settlement file for a given acquirer."""
+    _, records = await parse_settlement_upload(file, acquirer)
+    normalized = ingest_settlements(acquirer, records)
+    return {"valid": True, "acquirer": acquirer.value, "record_count": len(normalized)}

@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
-"""CLI for running reconciliation without the API server."""
+"""CLI for running reconciliation locally with bundled or custom files."""
 
 import argparse
 import json
 import sys
 from pathlib import Path
 
-from app.ingestion.normalizers import ingest_ledger, ingest_settlement_file
+from app.ingestion.normalizers import ingest_settlement_file
 from app.models.schemas import AcquirerType
-from app.reconciliation.service import ReconciliationService
+from app.services.reconcile import run_reconciliation
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
 
-def load_demo_data() -> tuple[list, list]:
+def load_demo_batches() -> tuple[list, list]:
     with (DATA_DIR / "ledger.json").open() as f:
         ledger_raw = json.load(f)
-    transactions = ingest_ledger(ledger_raw)
+    records = ledger_raw["transactions"]
 
-    settlements = []
+    batches: list[tuple[AcquirerType, list]] = []
     for acquirer, filename in [
         (AcquirerType.MPESA_TZ, "mpesa_tanzania.json"),
         (AcquirerType.OVO_ID, "ovo_indonesia.json"),
@@ -26,8 +26,9 @@ def load_demo_data() -> tuple[list, list]:
     ]:
         path = DATA_DIR / "settlements" / filename
         if path.exists():
-            settlements.extend(ingest_settlement_file(path, acquirer))
-    return transactions, settlements
+            normalized = ingest_settlement_file(path, acquirer)
+            batches.append((acquirer, [s.raw_data for s in normalized]))
+    return records, batches
 
 
 def print_summary(report) -> None:
@@ -56,62 +57,49 @@ def print_summary(report) -> None:
     for cat, pct in s.discrepancy_breakdown_pct.items():
         print(f"  {cat}: {pct:.1f}%")
 
-    # Sample discrepancies
-    non_matched = [
-        d for d in report.discrepancies if d.category.value != "matched"
-    ][:5]
+    non_matched = [d for d in report.discrepancies if d.category.value != "matched"][:5]
     if non_matched:
         print("-" * 60)
         print("Sample discrepancies (first 5):")
         for d in non_matched:
-            tx_id = d.internal_transaction.transaction_id if d.internal_transaction else "N/A"
+            tx_id = (
+                d.internal_transaction.transaction_id if d.internal_transaction else "N/A"
+            )
             print(f"  [{d.risk_level.value.upper()}] {d.category.value}: {tx_id}")
             print(f"    Reason: {d.suspected_reason}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="PangoPay Reconciliation CLI")
-    parser.add_argument(
-        "--demo",
-        action="store_true",
-        help="Run reconciliation with bundled demo data",
-    )
-    parser.add_argument(
-        "--output",
-        "-o",
-        type=Path,
-        help="Write full JSON report to file",
-    )
-    parser.add_argument(
-        "--ledger",
-        type=Path,
-        help="Path to ledger JSON file",
-    )
+    parser.add_argument("--demo", action="store_true", help="Use bundled test data")
+    parser.add_argument("--output", "-o", type=Path, help="Write full JSON report to file")
+    parser.add_argument("--ledger", type=Path, help="Path to ledger JSON file")
     parser.add_argument(
         "--settlements",
         nargs="+",
         metavar="ACQUIRER:PATH",
-        help="Settlement files as acquirer:path (e.g. mpesa_tanzania:data/mpesa.json)",
+        help="Settlement files as acquirer:path",
     )
     args = parser.parse_args()
 
     if args.demo:
-        transactions, settlements = load_demo_data()
+        records, batches = load_demo_batches()
     elif args.ledger and args.settlements:
         with args.ledger.open() as f:
-            transactions = ingest_ledger(json.load(f))
-        settlements = []
+            raw = json.load(f)
+        records = raw if isinstance(raw, list) else raw["transactions"]
+        batches = []
         for spec in args.settlements:
             acquirer_str, path_str = spec.split(":", 1)
             acquirer = AcquirerType(acquirer_str)
-            settlements.extend(ingest_settlement_file(Path(path_str), acquirer))
+            normalized = ingest_settlement_file(Path(path_str), acquirer)
+            batches.append((acquirer, [s.raw_data for s in normalized]))
     else:
         parser.print_help()
         print("\nQuick start: python -m app.cli --demo")
         sys.exit(1)
 
-    service = ReconciliationService(transactions, settlements)
-    report = service.run()
+    report = run_reconciliation(records, batches)
     print_summary(report)
 
     if args.output:

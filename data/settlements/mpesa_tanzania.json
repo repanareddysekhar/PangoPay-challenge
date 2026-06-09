@@ -1,1472 +1,1462 @@
 [
   {
-    "settlement_id": "STL-63bc81b3320e",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 70796.67,
+    "settlement_id": "STL-4a142d87b03e",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 671.35,
     "currency": "TZS",
-    "settlement_date": "2025-11-10T15:01:00",
-    "fee_charged": 1769.92,
+    "settlement_date": "2025-11-17T01:10:00",
+    "fee_charged": 16.78,
     "settlement_status": "settled",
-    "transaction_id": "TXN-d64bb60c248e"
+    "transaction_id": "TXN-2eb6b0d5a397"
   },
   {
-    "settlement_id": "STL-a2b6e6f4ceb3",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 47838.46,
-    "currency": "TZS",
-    "settlement_date": "2025-11-16T21:33:00",
-    "fee_charged": 1195.96,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-7d437d701e7d"
-  },
-  {
-    "settlement_id": "STL-0598750010e6",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 48496.22,
-    "currency": "TZS",
-    "settlement_date": "2025-11-18T03:22:00",
-    "fee_charged": 1212.41,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-19db6783b0fb"
-  },
-  {
-    "settlement_id": "STL-d2eb7a437761",
+    "settlement_id": "STL-170fc428eb28",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 38477.17,
+    "settlement_amount": 59302.6,
     "currency": "TZS",
-    "settlement_date": "2025-12-01T13:44:00",
-    "fee_charged": 961.93,
+    "settlement_date": "2025-11-08T12:45:00",
+    "fee_charged": 1482.57,
     "settlement_status": "settled",
-    "transaction_id": "TXN-1bf5b06e283d"
+    "transaction_id": "TXN-a02930c91d43"
   },
   {
-    "settlement_id": "STL-b72e6b090733",
+    "settlement_id": "STL-03106ce7b22b",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 16685.99,
+    "settlement_amount": 76345.77,
     "currency": "TZS",
-    "settlement_date": "2025-11-12T19:13:00",
-    "fee_charged": 417.15,
+    "settlement_date": "2025-11-15T07:28:00",
+    "fee_charged": 1908.64,
     "settlement_status": "settled",
-    "transaction_id": "TXN-ff40c1416076"
+    "transaction_id": "TXN-10248f314017"
   },
   {
-    "settlement_id": "STL-bfe716e1f10c",
+    "settlement_id": "STL-32a437c1a87a",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 74346.53,
+    "currency": "TZS",
+    "settlement_date": "2025-11-15T03:37:00",
+    "fee_charged": 1858.66,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-162be07147b1"
+  },
+  {
+    "settlement_id": "STL-481e5db392f1",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 40151.4,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T15:32:00",
+    "fee_charged": 1003.79,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-5aaa9dab2ab5"
+  },
+  {
+    "settlement_id": "STL-52a851d1da6a",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 78042.24,
+    "currency": "TZS",
+    "settlement_date": "2025-12-02T22:20:00",
+    "fee_charged": 1951.06,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-24734b08d5de"
+  },
+  {
+    "settlement_id": "STL-56f0a8a16bdf",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 51992.92,
+    "currency": "TZS",
+    "settlement_date": "2025-11-30T03:29:00",
+    "fee_charged": 1299.82,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-d37c072173d9"
+  },
+  {
+    "settlement_id": "STL-195ef0f15480",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 43143.02,
+    "settlement_amount": 57361.29,
     "currency": "TZS",
-    "settlement_date": "2025-12-02T06:51:00",
-    "fee_charged": 1078.58,
+    "settlement_date": "2025-11-14T07:16:00",
+    "fee_charged": 1434.03,
     "settlement_status": "settled",
-    "transaction_id": "TXN-efb43c28724c"
+    "transaction_id": "TXN-e1ef11e5d7b8"
   },
   {
-    "settlement_id": "STL-6eed4c32f052",
+    "settlement_id": "STL-48589a32bb03",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 8627.4,
+    "settlement_amount": 25163.42,
     "currency": "TZS",
-    "settlement_date": "2025-11-11T14:23:00",
-    "fee_charged": 215.69,
+    "settlement_date": "2025-11-20T21:09:00",
+    "fee_charged": 629.09,
     "settlement_status": "settled",
-    "transaction_id": "TXN-fa0eff438a38"
+    "transaction_id": "TXN-9eecdf52d925"
   },
   {
-    "settlement_id": "STL-7bf66f0dc1f2",
+    "settlement_id": "STL-e19b59556570",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 25295.28,
+    "currency": "TZS",
+    "settlement_date": "2025-11-30T23:09:00",
+    "fee_charged": 632.38,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-13f815921747"
+  },
+  {
+    "settlement_id": "STL-0d4077860f25",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 79992.67,
+    "currency": "TZS",
+    "settlement_date": "2025-11-06T23:34:00",
+    "fee_charged": 1999.82,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-88ab90d6884f"
+  },
+  {
+    "settlement_id": "STL-b8a2fa03e12c",
     "merchant_id": "MCH-1004",
-    "settlement_amount": 67579.64,
+    "settlement_amount": 54001.72,
     "currency": "TZS",
-    "settlement_date": "2025-11-26T09:05:00",
-    "fee_charged": 1689.49,
+    "settlement_date": "2025-11-24T02:52:00",
+    "fee_charged": 1350.04,
     "settlement_status": "settled",
-    "transaction_id": "TXN-83d581baa70e"
+    "transaction_id": "TXN-38c9179c820a"
   },
   {
-    "settlement_id": "STL-54576f18781e",
+    "settlement_id": "STL-e5f4c5d00685",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 38361.55,
+    "currency": "TZS",
+    "settlement_date": "2025-11-16T16:07:00",
+    "fee_charged": 959.04,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-7425abc4b279"
+  },
+  {
+    "settlement_id": "STL-809e30b8caf6",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 53239.3,
+    "currency": "TZS",
+    "settlement_date": "2025-11-25T10:39:00",
+    "fee_charged": 1330.98,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c7da92ad13c5"
+  },
+  {
+    "settlement_id": "STL-8e85fd6a61a9",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 63598.86,
+    "settlement_amount": 27545.31,
     "currency": "TZS",
-    "settlement_date": "2025-11-26T22:40:00",
-    "fee_charged": 1589.97,
+    "settlement_date": "2025-11-17T15:29:00",
+    "fee_charged": 688.63,
     "settlement_status": "settled",
-    "transaction_id": "TXN-bb85c5b98d3e"
+    "transaction_id": "TXN-d7dd616d177d"
   },
   {
-    "settlement_id": "STL-8832390eaf50",
+    "settlement_id": "STL-f8ac7b2d8723",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 53517.99,
+    "currency": "TZS",
+    "settlement_date": "2025-12-01T09:32:00",
+    "fee_charged": 1337.95,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-5836a246fdb1"
+  },
+  {
+    "settlement_id": "STL-5c0e777a19c1",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 11644.49,
+    "currency": "TZS",
+    "settlement_date": "2025-11-12T06:34:00",
+    "fee_charged": 291.11,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-4c0c701a560e"
+  },
+  {
+    "settlement_id": "STL-71688dace9e7",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 28192.13,
+    "settlement_amount": 71037.12,
     "currency": "TZS",
-    "settlement_date": "2025-12-05T02:07:00",
-    "fee_charged": 704.8,
+    "settlement_date": "2025-11-17T03:06:00",
+    "fee_charged": 1775.93,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b1ccbae5a928"
+    "transaction_id": "TXN-60d1bef3c169"
   },
   {
-    "settlement_id": "STL-721c25da7a47",
+    "settlement_id": "STL-8621c15d1da0",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 23122.65,
+    "currency": "TZS",
+    "settlement_date": "2025-11-21T19:06:00",
+    "fee_charged": 578.07,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-1ca4b486e334"
+  },
+  {
+    "settlement_id": "STL-cb7f5af3d4f7",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 75356.89,
+    "currency": "TZS",
+    "settlement_date": "2025-12-03T07:25:00",
+    "fee_charged": 1883.92,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-a4b1c1129ab7"
+  },
+  {
+    "settlement_id": "STL-7cce0bf66dea",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 35856.5,
+    "currency": "TZS",
+    "settlement_date": "2025-11-05T02:00:00",
+    "fee_charged": 896.41,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c1ca325ed1dd"
+  },
+  {
+    "settlement_id": "STL-13089da63cfe",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 68054.15,
+    "currency": "TZS",
+    "settlement_date": "2025-11-06T07:30:00",
+    "fee_charged": 1701.35,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-5e8f9d7b9354"
+  },
+  {
+    "settlement_id": "STL-db4f7decda91",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 46603.91,
+    "currency": "TZS",
+    "settlement_date": "2025-11-26T09:53:00",
+    "fee_charged": 1165.1,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-cdb3b932aeb5"
+  },
+  {
+    "settlement_id": "STL-8c4bd0657957",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 41041.19,
+    "currency": "TZS",
+    "settlement_date": "2025-11-18T20:07:00",
+    "fee_charged": 1026.03,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-dfa72c6c0db2"
+  },
+  {
+    "settlement_id": "STL-17e595b1b044",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 60827.87,
+    "settlement_amount": 57608.5,
     "currency": "TZS",
-    "settlement_date": "2025-11-30T15:44:00",
-    "fee_charged": 1520.7,
+    "settlement_date": "2025-11-16T20:36:00",
+    "fee_charged": 1440.21,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b1d385cf07a3"
+    "transaction_id": "TXN-a0184c70c66e"
   },
   {
-    "settlement_id": "STL-fafe59e58bf9",
+    "settlement_id": "STL-6f2b4d197a20",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 33851.83,
+    "currency": "TZS",
+    "settlement_date": "2025-11-10T22:41:00",
+    "fee_charged": 846.3,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-ed2d72123f43"
+  },
+  {
+    "settlement_id": "STL-078505535793",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 25589.87,
+    "currency": "TZS",
+    "settlement_date": "2025-11-28T06:56:00",
+    "fee_charged": 639.75,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-2858d23153dd"
+  },
+  {
+    "settlement_id": "STL-f07e6c968eb2",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 19649.29,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T09:15:00",
+    "fee_charged": 491.23,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-6eb851a97553"
+  },
+  {
+    "settlement_id": "STL-f3cde676dcad",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 48408.42,
+    "currency": "TZS",
+    "settlement_date": "2025-11-27T09:19:00",
+    "fee_charged": 1210.21,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f5dad8769550"
+  },
+  {
+    "settlement_id": "STL-24ba95fc198f",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 66279.83,
+    "currency": "TZS",
+    "settlement_date": "2025-11-16T07:26:00",
+    "fee_charged": 1657.0,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-8b9d61c24e82"
+  },
+  {
+    "settlement_id": "STL-dc1dfd69a15c",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 24167.86,
+    "settlement_amount": 19775.41,
     "currency": "TZS",
-    "settlement_date": "2025-11-16T03:47:00",
-    "fee_charged": 604.2,
+    "settlement_date": "2025-11-23T23:37:00",
+    "fee_charged": 494.39,
     "settlement_status": "settled",
-    "transaction_id": "TXN-a559f66a3bc2"
+    "transaction_id": "TXN-ad800a1cbeee"
   },
   {
-    "settlement_id": "STL-c0325d83699e",
+    "settlement_id": "STL-e2820fe16cd1",
     "merchant_id": "MCH-1005",
-    "settlement_amount": 54624.62,
+    "settlement_amount": 73734.81,
     "currency": "TZS",
-    "settlement_date": "2025-11-14T04:39:00",
-    "fee_charged": 1365.62,
+    "settlement_date": "2025-11-08T09:38:00",
+    "fee_charged": 1843.37,
     "settlement_status": "settled",
-    "transaction_id": "TXN-27abcf073598"
+    "transaction_id": "TXN-480a40640f6c"
   },
   {
-    "settlement_id": "STL-27f55a502fa3",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 52419.05,
-    "currency": "TZS",
-    "settlement_date": "2025-12-02T12:35:00",
-    "fee_charged": 1310.48,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-d1e234625c40"
-  },
-  {
-    "settlement_id": "STL-1f1be3950a04",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 12248.17,
-    "currency": "TZS",
-    "settlement_date": "2025-11-24T23:39:00",
-    "fee_charged": 306.2,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-dd0c90fab21c"
-  },
-  {
-    "settlement_id": "STL-4feffd28854a",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 67079.34,
-    "currency": "TZS",
-    "settlement_date": "2025-11-03T09:46:00",
-    "fee_charged": 1676.98,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-499666a80a32"
-  },
-  {
-    "settlement_id": "STL-7d10773234ca",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 61808.35,
-    "currency": "TZS",
-    "settlement_date": "2025-11-20T09:14:00",
-    "fee_charged": 1545.21,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-57acee75c298"
-  },
-  {
-    "settlement_id": "STL-a58e0cefa14f",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 79230.72,
-    "currency": "TZS",
-    "settlement_date": "2025-11-21T15:11:00",
-    "fee_charged": 1980.77,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-0d012d90a614"
-  },
-  {
-    "settlement_id": "STL-2af6a87410c0",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 35562.57,
-    "currency": "TZS",
-    "settlement_date": "2025-11-26T03:12:00",
-    "fee_charged": 889.06,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-93a4a8f5d288"
-  },
-  {
-    "settlement_id": "STL-89e8915afa40",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 30299.87,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T01:18:00",
-    "fee_charged": 757.5,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-6316829aa67a"
-  },
-  {
-    "settlement_id": "STL-221b059f65ef",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 14583.12,
-    "currency": "TZS",
-    "settlement_date": "2025-11-25T04:48:00",
-    "fee_charged": 364.58,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-9ca0da94aa95"
-  },
-  {
-    "settlement_id": "STL-13e72778ef3c",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 47212.3,
-    "currency": "TZS",
-    "settlement_date": "2025-11-20T00:50:00",
-    "fee_charged": 1180.31,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-b4bf4cc8d585"
-  },
-  {
-    "settlement_id": "STL-ac8b983ec438",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 75909.47,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T00:05:00",
-    "fee_charged": 1897.74,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-4edff3ca4eb7"
-  },
-  {
-    "settlement_id": "STL-bcffbb14586d",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 10624.19,
-    "currency": "TZS",
-    "settlement_date": "2025-11-14T23:44:00",
-    "fee_charged": 265.6,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-8c3c27dea11b"
-  },
-  {
-    "settlement_id": "STL-b04a7a6db4c9",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 44403.99,
-    "currency": "TZS",
-    "settlement_date": "2025-11-08T09:35:00",
-    "fee_charged": 1110.1,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-2b72923f51d1"
-  },
-  {
-    "settlement_id": "STL-fa0c9aef54a4",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 77397.94,
-    "currency": "TZS",
-    "settlement_date": "2025-11-30T07:55:00",
-    "fee_charged": 1934.95,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-d03ce3ea6f31"
-  },
-  {
-    "settlement_id": "STL-870f65cfd8c9",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 22132.18,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T19:03:00",
-    "fee_charged": 553.3,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c4c9c0c593a5"
-  },
-  {
-    "settlement_id": "STL-357418bafbca",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 51015.08,
-    "currency": "TZS",
-    "settlement_date": "2025-11-28T14:32:00",
-    "fee_charged": 1275.38,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-896cc376100b"
-  },
-  {
-    "settlement_id": "STL-47723632a3db",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 2589.58,
-    "currency": "TZS",
-    "settlement_date": "2025-11-12T04:15:00",
-    "fee_charged": 64.74,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-bc0384e88c9a"
-  },
-  {
-    "settlement_id": "STL-09f8e9e08da1",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 16414.18,
-    "currency": "TZS",
-    "settlement_date": "2025-11-22T09:44:00",
-    "fee_charged": 410.35,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-7410eb4fc340"
-  },
-  {
-    "settlement_id": "STL-ced38226d489",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 10978.36,
-    "currency": "TZS",
-    "settlement_date": "2025-11-10T05:07:00",
-    "fee_charged": 274.46,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-83fad98aaa8a"
-  },
-  {
-    "settlement_id": "STL-f9de71f22de1",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 54654.76,
-    "currency": "TZS",
-    "settlement_date": "2025-11-12T22:30:00",
-    "fee_charged": 1366.37,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-26a8b4f2debb"
-  },
-  {
-    "settlement_id": "STL-3d7f10f8665f",
+    "settlement_id": "STL-d68e9f37b9c1",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 10891.86,
+    "settlement_amount": 34298.55,
     "currency": "TZS",
-    "settlement_date": "2025-11-03T01:53:00",
-    "fee_charged": 272.3,
+    "settlement_date": "2025-11-14T20:37:00",
+    "fee_charged": 857.46,
     "settlement_status": "settled",
-    "transaction_id": "TXN-3aa97c85d5ec"
+    "transaction_id": "TXN-9b6c4938cc1c"
   },
   {
-    "settlement_id": "STL-6d841e478728",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 52301.19,
+    "settlement_id": "STL-f10c5f39f803",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 4021.59,
     "currency": "TZS",
-    "settlement_date": "2025-11-12T21:13:00",
-    "fee_charged": 1307.53,
+    "settlement_date": "2025-11-24T11:10:00",
+    "fee_charged": 100.54,
     "settlement_status": "settled",
-    "transaction_id": "TXN-e4d92032464a"
+    "transaction_id": "TXN-4fe1f15006c9"
   },
   {
-    "settlement_id": "STL-f3d3763568d2",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 18183.48,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T01:54:00",
-    "fee_charged": 454.59,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c27f50e2bfe5"
-  },
-  {
-    "settlement_id": "STL-7adca4eba85c",
+    "settlement_id": "STL-6b929e5b226a",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 31739.89,
+    "settlement_amount": 77033.53,
     "currency": "TZS",
-    "settlement_date": "2025-12-02T19:20:00",
-    "fee_charged": 793.5,
+    "settlement_date": "2025-11-18T19:26:00",
+    "fee_charged": 1925.84,
     "settlement_status": "settled",
-    "transaction_id": "TXN-e6c623466930"
+    "transaction_id": "TXN-8b3a9154bc14"
   },
   {
-    "settlement_id": "STL-11a04bb77b5c",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 75646.23,
-    "currency": "TZS",
-    "settlement_date": "2025-11-23T05:04:00",
-    "fee_charged": 1891.16,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-27f91ccc26ad"
-  },
-  {
-    "settlement_id": "STL-7a3cb88a6712",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 31089.0,
-    "currency": "TZS",
-    "settlement_date": "2025-11-23T13:38:00",
-    "fee_charged": 777.23,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-5cbe51cdc7b5"
-  },
-  {
-    "settlement_id": "STL-28f73d902558",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 66081.71,
-    "currency": "TZS",
-    "settlement_date": "2025-11-26T12:55:00",
-    "fee_charged": 1652.04,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-21e832392cda"
-  },
-  {
-    "settlement_id": "STL-a148074cc91e",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 6032.04,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T18:42:00",
-    "fee_charged": 150.8,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-f4fbea1aee64"
-  },
-  {
-    "settlement_id": "STL-190a1c6e7219",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 74345.56,
-    "currency": "TZS",
-    "settlement_date": "2025-11-10T18:09:00",
-    "fee_charged": 1858.64,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c8f2bb824de3"
-  },
-  {
-    "settlement_id": "STL-1c43572506aa",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 51770.13,
-    "currency": "TZS",
-    "settlement_date": "2025-11-11T02:31:00",
-    "fee_charged": 1294.25,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c517eba5b812"
-  },
-  {
-    "settlement_id": "STL-c38c52123d0d",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 78290.01,
-    "currency": "TZS",
-    "settlement_date": "2025-11-12T00:48:00",
-    "fee_charged": 1957.25,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-326c59b81074"
-  },
-  {
-    "settlement_id": "STL-dc4d68d5baeb",
+    "settlement_id": "STL-a39e20e16424",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 4648.29,
+    "settlement_amount": 58336.89,
     "currency": "TZS",
-    "settlement_date": "2025-11-11T19:08:00",
-    "fee_charged": 116.21,
+    "settlement_date": "2025-11-05T13:08:00",
+    "fee_charged": 1458.42,
     "settlement_status": "settled",
-    "transaction_id": "TXN-7969ab26eb39"
+    "transaction_id": "TXN-a5bfd5f2a97b"
   },
   {
-    "settlement_id": "STL-759f01de3a26",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 21588.55,
-    "currency": "TZS",
-    "settlement_date": "2025-11-27T17:46:00",
-    "fee_charged": 539.71,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-597c63038c77"
-  },
-  {
-    "settlement_id": "STL-b2a421f86e14",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 54067.61,
-    "currency": "TZS",
-    "settlement_date": "2025-11-30T00:23:00",
-    "fee_charged": 1351.69,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c856540ca625"
-  },
-  {
-    "settlement_id": "STL-482a8abe42ba",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 32600.16,
-    "currency": "TZS",
-    "settlement_date": "2025-11-24T02:43:00",
-    "fee_charged": 815.0,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-7318390f7fbd"
-  },
-  {
-    "settlement_id": "STL-bd8858ff49b0",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 64323.92,
-    "currency": "TZS",
-    "settlement_date": "2025-11-18T15:29:00",
-    "fee_charged": 1608.1,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-7c72d7f4cdd4"
-  },
-  {
-    "settlement_id": "STL-b630038ae022",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 33411.94,
-    "currency": "TZS",
-    "settlement_date": "2025-11-25T11:51:00",
-    "fee_charged": 835.3,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-de8f7e49af23"
-  },
-  {
-    "settlement_id": "STL-bae95ca36dbf",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 3500.93,
-    "currency": "TZS",
-    "settlement_date": "2025-11-30T17:53:00",
-    "fee_charged": 87.52,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-229b166fbac0"
-  },
-  {
-    "settlement_id": "STL-8a4873e58646",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 59296.29,
-    "currency": "TZS",
-    "settlement_date": "2025-11-10T09:36:00",
-    "fee_charged": 1482.41,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-6557a1f71562"
-  },
-  {
-    "settlement_id": "STL-cf732cab58f3",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 57772.88,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T11:16:00",
-    "fee_charged": 1444.32,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-41fe21e5421b"
-  },
-  {
-    "settlement_id": "STL-ba88ee9ae23a",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 40705.77,
-    "currency": "TZS",
-    "settlement_date": "2025-11-24T04:00:00",
-    "fee_charged": 1017.64,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-de2f7a15d5ce"
-  },
-  {
-    "settlement_id": "STL-1bf23d78a9e3",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 12944.34,
-    "currency": "TZS",
-    "settlement_date": "2025-11-12T05:35:00",
-    "fee_charged": 323.61,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-22119f6f099a"
-  },
-  {
-    "settlement_id": "STL-414346c5d96b",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 34556.05,
-    "currency": "TZS",
-    "settlement_date": "2025-11-21T01:22:00",
-    "fee_charged": 863.9,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-a94e9c242d49"
-  },
-  {
-    "settlement_id": "STL-31df6584db8d",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 58000.77,
-    "currency": "TZS",
-    "settlement_date": "2025-11-17T21:51:00",
-    "fee_charged": 1450.02,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-b01223aea2e8"
-  },
-  {
-    "settlement_id": "STL-238080faa2e7",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 36648.3,
-    "currency": "TZS",
-    "settlement_date": "2025-11-20T23:17:00",
-    "fee_charged": 916.21,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-afa999621060"
-  },
-  {
-    "settlement_id": "STL-ded6ee1bc162",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 33781.25,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T12:52:00",
-    "fee_charged": 844.53,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-a61659b82d75"
-  },
-  {
-    "settlement_id": "STL-dfe28a391404",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 50873.41,
-    "currency": "TZS",
-    "settlement_date": "2025-11-19T12:28:00",
-    "fee_charged": 1271.84,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c9ed24c7b860"
-  },
-  {
-    "settlement_id": "STL-3d8eb9e0a3e0",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 14758.68,
-    "currency": "TZS",
-    "settlement_date": "2025-11-20T18:42:00",
-    "fee_charged": 368.97,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-24ebdeb476f6"
-  },
-  {
-    "settlement_id": "STL-f06c35a3b3fe",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 25837.99,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T01:18:00",
-    "fee_charged": 645.95,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-86cf2239cc29"
-  },
-  {
-    "settlement_id": "STL-129a3fcccd17",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 73762.23,
-    "currency": "TZS",
-    "settlement_date": "2025-11-09T08:44:00",
-    "fee_charged": 1844.06,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-7c0386489579"
-  },
-  {
-    "settlement_id": "STL-8229316eaee4",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 12514.89,
-    "currency": "TZS",
-    "settlement_date": "2025-12-02T08:36:00",
-    "fee_charged": 312.87,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-cbfa599634e6"
-  },
-  {
-    "settlement_id": "STL-9c1850203190",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 5044.64,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T17:03:00",
-    "fee_charged": 126.12,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-eb833e09df71"
-  },
-  {
-    "settlement_id": "STL-f718160df3e0",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 52295.0,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T05:30:00",
-    "fee_charged": 1307.38,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-05da396db413"
-  },
-  {
-    "settlement_id": "STL-80e115395f9d",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 29721.15,
-    "currency": "TZS",
-    "settlement_date": "2025-11-30T03:06:00",
-    "fee_charged": 743.03,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-650f5b2c13e8"
-  },
-  {
-    "settlement_id": "STL-19fc9d306510",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 77257.06,
-    "currency": "TZS",
-    "settlement_date": "2025-11-19T14:21:00",
-    "fee_charged": 1931.43,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-fae07ba308da"
-  },
-  {
-    "settlement_id": "STL-5443561470a1",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 1409.14,
-    "currency": "TZS",
-    "settlement_date": "2025-11-13T09:37:00",
-    "fee_charged": 35.23,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-e462b092a8e3"
-  },
-  {
-    "settlement_id": "STL-82a393152b05",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 48913.13,
-    "currency": "TZS",
-    "settlement_date": "2025-11-23T09:53:00",
-    "fee_charged": 1222.83,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-95115d80875c"
-  },
-  {
-    "settlement_id": "STL-a9b64715d24b",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 61241.95,
-    "currency": "TZS",
-    "settlement_date": "2025-11-11T08:34:00",
-    "fee_charged": 1531.05,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-1f4a5215aedb"
-  },
-  {
-    "settlement_id": "STL-8c6c24ccebc4",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 67268.43,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T12:36:00",
-    "fee_charged": 1681.71,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-84cce80d7559"
-  },
-  {
-    "settlement_id": "STL-1fcc0b799049",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 11699.77,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T08:28:00",
-    "fee_charged": 292.49,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-46365c7f7745"
-  },
-  {
-    "settlement_id": "STL-e51a3da6f01f",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 59763.8,
-    "currency": "TZS",
-    "settlement_date": "2025-11-27T23:05:00",
-    "fee_charged": 1494.1,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-d6ede9e205a8"
-  },
-  {
-    "settlement_id": "STL-da62f5ff2ebd",
-    "merchant_id": "MCH-1003",
-    "settlement_amount": 10004.6,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T23:12:00",
-    "fee_charged": 250.12,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-3362bb985548"
-  },
-  {
-    "settlement_id": "STL-d71594a10920",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 27340.76,
-    "currency": "TZS",
-    "settlement_date": "2025-11-25T23:57:00",
-    "fee_charged": 683.52,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-b8b715f4280b"
-  },
-  {
-    "settlement_id": "STL-4aa0cea8c401",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 69309.02,
-    "currency": "TZS",
-    "settlement_date": "2025-11-15T14:39:00",
-    "fee_charged": 1732.73,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-9e380803cddd"
-  },
-  {
-    "settlement_id": "STL-435bc40735a1",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 55570.02,
-    "currency": "TZS",
-    "settlement_date": "2025-11-18T08:21:00",
-    "fee_charged": 1389.25,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-0cef682384f5"
-  },
-  {
-    "settlement_id": "STL-a847d2f670c9",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 8655.72,
-    "currency": "TZS",
-    "settlement_date": "2025-11-09T20:55:00",
-    "fee_charged": 216.39,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-dfab957a0be3"
-  },
-  {
-    "settlement_id": "STL-3dcc138a444e",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 22327.15,
-    "currency": "TZS",
-    "settlement_date": "2025-12-01T11:39:00",
-    "fee_charged": 558.18,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-01347edf109b"
-  },
-  {
-    "settlement_id": "STL-4f14a6dcbca7",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 36840.53,
-    "currency": "TZS",
-    "settlement_date": "2025-11-12T13:40:00",
-    "fee_charged": 921.01,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-2bcc3261db9a"
-  },
-  {
-    "settlement_id": "STL-9d0212ddbd25",
+    "settlement_id": "STL-c483b724ef5d",
     "merchant_id": "MCH-1003",
     "settlement_amount": 65148.19,
     "currency": "TZS",
     "settlement_date": "2025-11-22T12:41:00",
     "fee_charged": 1628.7,
     "settlement_status": "settled",
-    "transaction_id": "TXN-0ecfc64b406d"
+    "transaction_id": "TXN-49e5656d6c63"
   },
   {
-    "settlement_id": "STL-ba47de0cd9cd",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 32274.43,
-    "currency": "TZS",
-    "settlement_date": "2025-11-07T08:22:00",
-    "fee_charged": 806.86,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-5bf7493a3aed"
-  },
-  {
-    "settlement_id": "STL-9b7b6cc90e98",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 2470.52,
-    "currency": "TZS",
-    "settlement_date": "2025-11-30T05:56:00",
-    "fee_charged": 61.76,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-a4c6419c4585"
-  },
-  {
-    "settlement_id": "STL-66143f117bbc",
+    "settlement_id": "STL-42c80a82d269",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 30994.16,
+    "settlement_amount": 54270.85,
     "currency": "TZS",
-    "settlement_date": "2025-11-16T07:00:00",
-    "fee_charged": 774.85,
+    "settlement_date": "2025-11-18T01:26:00",
+    "fee_charged": 1356.77,
     "settlement_status": "settled",
-    "transaction_id": "TXN-847bc63f7676"
+    "transaction_id": "TXN-a990ec7775df"
   },
   {
-    "settlement_id": "STL-1ffdef66f89e",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 21572.0,
+    "settlement_id": "STL-8add45d19328",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 69998.13,
     "currency": "TZS",
-    "settlement_date": "2025-11-23T15:35:00",
-    "fee_charged": 539.3,
+    "settlement_date": "2025-11-21T18:21:00",
+    "fee_charged": 1749.95,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b9a7dd5e327b"
+    "transaction_id": "TXN-55422995535f"
   },
   {
-    "settlement_id": "STL-4afedbfee822",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 61635.95,
-    "currency": "TZS",
-    "settlement_date": "2025-11-10T02:21:00",
-    "fee_charged": 1540.9,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-b8e346249dc9"
-  },
-  {
-    "settlement_id": "STL-c96cbc147374",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 54535.74,
-    "currency": "TZS",
-    "settlement_date": "2025-11-19T12:27:00",
-    "fee_charged": 1363.39,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-1b20cadad0df"
-  },
-  {
-    "settlement_id": "STL-7294711a780b",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 47899.79,
-    "currency": "TZS",
-    "settlement_date": "2025-11-13T23:20:00",
-    "fee_charged": 1197.49,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-8a4a97836f4d"
-  },
-  {
-    "settlement_id": "STL-787fcaf463b3",
+    "settlement_id": "STL-26892b11efa7",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 75824.91,
+    "settlement_amount": 54370.07,
     "currency": "TZS",
-    "settlement_date": "2025-12-02T22:14:00",
-    "fee_charged": 1895.62,
+    "settlement_date": "2025-11-29T14:57:00",
+    "fee_charged": 1359.25,
     "settlement_status": "settled",
-    "transaction_id": "TXN-7ec411e94aa4"
+    "transaction_id": "TXN-52ad66a10268"
   },
   {
-    "settlement_id": "STL-92e3b1aa46bc",
+    "settlement_id": "STL-6a128d044282",
     "merchant_id": "MCH-1005",
-    "settlement_amount": 17959.41,
+    "settlement_amount": 55845.62,
     "currency": "TZS",
-    "settlement_date": "2025-11-16T12:17:00",
-    "fee_charged": 448.99,
+    "settlement_date": "2025-12-02T17:17:00",
+    "fee_charged": 1396.14,
     "settlement_status": "settled",
-    "transaction_id": "TXN-50d8507f84b3"
+    "transaction_id": "TXN-8dc68b748254"
   },
   {
-    "settlement_id": "STL-f6d6a7fabd0c",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 79516.49,
-    "currency": "TZS",
-    "settlement_date": "2025-11-06T18:19:00",
-    "fee_charged": 1987.91,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-719b7783ed9d"
-  },
-  {
-    "settlement_id": "STL-7a2b76577dd6",
+    "settlement_id": "STL-608461326670",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 44495.03,
+    "settlement_amount": 44383.38,
     "currency": "TZS",
-    "settlement_date": "2025-11-14T20:05:00",
-    "fee_charged": 1112.38,
+    "settlement_date": "2025-11-08T05:15:00",
+    "fee_charged": 1109.58,
     "settlement_status": "settled",
-    "transaction_id": "TXN-0502afdde0ba"
+    "transaction_id": "TXN-a7235d9611e7"
   },
   {
-    "settlement_id": "STL-6679839d3275",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 71713.3,
-    "currency": "TZS",
-    "settlement_date": "2025-11-16T19:14:00",
-    "fee_charged": 1792.83,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-890cd348cd93"
-  },
-  {
-    "settlement_id": "STL-176f1c60b1f5",
+    "settlement_id": "STL-58740dcb2968",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 52186.46,
+    "settlement_amount": 74348.62,
     "currency": "TZS",
-    "settlement_date": "2025-11-23T01:22:00",
-    "fee_charged": 1304.66,
+    "settlement_date": "2025-11-20T19:27:00",
+    "fee_charged": 1858.72,
     "settlement_status": "settled",
-    "transaction_id": "TXN-4921dbdac490"
+    "transaction_id": "TXN-bec3ec0f5793"
   },
   {
-    "settlement_id": "STL-be9d22e40e15",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 76914.21,
-    "currency": "TZS",
-    "settlement_date": "2025-11-22T07:26:00",
-    "fee_charged": 1922.86,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-c93746220688"
-  },
-  {
-    "settlement_id": "STL-751935e5a3d5",
+    "settlement_id": "STL-bd58a1dda5a7",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 46197.08,
+    "settlement_amount": 60937.12,
     "currency": "TZS",
-    "settlement_date": "2025-11-14T13:38:00",
-    "fee_charged": 1154.93,
+    "settlement_date": "2025-11-09T05:38:00",
+    "fee_charged": 1523.43,
     "settlement_status": "settled",
-    "transaction_id": "TXN-c1be60814061"
+    "transaction_id": "TXN-c610fefcdaab"
   },
   {
-    "settlement_id": "STL-bc0bd7d30e53",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 36705.59,
-    "currency": "TZS",
-    "settlement_date": "2025-11-13T15:39:00",
-    "fee_charged": 917.64,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-8e59dbab4a4e"
-  },
-  {
-    "settlement_id": "STL-1e76253d6c9a",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 78249.77,
-    "currency": "TZS",
-    "settlement_date": "2025-11-29T15:52:00",
-    "fee_charged": 1956.24,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-8debd81498f8"
-  },
-  {
-    "settlement_id": "STL-5cd0c1617651",
+    "settlement_id": "STL-59d6d4201a90",
     "merchant_id": "MCH-1004",
-    "settlement_amount": 11644.49,
+    "settlement_amount": 49882.16,
     "currency": "TZS",
-    "settlement_date": "2025-11-10T06:34:00",
-    "fee_charged": 291.11,
+    "settlement_date": "2025-11-12T02:00:00",
+    "fee_charged": 1247.05,
     "settlement_status": "settled",
-    "transaction_id": "TXN-9b013f4215cd"
+    "transaction_id": "TXN-041ce3ec56e9"
   },
   {
-    "settlement_id": "STL-9efb359ddf33",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 25675.92,
+    "settlement_id": "STL-66aeb1d9bfb8",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 22867.83,
     "currency": "TZS",
-    "settlement_date": "2025-11-24T20:09:00",
-    "fee_charged": 641.9,
+    "settlement_date": "2025-11-24T11:03:00",
+    "fee_charged": 571.7,
     "settlement_status": "settled",
-    "transaction_id": "TXN-2b73e7892cf1"
+    "transaction_id": "TXN-29346422f58d"
   },
   {
-    "settlement_id": "STL-95b4e157fc6e",
+    "settlement_id": "STL-f8a46d36861f",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 4296.08,
+    "currency": "TZS",
+    "settlement_date": "2025-11-13T07:19:00",
+    "fee_charged": 107.4,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-1615f5411d88"
+  },
+  {
+    "settlement_id": "STL-7d0c91af7896",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 71969.03,
+    "settlement_amount": 7924.28,
     "currency": "TZS",
-    "settlement_date": "2025-11-09T01:19:00",
-    "fee_charged": 1799.23,
+    "settlement_date": "2025-11-25T20:39:00",
+    "fee_charged": 198.11,
     "settlement_status": "settled",
-    "transaction_id": "TXN-e09cf47e4375"
+    "transaction_id": "TXN-370710aec480"
   },
   {
-    "settlement_id": "STL-6497153eda17",
+    "settlement_id": "STL-d3b9fe95f8c4",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 6230.0,
+    "currency": "TZS",
+    "settlement_date": "2025-11-20T21:51:00",
+    "fee_charged": 155.75,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-9e5f684d8d71"
+  },
+  {
+    "settlement_id": "STL-b7c9c5777f55",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 45299.03,
+    "currency": "TZS",
+    "settlement_date": "2025-12-02T08:57:00",
+    "fee_charged": 1132.48,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-98a18c79ec11"
+  },
+  {
+    "settlement_id": "STL-db124c02504a",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 52467.83,
+    "currency": "TZS",
+    "settlement_date": "2025-11-26T18:00:00",
+    "fee_charged": 1311.7,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-cf4dd7512076"
+  },
+  {
+    "settlement_id": "STL-369bd8bd5171",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 44536.76,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T10:01:00",
+    "fee_charged": 1113.42,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c148aa2a7f5d"
+  },
+  {
+    "settlement_id": "STL-95a7568dd63d",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3061.28,
     "currency": "TZS",
-    "settlement_date": "2025-12-05T23:48:00",
+    "settlement_date": "2025-12-01T23:48:00",
     "fee_charged": 76.53,
     "settlement_status": "settled",
-    "transaction_id": "TXN-f9bf7ca1b704"
+    "transaction_id": "TXN-d81d2a7ae823"
   },
   {
-    "settlement_id": "STL-035db52e887e",
+    "settlement_id": "STL-bafd33ff1ab6",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 32274.43,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T08:22:00",
+    "fee_charged": 806.86,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-adff612637dc"
+  },
+  {
+    "settlement_id": "STL-61f9fef532b2",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 31265.5,
+    "currency": "TZS",
+    "settlement_date": "2025-11-27T05:31:00",
+    "fee_charged": 781.64,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-322e6e03b77b"
+  },
+  {
+    "settlement_id": "STL-f588d85a394c",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 40588.31,
+    "currency": "TZS",
+    "settlement_date": "2025-11-23T09:04:00",
+    "fee_charged": 1014.71,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-94cf5d7c8b30"
+  },
+  {
+    "settlement_id": "STL-1791d0f48652",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 34560.49,
+    "currency": "TZS",
+    "settlement_date": "2025-11-20T17:16:00",
+    "fee_charged": 864.01,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-d67a797b7bd4"
+  },
+  {
+    "settlement_id": "STL-40ca02e65a72",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 72680.99,
+    "currency": "TZS",
+    "settlement_date": "2025-11-11T10:18:00",
+    "fee_charged": 1817.02,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-58968649bf87"
+  },
+  {
+    "settlement_id": "STL-752f5b4529a5",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 42353.25,
+    "currency": "TZS",
+    "settlement_date": "2025-11-10T07:12:00",
+    "fee_charged": 1058.83,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-859457e57936"
+  },
+  {
+    "settlement_id": "STL-0ae23e83d8c5",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 12101.82,
+    "currency": "TZS",
+    "settlement_date": "2025-11-11T09:17:00",
+    "fee_charged": 302.55,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-28b51807ddcd"
+  },
+  {
+    "settlement_id": "STL-5787adafa0d4",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 20555.59,
+    "currency": "TZS",
+    "settlement_date": "2025-11-30T12:17:00",
+    "fee_charged": 513.89,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-ae93a346aa4b"
+  },
+  {
+    "settlement_id": "STL-6042c617aceb",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 37858.04,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T14:44:00",
+    "fee_charged": 946.45,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f6dc5f9052e6"
+  },
+  {
+    "settlement_id": "STL-1a110004194f",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 72471.84,
+    "currency": "TZS",
+    "settlement_date": "2025-11-27T05:17:00",
+    "fee_charged": 1811.8,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-432ba636cfa1"
+  },
+  {
+    "settlement_id": "STL-a76b5c5416e8",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 58125.09,
+    "currency": "TZS",
+    "settlement_date": "2025-11-19T12:49:00",
+    "fee_charged": 1453.13,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-3eed9f0e84ca"
+  },
+  {
+    "settlement_id": "STL-3c6f3207ed7c",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 20798.47,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T20:16:00",
+    "fee_charged": 519.96,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-1b216645064e"
+  },
+  {
+    "settlement_id": "STL-c913571fc846",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 47927.41,
+    "currency": "TZS",
+    "settlement_date": "2025-11-22T08:02:00",
+    "fee_charged": 1198.19,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-ce05171f72db"
+  },
+  {
+    "settlement_id": "STL-beab8ffe4481",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 42727.72,
+    "currency": "TZS",
+    "settlement_date": "2025-11-13T13:09:00",
+    "fee_charged": 1068.19,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c8270253a16c"
+  },
+  {
+    "settlement_id": "STL-873867ea5f7a",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 19887.14,
+    "currency": "TZS",
+    "settlement_date": "2025-12-03T02:17:00",
+    "fee_charged": 497.18,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-185e1a286d7b"
+  },
+  {
+    "settlement_id": "STL-3850eba38fbf",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 3411.35,
+    "currency": "TZS",
+    "settlement_date": "2025-11-16T17:30:00",
+    "fee_charged": 85.28,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-6cc376e894eb"
+  },
+  {
+    "settlement_id": "STL-e004f8e17eb3",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 44094.34,
+    "currency": "TZS",
+    "settlement_date": "2025-11-10T08:39:00",
+    "fee_charged": 1102.36,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-947bf9c9d2f6"
+  },
+  {
+    "settlement_id": "STL-ed8b6bcb14e5",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 4028.73,
+    "currency": "TZS",
+    "settlement_date": "2025-12-01T18:12:00",
+    "fee_charged": 100.72,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-244574089ea1"
+  },
+  {
+    "settlement_id": "STL-72c18c82c7c5",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 66433.17,
+    "currency": "TZS",
+    "settlement_date": "2025-12-05T01:05:00",
+    "fee_charged": 1660.83,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-5ab9812310f4"
+  },
+  {
+    "settlement_id": "STL-41ccab3f9564",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 46399.5,
+    "currency": "TZS",
+    "settlement_date": "2025-11-23T19:56:00",
+    "fee_charged": 1159.99,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-4aa317fbdc4c"
+  },
+  {
+    "settlement_id": "STL-5bd460d2e4cb",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 77765.1,
+    "currency": "TZS",
+    "settlement_date": "2025-11-03T23:56:00",
+    "fee_charged": 1944.13,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-67e9886257e4"
+  },
+  {
+    "settlement_id": "STL-98e657134f3f",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 21740.23,
+    "currency": "TZS",
+    "settlement_date": "2025-11-28T13:21:00",
+    "fee_charged": 543.51,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f6ccc400f06b"
+  },
+  {
+    "settlement_id": "STL-9c3b0a42bfe0",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 56580.22,
+    "currency": "TZS",
+    "settlement_date": "2025-12-04T22:18:00",
+    "fee_charged": 1414.51,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-49f337fbe033"
+  },
+  {
+    "settlement_id": "STL-780b09de4c42",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 12361.21,
+    "currency": "TZS",
+    "settlement_date": "2025-11-26T21:03:00",
+    "fee_charged": 309.03,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-57d2ad78da69"
+  },
+  {
+    "settlement_id": "STL-d583c808af3c",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 53675.45,
+    "currency": "TZS",
+    "settlement_date": "2025-11-19T00:24:00",
+    "fee_charged": 1341.89,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-e28769969400"
+  },
+  {
+    "settlement_id": "STL-8f1812a9fbf8",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 36849.84,
+    "currency": "TZS",
+    "settlement_date": "2025-11-03T02:25:00",
+    "fee_charged": 921.25,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-b1caa4d4ad75"
+  },
+  {
+    "settlement_id": "STL-01a2437fadb6",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 57851.31,
+    "currency": "TZS",
+    "settlement_date": "2025-11-23T18:36:00",
+    "fee_charged": 1446.28,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-98bc4cf0ac8f"
+  },
+  {
+    "settlement_id": "STL-e7c7aad55c2d",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 42457.83,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T17:46:00",
+    "fee_charged": 1061.45,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-2390faa7a839"
+  },
+  {
+    "settlement_id": "STL-9de3c678be73",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 69992.3,
+    "currency": "TZS",
+    "settlement_date": "2025-11-11T01:41:00",
+    "fee_charged": 1749.81,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-47768f8cdc49"
+  },
+  {
+    "settlement_id": "STL-6a6cddd99600",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 79532.83,
+    "currency": "TZS",
+    "settlement_date": "2025-11-15T22:04:00",
+    "fee_charged": 1988.32,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-7cfae57d23a0"
+  },
+  {
+    "settlement_id": "STL-d801f3c65691",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 26107.89,
+    "currency": "TZS",
+    "settlement_date": "2025-11-25T14:04:00",
+    "fee_charged": 652.7,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-64495de809e0"
+  },
+  {
+    "settlement_id": "STL-3fc907d00bb1",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 8206.0,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T13:12:00",
+    "fee_charged": 205.15,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-1a4470e49350"
+  },
+  {
+    "settlement_id": "STL-1684e116fd9c",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 39502.97,
+    "currency": "TZS",
+    "settlement_date": "2025-11-22T08:50:00",
+    "fee_charged": 987.57,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-73d33db7d66b"
+  },
+  {
+    "settlement_id": "STL-92ae53539354",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 7500.75,
+    "currency": "TZS",
+    "settlement_date": "2025-11-14T17:02:00",
+    "fee_charged": 187.52,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-89a4017a7066"
+  },
+  {
+    "settlement_id": "STL-7353f93f95b1",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 65732.64,
+    "currency": "TZS",
+    "settlement_date": "2025-12-01T14:22:00",
+    "fee_charged": 1643.32,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f7813e3e5e9c"
+  },
+  {
+    "settlement_id": "STL-5d464017f24f",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 13345.77,
+    "currency": "TZS",
+    "settlement_date": "2025-11-13T04:40:00",
+    "fee_charged": 333.64,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-74e06eca83e3"
+  },
+  {
+    "settlement_id": "STL-8f97a63eb69b",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 4118.5,
+    "currency": "TZS",
+    "settlement_date": "2025-11-27T17:08:00",
+    "fee_charged": 102.96,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c7185e5b6fa2"
+  },
+  {
+    "settlement_id": "STL-870ed3fe90dc",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 63598.86,
+    "currency": "TZS",
+    "settlement_date": "2025-11-14T05:45:00",
+    "fee_charged": 1589.97,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-33083eefb6e0"
+  },
+  {
+    "settlement_id": "STL-0cb24eff799c",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 53989.86,
+    "currency": "TZS",
+    "settlement_date": "2025-11-22T03:29:00",
+    "fee_charged": 1349.75,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-4804ccbccfac"
+  },
+  {
+    "settlement_id": "STL-ccb2b9fcccd2",
     "merchant_id": "MCH-1002",
     "settlement_amount": 57192.13,
     "currency": "TZS",
-    "settlement_date": "2025-11-22T09:51:00",
+    "settlement_date": "2025-11-23T09:51:00",
     "fee_charged": 1429.8,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b0d56422e308"
+    "transaction_id": "TXN-554a2c5e6729"
   },
   {
-    "settlement_id": "STL-359872e7371e",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 15758.6,
+    "settlement_id": "STL-0a9a6b9563ea",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 5346.13,
     "currency": "TZS",
-    "settlement_date": "2025-11-09T16:09:00",
-    "fee_charged": 393.97,
+    "settlement_date": "2025-11-07T18:47:00",
+    "fee_charged": 133.65,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b01b1e7bcd49"
+    "transaction_id": "TXN-fa2b78406788"
   },
   {
-    "settlement_id": "STL-03da4583b264",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 7788.04,
-    "currency": "TZS",
-    "settlement_date": "2025-11-11T06:07:00",
-    "fee_charged": 194.7,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-0cde18c4d65a"
-  },
-  {
-    "settlement_id": "STL-2d3e2724b3e5",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 14617.9,
-    "currency": "TZS",
-    "settlement_date": "2025-11-17T15:38:00",
-    "fee_charged": 365.45,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-d4de08401517"
-  },
-  {
-    "settlement_id": "STL-82a453671d00",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 16751.64,
-    "currency": "TZS",
-    "settlement_date": "2025-11-18T19:03:00",
-    "fee_charged": 418.79,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-40081ac91df8"
-  },
-  {
-    "settlement_id": "STL-d8c117e6f69f",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 64205.11,
-    "currency": "TZS",
-    "settlement_date": "2025-11-14T00:20:00",
-    "fee_charged": 1605.13,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-2285d7459883"
-  },
-  {
-    "settlement_id": "STL-5d3d04f8ce9b",
+    "settlement_id": "STL-edb2fc668c4d",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 36007.08,
+    "settlement_amount": 64415.29,
     "currency": "TZS",
-    "settlement_date": "2025-11-25T21:40:00",
-    "fee_charged": 900.18,
+    "settlement_date": "2025-11-06T04:45:00",
+    "fee_charged": 1610.38,
     "settlement_status": "settled",
-    "transaction_id": "TXN-70de16b522ec"
+    "transaction_id": "TXN-5f78ad4742ba"
   },
   {
-    "settlement_id": "STL-46ee0563545d",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 3022.92,
-    "currency": "TZS",
-    "settlement_date": "2025-11-04T02:59:00",
-    "fee_charged": 75.57,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-e1d64cdd38bf"
-  },
-  {
-    "settlement_id": "STL-bb340ec59a92",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 51227.55,
-    "currency": "TZS",
-    "settlement_date": "2025-11-15T03:15:00",
-    "fee_charged": 1280.69,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-4b6e2ba6ec4e"
-  },
-  {
-    "settlement_id": "STL-c1b2f86b8f6e",
+    "settlement_id": "STL-4dac51772220",
     "merchant_id": "MCH-1005",
-    "settlement_amount": 75846.68,
+    "settlement_amount": 28665.82,
     "currency": "TZS",
-    "settlement_date": "2025-11-20T21:07:00",
-    "fee_charged": 1896.17,
+    "settlement_date": "2025-12-02T17:21:00",
+    "fee_charged": 716.65,
     "settlement_status": "settled",
-    "transaction_id": "TXN-bc0d88c008a9"
+    "transaction_id": "TXN-6278e005396c"
   },
   {
-    "settlement_id": "STL-3da036367f5b",
+    "settlement_id": "STL-70993ddeecd1",
     "merchant_id": "MCH-1005",
-    "settlement_amount": 16307.59,
+    "settlement_amount": 66081.71,
     "currency": "TZS",
-    "settlement_date": "2025-11-20T19:01:00",
-    "fee_charged": 407.69,
+    "settlement_date": "2025-11-06T12:55:00",
+    "fee_charged": 1652.04,
     "settlement_status": "settled",
-    "transaction_id": "TXN-f4f1b00813dc"
+    "transaction_id": "TXN-6bc2b2de85f1"
   },
   {
-    "settlement_id": "STL-f84e773d0edc",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 56508.12,
-    "currency": "TZS",
-    "settlement_date": "2025-11-21T19:57:00",
-    "fee_charged": 1412.7,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-a1da3a7e813a"
-  },
-  {
-    "settlement_id": "STL-96d234c95b7a",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 29995.42,
-    "currency": "TZS",
-    "settlement_date": "2025-11-21T04:24:00",
-    "fee_charged": 749.89,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-cac6e59f59c0"
-  },
-  {
-    "settlement_id": "STL-feb894275184",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 64935.8,
-    "currency": "TZS",
-    "settlement_date": "2025-11-11T22:28:00",
-    "fee_charged": 1623.4,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-516025061fa8"
-  },
-  {
-    "settlement_id": "STL-5d96a9ac531a",
+    "settlement_id": "STL-ffb92f6cc555",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 14727.39,
+    "settlement_amount": 40194.47,
     "currency": "TZS",
-    "settlement_date": "2025-11-16T12:58:00",
-    "fee_charged": 368.18,
+    "settlement_date": "2025-11-09T12:36:00",
+    "fee_charged": 1004.86,
     "settlement_status": "settled",
-    "transaction_id": "TXN-7073dc637e71"
+    "transaction_id": "TXN-cfd6fa79447c"
   },
   {
-    "settlement_id": "STL-008787807d0a",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 30701.25,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T12:21:00",
-    "fee_charged": 767.53,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-f13f80ebbac9"
-  },
-  {
-    "settlement_id": "STL-b3ce2a9e7701",
+    "settlement_id": "STL-1959ac9258d4",
     "merchant_id": "MCH-1004",
-    "settlement_amount": 3440.21,
+    "settlement_amount": 27586.12,
     "currency": "TZS",
-    "settlement_date": "2025-11-06T02:45:00",
-    "fee_charged": 86.01,
+    "settlement_date": "2025-11-13T15:30:00",
+    "fee_charged": 689.65,
     "settlement_status": "settled",
-    "transaction_id": "TXN-ec25d6380af7"
+    "transaction_id": "TXN-5d8d5f78b1b9"
   },
   {
-    "settlement_id": "STL-dc2829e78c05",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 9183.51,
-    "currency": "TZS",
-    "settlement_date": "2025-11-23T22:17:00",
-    "fee_charged": 229.59,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-11528c2d4b4e"
-  },
-  {
-    "settlement_id": "STL-0fb8482b5ce1",
+    "settlement_id": "STL-0f19098b1b37",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 61226.61,
+    "settlement_amount": 75824.91,
     "currency": "TZS",
-    "settlement_date": "2025-11-09T08:46:00",
-    "fee_charged": 1530.67,
+    "settlement_date": "2025-12-03T22:14:00",
+    "fee_charged": 1895.62,
     "settlement_status": "settled",
-    "transaction_id": "TXN-f785aa5bd7e4"
+    "transaction_id": "TXN-bc59bdeb3d17"
   },
   {
-    "settlement_id": "STL-23678a16a148",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 32651.62,
-    "currency": "TZS",
-    "settlement_date": "2025-11-16T18:27:00",
-    "fee_charged": 816.29,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-cf84d5e0778e"
-  },
-  {
-    "settlement_id": "STL-a37c5cf61f3d",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 671.35,
-    "currency": "TZS",
-    "settlement_date": "2025-11-15T01:10:00",
-    "fee_charged": 16.78,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-bca1bf2515a4"
-  },
-  {
-    "settlement_id": "STL-4f0401e41996",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 42183.32,
-    "currency": "TZS",
-    "settlement_date": "2025-11-16T09:29:00",
-    "fee_charged": 1054.58,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-6b499d8693ed"
-  },
-  {
-    "settlement_id": "STL-dd92b1eabdf1",
+    "settlement_id": "STL-d5c6e888ca76",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 47280.99,
+    "settlement_amount": 15751.29,
     "currency": "TZS",
-    "settlement_date": "2025-11-03T18:35:00",
-    "fee_charged": 1182.02,
+    "settlement_date": "2025-11-25T09:35:00",
+    "fee_charged": 393.78,
     "settlement_status": "settled",
-    "transaction_id": "TXN-7f8f15363e8d"
+    "transaction_id": "TXN-bf4843a8c445"
   },
   {
-    "settlement_id": "STL-7e92b3262fff",
+    "settlement_id": "STL-5c6fa0584f2f",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 40705.77,
+    "currency": "TZS",
+    "settlement_date": "2025-11-24T04:00:00",
+    "fee_charged": 1017.64,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c99835640ff1"
+  },
+  {
+    "settlement_id": "STL-f0aaa77e7285",
     "merchant_id": "MCH-1003",
-    "settlement_amount": 35193.31,
+    "settlement_amount": 30428.58,
     "currency": "TZS",
-    "settlement_date": "2025-11-16T11:46:00",
-    "fee_charged": 879.83,
+    "settlement_date": "2025-11-15T13:09:00",
+    "fee_charged": 760.71,
     "settlement_status": "settled",
-    "transaction_id": "TXN-bc289a520d58"
+    "transaction_id": "TXN-41146b228929"
   },
   {
-    "settlement_id": "STL-eefd48781f60",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 46822.83,
-    "currency": "TZS",
-    "settlement_date": "2025-11-08T04:36:00",
-    "fee_charged": 1170.57,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-2b2321f01459"
-  },
-  {
-    "settlement_id": "STL-3952ae6a63cf",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 45820.91,
-    "currency": "TZS",
-    "settlement_date": "2025-11-09T06:51:00",
-    "fee_charged": 1145.52,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-e368cac6ee05"
-  },
-  {
-    "settlement_id": "STL-c36782efca28",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 57037.01,
-    "currency": "TZS",
-    "settlement_date": "2025-11-28T10:09:00",
-    "fee_charged": 1425.93,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-e0dd2ab632e2"
-  },
-  {
-    "settlement_id": "STL-0c4f272827f1",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 79968.66,
-    "currency": "TZS",
-    "settlement_date": "2025-11-18T16:22:00",
-    "fee_charged": 1999.22,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-1049e8466bfe"
-  },
-  {
-    "settlement_id": "STL-32efcdc0a9e7",
+    "settlement_id": "STL-f0ef556fc0d1",
     "merchant_id": "MCH-1002",
-    "settlement_amount": 51150.51,
+    "settlement_amount": 63197.18,
     "currency": "TZS",
-    "settlement_date": "2025-11-03T10:49:00",
-    "fee_charged": 1278.76,
+    "settlement_date": "2025-12-02T07:21:00",
+    "fee_charged": 1579.93,
     "settlement_status": "settled",
-    "transaction_id": "TXN-1342a0925542"
+    "transaction_id": "TXN-efc47b1e5fac"
   },
   {
-    "settlement_id": "STL-240c3ebf4ba5",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 74813.28,
-    "currency": "TZS",
-    "settlement_date": "2025-11-10T00:16:00",
-    "fee_charged": 1870.33,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-cfe4eba0638d"
-  },
-  {
-    "settlement_id": "STL-626945e8c43a",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 3666.24,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T00:16:00",
-    "fee_charged": 91.66,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-d13ddd6a974f"
-  },
-  {
-    "settlement_id": "STL-f2c10f4c5a90",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 77116.91,
-    "currency": "TZS",
-    "settlement_date": "2025-11-13T05:38:00",
-    "fee_charged": 1927.92,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-dccd09a8d35e"
-  },
-  {
-    "settlement_id": "STL-52a4f0c23f88",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 22318.86,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T08:12:00",
-    "fee_charged": 557.97,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-5838aac7c5b2"
-  },
-  {
-    "settlement_id": "STL-3e8276221ba9",
-    "merchant_id": "MCH-1005",
-    "settlement_amount": 64187.13,
-    "currency": "TZS",
-    "settlement_date": "2025-11-26T12:23:00",
-    "fee_charged": 1604.68,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-da3102a3aaf0"
-  },
-  {
-    "settlement_id": "STL-05f1cd09db1c",
+    "settlement_id": "STL-264501fe590d",
     "merchant_id": "MCH-1001",
-    "settlement_amount": 62162.72,
+    "settlement_amount": 79775.16,
     "currency": "TZS",
-    "settlement_date": "2025-12-03T02:28:00",
-    "fee_charged": 1554.07,
+    "settlement_date": "2025-12-02T05:59:00",
+    "fee_charged": 1994.38,
     "settlement_status": "settled",
-    "transaction_id": "TXN-a7803977473a"
+    "transaction_id": "TXN-1444f3eb2bec"
   },
   {
-    "settlement_id": "STL-4a9689b4715a",
+    "settlement_id": "STL-f1568ad5a068",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 78599.65,
+    "currency": "TZS",
+    "settlement_date": "2025-11-05T14:06:00",
+    "fee_charged": 1964.99,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-fb0783e82f0b"
+  },
+  {
+    "settlement_id": "STL-7948642077ce",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 47169.37,
+    "currency": "TZS",
+    "settlement_date": "2025-12-03T10:01:00",
+    "fee_charged": 1179.23,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-43ffcc75a365"
+  },
+  {
+    "settlement_id": "STL-96bd01aed687",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 56755.93,
+    "currency": "TZS",
+    "settlement_date": "2025-11-24T05:02:00",
+    "fee_charged": 1418.9,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-a2e04001330f"
+  },
+  {
+    "settlement_id": "STL-c8ef4c183e88",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 10004.6,
+    "currency": "TZS",
+    "settlement_date": "2025-11-06T23:12:00",
+    "fee_charged": 250.12,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-47c836089540"
+  },
+  {
+    "settlement_id": "STL-f0f84a08d520",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 19103.23,
+    "currency": "TZS",
+    "settlement_date": "2025-11-16T19:18:00",
+    "fee_charged": 477.58,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-56c6795cb598"
+  },
+  {
+    "settlement_id": "STL-76f0282882e6",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 29877.4,
+    "currency": "TZS",
+    "settlement_date": "2025-11-16T02:56:00",
+    "fee_charged": 746.94,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-2ddc6aafa66a"
+  },
+  {
+    "settlement_id": "STL-54c4737ba390",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 26710.42,
+    "currency": "TZS",
+    "settlement_date": "2025-11-26T20:21:00",
+    "fee_charged": 667.76,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-4616ffa50bee"
+  },
+  {
+    "settlement_id": "STL-87629073b6fb",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 73101.76,
+    "currency": "TZS",
+    "settlement_date": "2025-11-23T07:34:00",
+    "fee_charged": 1827.54,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f74c05580936"
+  },
+  {
+    "settlement_id": "STL-18b051d4f322",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 23967.79,
+    "currency": "TZS",
+    "settlement_date": "2025-11-19T18:37:00",
+    "fee_charged": 599.19,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-0fa000c90d8f"
+  },
+  {
+    "settlement_id": "STL-20b45052f171",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 17209.52,
+    "currency": "TZS",
+    "settlement_date": "2025-11-21T00:19:00",
+    "fee_charged": 430.24,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-299ea63b44e7"
+  },
+  {
+    "settlement_id": "STL-fa4e84dc07f2",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 17403.81,
+    "currency": "TZS",
+    "settlement_date": "2025-12-05T18:56:00",
+    "fee_charged": 435.1,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c3820504f990"
+  },
+  {
+    "settlement_id": "STL-a3c7aec7d5f1",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 50228.44,
+    "currency": "TZS",
+    "settlement_date": "2025-11-28T03:48:00",
+    "fee_charged": 1255.71,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-1cae9504472e"
+  },
+  {
+    "settlement_id": "STL-3e25a6e31899",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 36648.6,
+    "currency": "TZS",
+    "settlement_date": "2025-11-11T12:20:00",
+    "fee_charged": 916.22,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-3ec7c23fc817"
+  },
+  {
+    "settlement_id": "STL-a79e93e52926",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 18376.93,
+    "currency": "TZS",
+    "settlement_date": "2025-11-09T08:35:00",
+    "fee_charged": 459.42,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-b81b24e57b5d"
+  },
+  {
+    "settlement_id": "STL-062ff94bdca6",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 66892.03,
+    "currency": "TZS",
+    "settlement_date": "2025-11-12T03:32:00",
+    "fee_charged": 1672.3,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-ffb4689c6869"
+  },
+  {
+    "settlement_id": "STL-53ffadf752a3",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 35728.89,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T07:55:00",
+    "fee_charged": 893.22,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-6568a628c55f"
+  },
+  {
+    "settlement_id": "STL-33db845c609a",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 6709.17,
+    "currency": "TZS",
+    "settlement_date": "2025-11-18T16:45:00",
+    "fee_charged": 167.73,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-b8e5edd7c606"
+  },
+  {
+    "settlement_id": "STL-17bfd6dc2fd5",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 26576.5,
+    "currency": "TZS",
+    "settlement_date": "2025-11-04T19:56:00",
+    "fee_charged": 664.41,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-9f0b734e5e4d"
+  },
+  {
+    "settlement_id": "STL-4539b5151c83",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 60266.25,
+    "currency": "TZS",
+    "settlement_date": "2025-12-01T15:28:00",
+    "fee_charged": 1506.66,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-21926bde014f"
+  },
+  {
+    "settlement_id": "STL-d35fd18bedbe",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 70788.71,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T11:49:00",
+    "fee_charged": 1769.72,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f351f37a1eab"
+  },
+  {
+    "settlement_id": "STL-d899e173cddf",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 6032.04,
+    "currency": "TZS",
+    "settlement_date": "2025-11-08T18:42:00",
+    "fee_charged": 150.8,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-ed5cdeb73b57"
+  },
+  {
+    "settlement_id": "STL-26ae5e1d55d0",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 50723.0,
+    "currency": "TZS",
+    "settlement_date": "2025-11-28T21:29:00",
+    "fee_charged": 1268.08,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-41a6555968a5"
+  },
+  {
+    "settlement_id": "STL-8fd5e0a2c561",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 35497.72,
+    "currency": "TZS",
+    "settlement_date": "2025-11-24T12:51:00",
+    "fee_charged": 887.44,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-c0600ca46e7e"
+  },
+  {
+    "settlement_id": "STL-d229caf4a3d2",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 60473.66,
+    "currency": "TZS",
+    "settlement_date": "2025-11-18T07:34:00",
+    "fee_charged": 1511.84,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-2236076efb6d"
+  },
+  {
+    "settlement_id": "STL-ec54a395256c",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 26036.31,
+    "currency": "TZS",
+    "settlement_date": "2025-11-24T05:34:00",
+    "fee_charged": 650.91,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-b000e3567551"
+  },
+  {
+    "settlement_id": "STL-316763814f18",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 33820.58,
+    "currency": "TZS",
+    "settlement_date": "2025-11-20T11:42:00",
+    "fee_charged": 845.51,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-19a56cecbce1"
+  },
+  {
+    "settlement_id": "STL-4fc829760fe9",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 29743.36,
+    "currency": "TZS",
+    "settlement_date": "2025-11-30T15:57:00",
+    "fee_charged": 743.58,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-56ce5752dd82"
+  },
+  {
+    "settlement_id": "STL-9bc80b5ec086",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 75727.79,
+    "currency": "TZS",
+    "settlement_date": "2025-11-19T03:08:00",
+    "fee_charged": 1893.19,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-f3f0733e1ebd"
+  },
+  {
+    "settlement_id": "STL-ed927780d6f6",
+    "merchant_id": "MCH-1001",
+    "settlement_amount": 40094.03,
+    "currency": "TZS",
+    "settlement_date": "2025-11-23T13:39:00",
+    "fee_charged": 1002.35,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-18031d29df34"
+  },
+  {
+    "settlement_id": "STL-740faa84aa22",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 1862.84,
+    "currency": "TZS",
+    "settlement_date": "2025-11-29T08:34:00",
+    "fee_charged": 46.57,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-26929986c3a3"
+  },
+  {
+    "settlement_id": "STL-d224b88e7e40",
+    "merchant_id": "MCH-1004",
+    "settlement_amount": 6158.79,
+    "currency": "TZS",
+    "settlement_date": "2025-11-12T22:18:00",
+    "fee_charged": 153.97,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-19ec63e678d5"
+  },
+  {
+    "settlement_id": "STL-e96529ab14b5",
+    "merchant_id": "MCH-1005",
+    "settlement_amount": 30203.17,
+    "currency": "TZS",
+    "settlement_date": "2025-11-07T14:47:00",
+    "fee_charged": 755.08,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-18ed5670a634"
+  },
+  {
+    "settlement_id": "STL-8dba000e37df",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 64836.619999999995,
+    "currency": "TZS",
+    "settlement_date": "2025-11-06T11:34:00",
+    "fee_charged": 1629.35,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-4d4a038a0b0e"
+  },
+  {
+    "settlement_id": "STL-c5b349df6e92",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 44635.27,
+    "currency": "TZS",
+    "settlement_date": "2025-12-03T13:41:00",
+    "fee_charged": 1137.14,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-b1e5a6aaaf43"
+  },
+  {
+    "settlement_id": "STL-3009a6a3b5f5",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 64509.32000000001,
+    "currency": "TZS",
+    "settlement_date": "2025-11-17T02:58:00",
+    "fee_charged": 1635.7,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-303cbee5ca0c"
+  },
+  {
+    "settlement_id": "STL-61617af178a9",
     "merchant_id": "MCH-1002",
     "settlement_amount": 50266.45,
     "currency": "TZS",
-    "settlement_date": "2025-11-20T23:58:00",
+    "settlement_date": "2025-11-21T23:58:00",
     "fee_charged": 1256.66,
     "settlement_status": "settled",
-    "transaction_id": "TXN-5abc5a50b58c"
+    "transaction_id": "TXN-855f2086c237"
   },
   {
-    "settlement_id": "STL-bcf4e42ba8c9",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 62283.54,
+    "settlement_id": "STL-1bb94cd42873",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 24843.38,
     "currency": "TZS",
-    "settlement_date": "2025-11-11T13:19:00",
-    "fee_charged": 1568.05,
+    "settlement_date": "2025-11-15T07:25:00",
+    "fee_charged": 621.08,
     "settlement_status": "settled",
-    "transaction_id": "TXN-b7026bc1ba48"
+    "transaction_id": "TXN-5e81a8f627a5"
   },
   {
-    "settlement_id": "STL-769dd9058e46",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 44293.11,
+    "settlement_id": "STL-b7c08dd0a321",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 49128.38,
     "currency": "TZS",
-    "settlement_date": "2025-11-10T23:26:00",
-    "fee_charged": 1115.91,
+    "settlement_date": "2025-12-02T17:45:00",
+    "fee_charged": 1228.21,
     "settlement_status": "settled",
-    "transaction_id": "TXN-4160de60fb1b"
+    "transaction_id": "TXN-b062ffaa023e"
   },
   {
-    "settlement_id": "STL-96d7839de91b",
+    "settlement_id": "STL-aecd527cc516",
+    "merchant_id": "MCH-1003",
+    "settlement_amount": 77950.44,
+    "currency": "TZS",
+    "settlement_date": "2025-11-20T00:00:00",
+    "fee_charged": 1948.76,
+    "settlement_status": "settled",
+    "transaction_id": "TXN-9de06f93ca94"
+  },
+  {
+    "settlement_id": "STL-13f663870b4c",
     "merchant_id": "MCH-1005",
-    "settlement_amount": 18145.25,
-    "currency": "TZS",
-    "settlement_date": "2025-11-05T21:57:00",
-    "fee_charged": 461.02,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-ae25240eba43"
-  },
-  {
-    "settlement_id": "STL-45a822340092",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 64800.7,
-    "currency": "TZS",
-    "settlement_date": "2025-11-22T14:17:00",
-    "fee_charged": 1620.02,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-000f01151662"
-  },
-  {
-    "settlement_id": "STL-c0bb9be61e39",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 64839.24,
-    "currency": "TZS",
-    "settlement_date": "2025-11-04T06:57:00",
-    "fee_charged": 1620.98,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-af1903fa3c10"
-  },
-  {
-    "settlement_id": "STL-74ba603ecc91",
-    "merchant_id": "MCH-1002",
-    "settlement_amount": 50445.72,
-    "currency": "TZS",
-    "settlement_date": "2025-11-27T23:49:00",
-    "fee_charged": 1261.14,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-0f64d4c11c01"
-  },
-  {
-    "settlement_id": "STL-cd79c9d204c1",
-    "merchant_id": "MCH-1001",
-    "settlement_amount": 46449.98,
+    "settlement_amount": 63423.49,
     "currency": "TZS",
     "settlement_date": "2025-11-17T00:00:00",
-    "fee_charged": 1161.25,
+    "fee_charged": 1585.59,
     "settlement_status": "settled",
-    "transaction_id": "TXN-ae5da776d767"
+    "transaction_id": "TXN-da71fd870b8f"
   },
   {
-    "settlement_id": "STL-d76f26bc4dcc",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 52300.29,
+    "settlement_id": "STL-c7dd0d057de6",
+    "merchant_id": "MCH-1002",
+    "settlement_amount": 3129.15,
     "currency": "TZS",
-    "settlement_date": "2025-11-19T00:00:00",
-    "fee_charged": 1307.51,
+    "settlement_date": "2025-11-17T00:00:00",
+    "fee_charged": 78.23,
     "settlement_status": "settled",
-    "transaction_id": "TXN-82a4519f8f97"
-  },
-  {
-    "settlement_id": "STL-60697c26a954",
-    "merchant_id": "MCH-1004",
-    "settlement_amount": 44392.34,
-    "currency": "TZS",
-    "settlement_date": "2025-11-21T00:00:00",
-    "fee_charged": 1109.81,
-    "settlement_status": "settled",
-    "transaction_id": "TXN-1843a6bd58db"
+    "transaction_id": "TXN-739349631e2f"
   }
 ]

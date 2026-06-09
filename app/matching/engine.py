@@ -32,6 +32,7 @@ class MatchingEngine:
     ):
         self.transactions = transactions
         self.settlements = settlements
+        self._settlement_map = {s.settlement_id: s for s in settlements}
         self._by_tx_id: dict[str, InternalTransaction] = {
             t.transaction_id: t for t in transactions
         }
@@ -82,12 +83,14 @@ class MatchingEngine:
             tx = self._by_processor_ref.get(settlement.processor_reference)
             if not tx:
                 continue
-            # Allow one-to-many for partial refunds / split settlements
             existing = self._find_existing_match(matches, tx.transaction_id)
             if existing:
                 existing.settlement_ids.append(settlement.settlement_id)
                 existing.strategy = MatchStrategy.PROCESSOR_REFERENCE
-                existing.notes = "One-to-many: additional settlement linked via processor reference"
+                existing.notes = (
+                    "One-to-many: additional settlement linked via processor reference"
+                )
+                self._refresh_match_totals(existing, tx)
             else:
                 self._record_match(
                     matches,
@@ -98,6 +101,7 @@ class MatchingEngine:
                     MatchStrategy.PROCESSOR_REFERENCE,
                     0.95,
                 )
+            matched_tx_ids.add(tx.transaction_id)
             matched_settlement_ids.add(settlement.settlement_id)
 
         # Pass 3: Fuzzy match on order_id + merchant_id + amount + date window (Acquirer C)
@@ -112,17 +116,17 @@ class MatchingEngine:
             best_tx: InternalTransaction | None = None
             best_score = 0.0
             for tx in candidates:
-                if tx.transaction_id in matched_tx_ids:
-                    # Allow one-to-many for already-matched tx (split settlements)
-                    pass
                 if not _amount_within_tolerance(tx.amount, settlement.settlement_amount):
-                    # Still consider if close enough for review
                     delta_pct = (
                         abs(tx.amount - settlement.settlement_amount) / abs(tx.amount)
                         if tx.amount
                         else 1.0
                     )
-                    if delta_pct > 0.02:  # 2% hard cutoff for fuzzy
+                    # Allow partial settlement legs (split / partial refund)
+                    is_partial_leg = (
+                        0 < settlement.settlement_amount < tx.amount * 0.99
+                    )
+                    if delta_pct > 0.02 and not is_partial_leg:
                         continue
                 hours_diff = abs(
                     (tx.created_at - settlement.settlement_date).total_seconds()
@@ -143,7 +147,10 @@ class MatchingEngine:
                     existing.settlement_ids.append(settlement.settlement_id)
                     existing.strategy = MatchStrategy.FUZZY
                     existing.confidence = min(existing.confidence, best_score)
-                    existing.notes = "One-to-many: fuzzy match linked additional settlement"
+                    existing.notes = (
+                        "One-to-many: fuzzy match linked additional settlement"
+                    )
+                    self._refresh_match_totals(existing, best_tx)
                 else:
                     self._record_match(
                         matches,
@@ -154,6 +161,7 @@ class MatchingEngine:
                         MatchStrategy.FUZZY,
                         best_score,
                     )
+                matched_tx_ids.add(best_tx.transaction_id)
                 matched_settlement_ids.add(settlement.settlement_id)
 
         return matches, matched_tx_ids, matched_settlement_ids
@@ -165,6 +173,17 @@ class MatchingEngine:
             if m.internal_transaction_id == transaction_id:
                 return m
         return None
+
+    def _refresh_match_totals(
+        self, match: MatchResult, tx: InternalTransaction
+    ) -> None:
+        settlements = [self._settlement_map[sid] for sid in match.settlement_ids]
+        total_settlement = sum(s.settlement_amount for s in settlements)
+        match.amount_delta = _amount_delta(tx.amount, total_settlement)
+        match.within_tolerance = _amount_within_tolerance(tx.amount, total_settlement)
+        match.notes = (
+            None if match.within_tolerance else "Amount outside 0.5% tolerance"
+        )
 
     def _record_match(
         self,

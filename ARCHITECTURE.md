@@ -132,17 +132,19 @@ This allows the matching engine to be unit-tested independently and reused in ba
 
 ## 6. Design Decisions
 
-### In-Memory State (API)
+### Stateless API (Vercel-ready)
 
-The API uses in-memory storage for simplicity in the demo. Production deployment would persist to PostgreSQL with:
+The API is fully stateless: each `POST /api/v1/reconcile` request carries the ledger and settlement files, runs reconciliation in-process, and returns the report. No session storage, no filesystem reads on the server.
 
-- `ledger_transactions` table indexed on `transaction_id`, `processor_reference`, `(order_id, merchant_id)`
-- `settlements` table indexed similarly
-- `reconciliation_runs` and `discrepancies` for audit trail
+- **5MB per file** enforced in `app/api/uploads.py`
+- Files parsed from bytes in memory (JSON or CSV)
+- Deployed via `api/index.py` + `@vercel/python`
+
+For 94K+ transactions at scale, the same engine would run in a batch worker with database-backed ingestion. The O(n) hash-based matching passes are designed to support that without algorithm changes.
 
 ### No External Database
 
-For the assessment scope, file-based ingestion + in-memory processing demonstrates the core logic without infrastructure overhead. The 94K transaction scale would require database indexing and batch processing — the algorithm design supports this via the O(n) hash-based passes.
+File upload + in-memory processing keeps the serverless deployment simple. Production at scale would add PostgreSQL for audit trails and async job queues.
 
 ### Extensibility
 
