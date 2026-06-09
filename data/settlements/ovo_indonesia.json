@@ -1,1872 +1,1872 @@
 [
   {
-    "settlement_id": "STL-510546950493",
+    "settlement_id": "STL-829ea79f8b31",
     "merchant_id": "MCH-1001",
     "settlement_amount": 2884223.0,
     "currency": "IDR",
     "settlement_date": "2025-11-29T21:15:00",
     "fee_charged": 72105.57,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8b6c21caac2d",
-    "order_id": "ORD-ecc355070f2d"
+    "processor_reference": "PRC-fc5ed348fb65",
+    "order_id": "ORD-522c73e8bc30"
   },
   {
-    "settlement_id": "STL-33f913bd48d2",
+    "settlement_id": "STL-f5d82572b638",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1667260.0,
     "currency": "IDR",
     "settlement_date": "2025-11-06T02:58:00",
     "fee_charged": 41681.5,
     "settlement_status": "settled",
-    "processor_reference": "PRC-dbebb27723ab",
-    "order_id": "ORD-694aeba04ad1"
+    "processor_reference": "PRC-7dc3f34e8ec6",
+    "order_id": "ORD-0c8c793be9fb"
   },
   {
-    "settlement_id": "STL-d135e8b16000",
+    "settlement_id": "STL-a3db41dd84d3",
     "merchant_id": "MCH-1003",
     "settlement_amount": 112628.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T02:32:00",
     "fee_charged": 2815.7,
     "settlement_status": "settled",
-    "processor_reference": "PRC-f5fef9c6fa06",
-    "order_id": "ORD-02beb5f9cade"
+    "processor_reference": "PRC-c255105c0015",
+    "order_id": "ORD-dfcb18ce9b67"
   },
   {
-    "settlement_id": "STL-22db83e014f0",
+    "settlement_id": "STL-384fbb5dd9c8",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4921967.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T10:27:00",
     "fee_charged": 123049.18,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a653859247b4",
-    "order_id": "ORD-e19582213639"
+    "processor_reference": "PRC-a202abc77bf0",
+    "order_id": "ORD-b39d722a9f67"
   },
   {
-    "settlement_id": "STL-ba656dd6b53e",
+    "settlement_id": "STL-69ba05bad3d8",
     "merchant_id": "MCH-1003",
     "settlement_amount": 900772.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T12:01:00",
     "fee_charged": 22519.3,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e470168af11c",
-    "order_id": "ORD-629f69e7688c"
+    "processor_reference": "PRC-8bd9b7285035",
+    "order_id": "ORD-4784a15001f8"
   },
   {
-    "settlement_id": "STL-8f4fb1a5c266",
+    "settlement_id": "STL-1f4a3451812c",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1121104.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T22:11:00",
     "fee_charged": 28027.6,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4277de0cea35",
-    "order_id": "ORD-9ad682cec332"
+    "processor_reference": "PRC-d7da6e19d365",
+    "order_id": "ORD-e22da69b6c82"
   },
   {
-    "settlement_id": "STL-9abed9c94d66",
+    "settlement_id": "STL-0f3bcd931230",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4263272.0,
     "currency": "IDR",
     "settlement_date": "2025-11-07T22:54:00",
     "fee_charged": 106581.8,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ed73bcd71d33",
-    "order_id": "ORD-d3c9a4108233"
+    "processor_reference": "PRC-96f758103cc4",
+    "order_id": "ORD-d9b045d08cd8"
   },
   {
-    "settlement_id": "STL-5925daa4e791",
+    "settlement_id": "STL-193223577ba2",
     "merchant_id": "MCH-1003",
     "settlement_amount": 192065.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T21:24:00",
     "fee_charged": 4801.62,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b105e8b3fca1",
-    "order_id": "ORD-8d064fea3052"
+    "processor_reference": "PRC-419765fde93e",
+    "order_id": "ORD-e596ac0c55b8"
   },
   {
-    "settlement_id": "STL-673d45c4faae",
+    "settlement_id": "STL-695e309a866a",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3635311.0,
     "currency": "IDR",
     "settlement_date": "2025-11-03T02:12:00",
     "fee_charged": 90882.78,
     "settlement_status": "settled",
-    "processor_reference": "PRC-16071adf3ac0",
-    "order_id": "ORD-299da15026d9"
+    "processor_reference": "PRC-76bf825e007c",
+    "order_id": "ORD-3d74bcaeae5d"
   },
   {
-    "settlement_id": "STL-897b3c05f392",
+    "settlement_id": "STL-41d069cd772c",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4551469.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T02:40:00",
     "fee_charged": 113786.73,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1193b6625a4b",
-    "order_id": "ORD-e2001bdbfd1b"
+    "processor_reference": "PRC-d2f8f5270e19",
+    "order_id": "ORD-b8371feba399"
   },
   {
-    "settlement_id": "STL-df8167932980",
+    "settlement_id": "STL-ff305bfa7df6",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1050676.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T17:57:00",
     "fee_charged": 26266.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-9e395cf99f59",
-    "order_id": "ORD-4b258ebaeda4"
+    "processor_reference": "PRC-bf0ab7312fa4",
+    "order_id": "ORD-cf2fe4d3803a"
   },
   {
-    "settlement_id": "STL-dc7c77e5e4af",
+    "settlement_id": "STL-1bad450c3f2a",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2801166.0,
     "currency": "IDR",
     "settlement_date": "2025-12-02T19:44:00",
     "fee_charged": 70029.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8ef94296a63e",
-    "order_id": "ORD-76c963622fe1"
+    "processor_reference": "PRC-3a04280f090c",
+    "order_id": "ORD-354ad712270d"
   },
   {
-    "settlement_id": "STL-b0519346ad5e",
+    "settlement_id": "STL-e1b373ae685d",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1692063.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T12:43:00",
     "fee_charged": 42301.58,
     "settlement_status": "settled",
-    "processor_reference": "PRC-7efac13bb5d0",
-    "order_id": "ORD-abb8f4655e8d"
+    "processor_reference": "PRC-f4d560043a6e",
+    "order_id": "ORD-88bdffc5a03d"
   },
   {
-    "settlement_id": "STL-c81ee2db2d55",
+    "settlement_id": "STL-9fa8a3441105",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3649053.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T16:17:00",
     "fee_charged": 91226.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4b56f9649c8e",
-    "order_id": "ORD-6910a6203692"
+    "processor_reference": "PRC-a60fee7750ee",
+    "order_id": "ORD-2370eeda1b39"
   },
   {
-    "settlement_id": "STL-9e8868640d93",
+    "settlement_id": "STL-ff14c6c4a1b1",
     "merchant_id": "MCH-1004",
     "settlement_amount": 3512352.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T18:13:00",
     "fee_charged": 87808.8,
     "settlement_status": "settled",
-    "processor_reference": "PRC-cead2c01fb62",
-    "order_id": "ORD-5c6906928aed"
+    "processor_reference": "PRC-be2152b22af7",
+    "order_id": "ORD-e02f9df817a6"
   },
   {
-    "settlement_id": "STL-1a3b8aef8b57",
+    "settlement_id": "STL-2863b78b5404",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4606579.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T13:32:00",
     "fee_charged": 115164.48,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2513963b7db3",
-    "order_id": "ORD-3e829ba95e97"
+    "processor_reference": "PRC-8de2b96fca9d",
+    "order_id": "ORD-07074795beaa"
   },
   {
-    "settlement_id": "STL-c02fca586a30",
+    "settlement_id": "STL-76cd55e5384f",
     "merchant_id": "MCH-1001",
     "settlement_amount": 603776.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T13:35:00",
     "fee_charged": 15094.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1d1dea3bb80f",
-    "order_id": "ORD-0559c2055469"
+    "processor_reference": "PRC-78f4d8bde8ef",
+    "order_id": "ORD-15cbf47b958f"
   },
   {
-    "settlement_id": "STL-6e050ccd087f",
+    "settlement_id": "STL-4839378b0557",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3383155.0,
     "currency": "IDR",
     "settlement_date": "2025-11-15T13:29:00",
     "fee_charged": 84578.88,
     "settlement_status": "settled",
-    "processor_reference": "PRC-70cea67bdd6f",
-    "order_id": "ORD-df1a72068190"
+    "processor_reference": "PRC-67f516ac1f15",
+    "order_id": "ORD-40bcf5a69636"
   },
   {
-    "settlement_id": "STL-806dae4a2d71",
+    "settlement_id": "STL-bbc38cdde2cf",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1125485.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T01:44:00",
     "fee_charged": 28137.12,
     "settlement_status": "settled",
-    "processor_reference": "PRC-705e02622021",
-    "order_id": "ORD-bf01a6d599e5"
+    "processor_reference": "PRC-18ace373baf9",
+    "order_id": "ORD-d8b3ddb3697f"
   },
   {
-    "settlement_id": "STL-4bfe9141c96f",
+    "settlement_id": "STL-06fa52506d35",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3366566.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T17:35:00",
     "fee_charged": 84164.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2fdc44c3abc3",
-    "order_id": "ORD-7a2fbe0b9fd2"
+    "processor_reference": "PRC-85672c3afd08",
+    "order_id": "ORD-0215d053b9f1"
   },
   {
-    "settlement_id": "STL-9f90870898b6",
+    "settlement_id": "STL-94c4b9fca24c",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4220596.0,
     "currency": "IDR",
     "settlement_date": "2025-11-26T00:26:00",
     "fee_charged": 105514.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-be1c22f88fbb",
-    "order_id": "ORD-68781175edcf"
+    "processor_reference": "PRC-d69dd7e902d7",
+    "order_id": "ORD-67b6dae7dfea"
   },
   {
-    "settlement_id": "STL-e88d77c996d7",
+    "settlement_id": "STL-39443cd3353c",
     "merchant_id": "MCH-1001",
     "settlement_amount": 598747.0,
     "currency": "IDR",
     "settlement_date": "2025-11-29T19:29:00",
     "fee_charged": 14968.68,
     "settlement_status": "settled",
-    "processor_reference": "PRC-683a3a0352ae",
-    "order_id": "ORD-7ddbfecb4aa0"
+    "processor_reference": "PRC-40d8802f1450",
+    "order_id": "ORD-7a1f187072be"
   },
   {
-    "settlement_id": "STL-a631083290a5",
+    "settlement_id": "STL-1a47a0cee10a",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1061083.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T16:20:00",
     "fee_charged": 26527.08,
     "settlement_status": "settled",
-    "processor_reference": "PRC-5182fb32b465",
-    "order_id": "ORD-41d65369482e"
+    "processor_reference": "PRC-54632614f03e",
+    "order_id": "ORD-937d99b806e5"
   },
   {
-    "settlement_id": "STL-2cada087c80a",
+    "settlement_id": "STL-3190efefcb91",
     "merchant_id": "MCH-1001",
     "settlement_amount": 4335701.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T11:55:00",
     "fee_charged": 108392.53,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8fc6c25a0ec0",
-    "order_id": "ORD-ab9ee0bc9b73"
+    "processor_reference": "PRC-9b2f473ba31e",
+    "order_id": "ORD-fa737ee13f26"
   },
   {
-    "settlement_id": "STL-f3fc9583a463",
+    "settlement_id": "STL-9d3de7ced3e9",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1537155.0,
     "currency": "IDR",
     "settlement_date": "2025-11-30T20:38:00",
     "fee_charged": 38428.88,
     "settlement_status": "settled",
-    "processor_reference": "PRC-73f915250be7",
-    "order_id": "ORD-56e58adfa8e7"
+    "processor_reference": "PRC-5a22bdffb170",
+    "order_id": "ORD-e87f6d37d1e3"
   },
   {
-    "settlement_id": "STL-8e8462f27ce9",
+    "settlement_id": "STL-b1aabbd15258",
     "merchant_id": "MCH-1001",
     "settlement_amount": 2812462.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T02:15:00",
     "fee_charged": 70311.55,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4fedd802934b",
-    "order_id": "ORD-2888914dab06"
+    "processor_reference": "PRC-cc1ff4773f76",
+    "order_id": "ORD-65646e283085"
   },
   {
-    "settlement_id": "STL-02403096a440",
+    "settlement_id": "STL-e13b45e1517e",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1141566.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T21:19:00",
     "fee_charged": 28539.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-9fce00925c8d",
-    "order_id": "ORD-20a7831cce7d"
+    "processor_reference": "PRC-dc9427d3588a",
+    "order_id": "ORD-22101226e4c5"
   },
   {
-    "settlement_id": "STL-a8a82a972618",
+    "settlement_id": "STL-ff75e5c7b070",
     "merchant_id": "MCH-1002",
     "settlement_amount": 426183.0,
     "currency": "IDR",
     "settlement_date": "2025-12-04T12:25:00",
     "fee_charged": 10654.58,
     "settlement_status": "settled",
-    "processor_reference": "PRC-860254c8b968",
-    "order_id": "ORD-823b5664635c"
+    "processor_reference": "PRC-c58e41c9684f",
+    "order_id": "ORD-3475697c784d"
   },
   {
-    "settlement_id": "STL-97d1659c5b5b",
+    "settlement_id": "STL-c67cb78bfe55",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2106352.0,
     "currency": "IDR",
     "settlement_date": "2025-11-06T14:08:00",
     "fee_charged": 52658.8,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d9101d352753",
-    "order_id": "ORD-94beba1d7602"
+    "processor_reference": "PRC-123c09ffaacb",
+    "order_id": "ORD-5d1072a7aaaa"
   },
   {
-    "settlement_id": "STL-7c1132f5366b",
+    "settlement_id": "STL-c7072ca495e5",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3004114.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T18:48:00",
     "fee_charged": 75102.85,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8639ca9c41d0",
-    "order_id": "ORD-fefdef5e37dc"
+    "processor_reference": "PRC-0ea2bed30dfb",
+    "order_id": "ORD-8200510f18e3"
   },
   {
-    "settlement_id": "STL-9d67d7c236e7",
+    "settlement_id": "STL-dd871c82102e",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2690716.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T20:19:00",
     "fee_charged": 67267.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-172e6e6272fa",
-    "order_id": "ORD-ee19526e03ec"
+    "processor_reference": "PRC-495bf32695f8",
+    "order_id": "ORD-fce13802643b"
   },
   {
-    "settlement_id": "STL-371827589d5d",
+    "settlement_id": "STL-c4ba06b1b303",
     "merchant_id": "MCH-1002",
     "settlement_amount": 3669040.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T03:21:00",
     "fee_charged": 91726.0,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ad919f0a1f1b",
-    "order_id": "ORD-c609398263b1"
+    "processor_reference": "PRC-861eb4ec286b",
+    "order_id": "ORD-ea88c67d1321"
   },
   {
-    "settlement_id": "STL-6e8ed6da0e79",
+    "settlement_id": "STL-8f7377aa5189",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1255666.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T01:50:00",
     "fee_charged": 31391.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1fbcee952551",
-    "order_id": "ORD-915a577595c7"
+    "processor_reference": "PRC-fccdcc62db3c",
+    "order_id": "ORD-60891fd145fc"
   },
   {
-    "settlement_id": "STL-da669ebf2231",
+    "settlement_id": "STL-2b2ca4a6009b",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1698690.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T23:21:00",
     "fee_charged": 42467.25,
     "settlement_status": "settled",
-    "processor_reference": "PRC-92dff8a3e51e",
-    "order_id": "ORD-ad71e51d688f"
+    "processor_reference": "PRC-aa10fb268f4f",
+    "order_id": "ORD-7b05f0b38dc5"
   },
   {
-    "settlement_id": "STL-657497272169",
+    "settlement_id": "STL-724f81a82445",
     "merchant_id": "MCH-1002",
     "settlement_amount": 75648.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T15:06:00",
     "fee_charged": 1891.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-37780c57cd8b",
-    "order_id": "ORD-f26c4fea1aa4"
+    "processor_reference": "PRC-22d167f51a59",
+    "order_id": "ORD-807290c6b66b"
   },
   {
-    "settlement_id": "STL-014af00d70e2",
+    "settlement_id": "STL-495693cc803d",
     "merchant_id": "MCH-1002",
     "settlement_amount": 3719199.0,
     "currency": "IDR",
     "settlement_date": "2025-11-19T01:36:00",
     "fee_charged": 92979.98,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1eb865da345b",
-    "order_id": "ORD-f3457104be35"
+    "processor_reference": "PRC-4a6a4e506c60",
+    "order_id": "ORD-fa4f9aae7bbc"
   },
   {
-    "settlement_id": "STL-d25136710375",
+    "settlement_id": "STL-5cc053f70929",
     "merchant_id": "MCH-1004",
     "settlement_amount": 1386242.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T05:29:00",
     "fee_charged": 34656.05,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8870c6f9d06c",
-    "order_id": "ORD-36b62e1b1c61"
+    "processor_reference": "PRC-c69fb442ac81",
+    "order_id": "ORD-9ce7db0cda4a"
   },
   {
-    "settlement_id": "STL-a78bad6df128",
+    "settlement_id": "STL-ef09f905158f",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2881017.0,
     "currency": "IDR",
     "settlement_date": "2025-11-17T03:15:00",
     "fee_charged": 72025.43,
     "settlement_status": "settled",
-    "processor_reference": "PRC-50408351cc0d",
-    "order_id": "ORD-c47736720794"
+    "processor_reference": "PRC-d2347bc7d67b",
+    "order_id": "ORD-0180445a74df"
   },
   {
-    "settlement_id": "STL-c080b86dde55",
+    "settlement_id": "STL-4b5d82361f5f",
     "merchant_id": "MCH-1003",
     "settlement_amount": 4045285.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T11:38:00",
     "fee_charged": 101132.12,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d8adab22d606",
-    "order_id": "ORD-1bcfe427d23f"
+    "processor_reference": "PRC-35eb342717fb",
+    "order_id": "ORD-35215e50c17f"
   },
   {
-    "settlement_id": "STL-c0b1e3dc0b32",
+    "settlement_id": "STL-feb09b0be951",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4906145.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T01:40:00",
     "fee_charged": 122653.62,
     "settlement_status": "settled",
-    "processor_reference": "PRC-dc54462e4ad6",
-    "order_id": "ORD-cb122bb6fdef"
+    "processor_reference": "PRC-390827b64f69",
+    "order_id": "ORD-b66499bf12b3"
   },
   {
-    "settlement_id": "STL-54af66a9eb29",
+    "settlement_id": "STL-c568696805c0",
     "merchant_id": "MCH-1003",
     "settlement_amount": 817851.0,
     "currency": "IDR",
     "settlement_date": "2025-11-13T07:29:00",
     "fee_charged": 20446.28,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a1355b024962",
-    "order_id": "ORD-be729d9c5b86"
+    "processor_reference": "PRC-dc7b944ef43c",
+    "order_id": "ORD-88d8723c5d38"
   },
   {
-    "settlement_id": "STL-eec10b763360",
+    "settlement_id": "STL-91a8f785d3ae",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4372734.0,
     "currency": "IDR",
     "settlement_date": "2025-11-17T09:16:00",
     "fee_charged": 109318.35,
     "settlement_status": "settled",
-    "processor_reference": "PRC-61de8622a649",
-    "order_id": "ORD-1540be74c4c2"
+    "processor_reference": "PRC-d88a8aa2a800",
+    "order_id": "ORD-9b8aac7cf49d"
   },
   {
-    "settlement_id": "STL-bdf680100d89",
+    "settlement_id": "STL-2ae54502ac3d",
     "merchant_id": "MCH-1005",
     "settlement_amount": 247311.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T14:05:00",
     "fee_charged": 6182.78,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a06c999a9beb",
-    "order_id": "ORD-034500856eeb"
+    "processor_reference": "PRC-383bcc49c32a",
+    "order_id": "ORD-6ef0589951e0"
   },
   {
-    "settlement_id": "STL-aff714534378",
+    "settlement_id": "STL-0f67305bb2b3",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1221844.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T06:50:00",
     "fee_charged": 30546.1,
     "settlement_status": "settled",
-    "processor_reference": "PRC-cc6e34c779a2",
-    "order_id": "ORD-1873194fb3f7"
+    "processor_reference": "PRC-273cbb78ac8e",
+    "order_id": "ORD-fcdcb8a25b2e"
   },
   {
-    "settlement_id": "STL-55645a80fa2d",
+    "settlement_id": "STL-8d957dda410d",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3407179.0,
     "currency": "IDR",
     "settlement_date": "2025-11-13T13:07:00",
     "fee_charged": 85179.48,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a541bbb265f4",
-    "order_id": "ORD-aa76c796da60"
+    "processor_reference": "PRC-84eabc10e4a4",
+    "order_id": "ORD-444587c3fbf1"
   },
   {
-    "settlement_id": "STL-a858d88caaad",
+    "settlement_id": "STL-e6df0378a77b",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3436006.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T22:14:00",
     "fee_charged": 85900.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-abf036ec20ea",
-    "order_id": "ORD-9317817ba684"
+    "processor_reference": "PRC-d4cec027dfe7",
+    "order_id": "ORD-54cf1a6d62a2"
   },
   {
-    "settlement_id": "STL-038840b77d37",
+    "settlement_id": "STL-e5c063684886",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2413370.0,
     "currency": "IDR",
     "settlement_date": "2025-12-02T05:26:00",
     "fee_charged": 60334.25,
     "settlement_status": "settled",
-    "processor_reference": "PRC-78eb762aa934",
-    "order_id": "ORD-390ecb66576e"
+    "processor_reference": "PRC-0e26ce47c250",
+    "order_id": "ORD-544a6c00c5b1"
   },
   {
-    "settlement_id": "STL-afce07d808b0",
+    "settlement_id": "STL-3904ad14b06f",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2156244.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T17:33:00",
     "fee_charged": 53906.1,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a420e474786a",
-    "order_id": "ORD-4aa9444ba923"
+    "processor_reference": "PRC-ec95ad37f027",
+    "order_id": "ORD-fd89062e591c"
   },
   {
-    "settlement_id": "STL-683957c52361",
+    "settlement_id": "STL-2bcea2945923",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1361157.0,
     "currency": "IDR",
     "settlement_date": "2025-12-02T20:29:00",
     "fee_charged": 34028.93,
     "settlement_status": "settled",
-    "processor_reference": "PRC-7223e27eb635",
-    "order_id": "ORD-d81ad9df41ba"
+    "processor_reference": "PRC-f392dc055609",
+    "order_id": "ORD-d4a4fee9b83a"
   },
   {
-    "settlement_id": "STL-f91b85924fb1",
+    "settlement_id": "STL-b52466590fe0",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2778762.0,
     "currency": "IDR",
     "settlement_date": "2025-11-17T15:15:00",
     "fee_charged": 69469.05,
     "settlement_status": "settled",
-    "processor_reference": "PRC-154f398ec4b4",
-    "order_id": "ORD-49e81ba24cc9"
+    "processor_reference": "PRC-b8f3d61a9c43",
+    "order_id": "ORD-d590b5558694"
   },
   {
-    "settlement_id": "STL-3d5cfdcf5755",
+    "settlement_id": "STL-3335ab14a172",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4307696.0,
     "currency": "IDR",
     "settlement_date": "2025-11-06T04:48:00",
     "fee_charged": 107692.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-462898cc844c",
-    "order_id": "ORD-3e5f8f4d8261"
+    "processor_reference": "PRC-15a42a6404ed",
+    "order_id": "ORD-59c710b9ae2e"
   },
   {
-    "settlement_id": "STL-8f1f16e198b8",
+    "settlement_id": "STL-24a80ea54abe",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1183262.0,
     "currency": "IDR",
     "settlement_date": "2025-11-03T02:45:00",
     "fee_charged": 29581.55,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a749534483ca",
-    "order_id": "ORD-f2fa775eb6ad"
+    "processor_reference": "PRC-da3eb3a0465f",
+    "order_id": "ORD-2c48a7c0107c"
   },
   {
-    "settlement_id": "STL-2266966bf375",
+    "settlement_id": "STL-ffe4fe8cc2a6",
     "merchant_id": "MCH-1001",
     "settlement_amount": 721856.0,
     "currency": "IDR",
     "settlement_date": "2025-11-26T15:12:00",
     "fee_charged": 18046.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-44177b04310d",
-    "order_id": "ORD-a430d2f29969"
+    "processor_reference": "PRC-22bf83d93e01",
+    "order_id": "ORD-45d5471ad46d"
   },
   {
-    "settlement_id": "STL-d479261d351e",
+    "settlement_id": "STL-16472e02e4b9",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3424466.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T00:43:00",
     "fee_charged": 85611.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-3b680b4ffc58",
-    "order_id": "ORD-d70476f842a9"
+    "processor_reference": "PRC-0d713f0f028d",
+    "order_id": "ORD-265487d873fe"
   },
   {
-    "settlement_id": "STL-af63f9f661bf",
+    "settlement_id": "STL-9605906b90c6",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2036866.0,
     "currency": "IDR",
     "settlement_date": "2025-11-10T06:38:00",
     "fee_charged": 50921.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-9e65b23be7b1",
-    "order_id": "ORD-94aba3b9c89e"
+    "processor_reference": "PRC-237e51791aa2",
+    "order_id": "ORD-113f2b763f39"
   },
   {
-    "settlement_id": "STL-966587060f48",
+    "settlement_id": "STL-0e900799240a",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4347056.0,
     "currency": "IDR",
     "settlement_date": "2025-12-02T21:48:00",
     "fee_charged": 108676.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-f131cfa74cf1",
-    "order_id": "ORD-f76bc3235571"
+    "processor_reference": "PRC-088ae91ac104",
+    "order_id": "ORD-c1aca2f04f69"
   },
   {
-    "settlement_id": "STL-bfc9b2f974a1",
+    "settlement_id": "STL-3d247f2c343c",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2447490.0,
     "currency": "IDR",
     "settlement_date": "2025-12-01T04:28:00",
     "fee_charged": 61187.25,
     "settlement_status": "settled",
-    "processor_reference": "PRC-37898f1e3a66",
-    "order_id": "ORD-8fb3905701d8"
+    "processor_reference": "PRC-6767d636d912",
+    "order_id": "ORD-9c39aa6195f6"
   },
   {
-    "settlement_id": "STL-8a2eb4892138",
+    "settlement_id": "STL-462115bcbc91",
     "merchant_id": "MCH-1004",
     "settlement_amount": 1262146.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T20:19:00",
     "fee_charged": 31553.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-06066713b5d0",
-    "order_id": "ORD-20e7290026ba"
+    "processor_reference": "PRC-b601c3377a72",
+    "order_id": "ORD-80c01e9f3162"
   },
   {
-    "settlement_id": "STL-69b1391e1c33",
+    "settlement_id": "STL-b9e1eeed215f",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4326933.0,
     "currency": "IDR",
     "settlement_date": "2025-12-05T19:32:00",
     "fee_charged": 108173.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e4eea2561659",
-    "order_id": "ORD-84b554338667"
+    "processor_reference": "PRC-01f823c124f9",
+    "order_id": "ORD-d738047e74dd"
   },
   {
-    "settlement_id": "STL-0750483ae70e",
+    "settlement_id": "STL-360142565e93",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2468460.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T02:15:00",
     "fee_charged": 61711.5,
     "settlement_status": "settled",
-    "processor_reference": "PRC-5dee87a8a088",
-    "order_id": "ORD-31977b08b3ab"
+    "processor_reference": "PRC-64c9de683284",
+    "order_id": "ORD-6fe1be87d0c4"
   },
   {
-    "settlement_id": "STL-9057235f771d",
+    "settlement_id": "STL-449665ff04d5",
     "merchant_id": "MCH-1005",
     "settlement_amount": 741916.0,
     "currency": "IDR",
     "settlement_date": "2025-11-06T19:57:00",
     "fee_charged": 18547.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-de6a6b59b1fb",
-    "order_id": "ORD-2e3756d1e899"
+    "processor_reference": "PRC-d962ff063670",
+    "order_id": "ORD-ea4a2fbb6ea1"
   },
   {
-    "settlement_id": "STL-a0f861da46e9",
+    "settlement_id": "STL-d8169ce62d46",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2492903.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T07:08:00",
     "fee_charged": 62322.58,
     "settlement_status": "settled",
-    "processor_reference": "PRC-f26cd9182895",
-    "order_id": "ORD-a7a1efb1380f"
+    "processor_reference": "PRC-0073af59f84b",
+    "order_id": "ORD-b8f31f83e55d"
   },
   {
-    "settlement_id": "STL-8d47b115a6c7",
+    "settlement_id": "STL-ef1da6e9a6eb",
     "merchant_id": "MCH-1004",
     "settlement_amount": 3939733.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T01:22:00",
     "fee_charged": 98493.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-5a5661cb0f8c",
-    "order_id": "ORD-1ddb2b97b3d2"
+    "processor_reference": "PRC-757f9de5a607",
+    "order_id": "ORD-d1913791e677"
   },
   {
-    "settlement_id": "STL-47ca14596ad3",
+    "settlement_id": "STL-8328ee65b4f9",
     "merchant_id": "MCH-1004",
     "settlement_amount": 3784507.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T20:31:00",
     "fee_charged": 94612.68,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d1abdfd38a68",
-    "order_id": "ORD-e514f9cfaaf5"
+    "processor_reference": "PRC-272df630fa8b",
+    "order_id": "ORD-5e747c13315a"
   },
   {
-    "settlement_id": "STL-4d1995339202",
+    "settlement_id": "STL-112858a25ec1",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4834216.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T10:16:00",
     "fee_charged": 120855.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b782fe45ed3f",
-    "order_id": "ORD-5ffc6f181b76"
+    "processor_reference": "PRC-3f17d84aabe0",
+    "order_id": "ORD-9b8ac8357c77"
   },
   {
-    "settlement_id": "STL-dfed97c00051",
+    "settlement_id": "STL-84881469f39d",
     "merchant_id": "MCH-1002",
     "settlement_amount": 2220352.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T14:45:00",
     "fee_charged": 55508.8,
     "settlement_status": "settled",
-    "processor_reference": "PRC-83595afbaa3a",
-    "order_id": "ORD-fd946f1667ac"
+    "processor_reference": "PRC-38a0d84bb7cf",
+    "order_id": "ORD-04b51f7400d7"
   },
   {
-    "settlement_id": "STL-db123b39f4f0",
+    "settlement_id": "STL-6dc370cf5d0f",
     "merchant_id": "MCH-1002",
     "settlement_amount": 2719926.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T04:23:00",
     "fee_charged": 67998.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-735831161fb7",
-    "order_id": "ORD-eeddd52033e1"
+    "processor_reference": "PRC-a9f22b57172a",
+    "order_id": "ORD-4d61ef75ccef"
   },
   {
-    "settlement_id": "STL-17347e6c11e3",
+    "settlement_id": "STL-09f8baf24df5",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3229576.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T02:08:00",
     "fee_charged": 80739.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-fecd1163686c",
-    "order_id": "ORD-849b5404b663"
+    "processor_reference": "PRC-0ace8187eb20",
+    "order_id": "ORD-d39816c445bf"
   },
   {
-    "settlement_id": "STL-8a535a05e00f",
+    "settlement_id": "STL-8863ea34e843",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4100968.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T12:57:00",
     "fee_charged": 102524.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-9285acd175c4",
-    "order_id": "ORD-e1521a98b935"
+    "processor_reference": "PRC-c89cd79b021b",
+    "order_id": "ORD-b36254c0156d"
   },
   {
-    "settlement_id": "STL-a975d7214c70",
+    "settlement_id": "STL-f64b69269546",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1725878.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T02:30:00",
     "fee_charged": 43146.95,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1975cb8ee05a",
-    "order_id": "ORD-31f9b191744c"
+    "processor_reference": "PRC-e50bcb7fe91f",
+    "order_id": "ORD-40f26ecb28ab"
   },
   {
-    "settlement_id": "STL-657c6f490ce0",
+    "settlement_id": "STL-1834e8ee435f",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4016233.0,
     "currency": "IDR",
     "settlement_date": "2025-11-16T05:52:00",
     "fee_charged": 100405.83,
     "settlement_status": "settled",
-    "processor_reference": "PRC-73a898e5ff0b",
-    "order_id": "ORD-bfdf4fdd2f10"
+    "processor_reference": "PRC-714b93351687",
+    "order_id": "ORD-fd0b8306c8d8"
   },
   {
-    "settlement_id": "STL-d330a7a8e1f8",
+    "settlement_id": "STL-7a2d3419efba",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1852896.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T17:43:00",
     "fee_charged": 46322.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-012bb18ae106",
-    "order_id": "ORD-0228fb7a2710"
+    "processor_reference": "PRC-ebd773d5bf73",
+    "order_id": "ORD-ecc78e20bf46"
   },
   {
-    "settlement_id": "STL-c385e3e71cfd",
+    "settlement_id": "STL-9c1bf090e583",
     "merchant_id": "MCH-1003",
     "settlement_amount": 4141824.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T04:58:00",
     "fee_charged": 103545.6,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ba79407e72ec",
-    "order_id": "ORD-c433314d3193"
+    "processor_reference": "PRC-72172c9804e1",
+    "order_id": "ORD-5184fc39f0aa"
   },
   {
-    "settlement_id": "STL-54ec1e854253",
+    "settlement_id": "STL-3d4cac8d3399",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1154893.0,
     "currency": "IDR",
     "settlement_date": "2025-11-06T23:17:00",
     "fee_charged": 28872.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b742dca79298",
-    "order_id": "ORD-be1fdebd3bfa"
+    "processor_reference": "PRC-d94c58e2f0fa",
+    "order_id": "ORD-2b680be59a5b"
   },
   {
-    "settlement_id": "STL-bc961ba245c2",
+    "settlement_id": "STL-ba79490b98be",
     "merchant_id": "MCH-1004",
     "settlement_amount": 1464454.0,
     "currency": "IDR",
     "settlement_date": "2025-11-30T20:43:00",
     "fee_charged": 36611.35,
     "settlement_status": "settled",
-    "processor_reference": "PRC-6f341e4f85a1",
-    "order_id": "ORD-5b98993dec59"
+    "processor_reference": "PRC-3b52f95e63a4",
+    "order_id": "ORD-cb3f78d0d9c4"
   },
   {
-    "settlement_id": "STL-c52d237fdd7b",
+    "settlement_id": "STL-4ebbba5f3573",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3618158.0,
     "currency": "IDR",
     "settlement_date": "2025-11-30T22:07:00",
     "fee_charged": 90453.95,
     "settlement_status": "settled",
-    "processor_reference": "PRC-49e944cd7cd9",
-    "order_id": "ORD-c403572d6547"
+    "processor_reference": "PRC-9f743cf61243",
+    "order_id": "ORD-8d0681912ccb"
   },
   {
-    "settlement_id": "STL-bfdb224399ec",
+    "settlement_id": "STL-4241913441b3",
     "merchant_id": "MCH-1002",
     "settlement_amount": 389181.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T16:05:00",
     "fee_charged": 9729.52,
     "settlement_status": "settled",
-    "processor_reference": "PRC-0730d6386da7",
-    "order_id": "ORD-164ba6276f23"
+    "processor_reference": "PRC-7ca4ef589541",
+    "order_id": "ORD-f8f38a62ec9c"
   },
   {
-    "settlement_id": "STL-37308e08c965",
+    "settlement_id": "STL-7ce535b434cd",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1502826.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T20:21:00",
     "fee_charged": 37570.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-c9f3cf6ceea8",
-    "order_id": "ORD-f51b69f5aad6"
+    "processor_reference": "PRC-aaeb33a17570",
+    "order_id": "ORD-e63e2affb024"
   },
   {
-    "settlement_id": "STL-79d413a64134",
+    "settlement_id": "STL-6b86a4aabef5",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4287925.0,
     "currency": "IDR",
     "settlement_date": "2025-11-26T06:11:00",
     "fee_charged": 107198.12,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d5e54e74fee3",
-    "order_id": "ORD-39aa52f92925"
+    "processor_reference": "PRC-0d2e1a7a6b57",
+    "order_id": "ORD-e1655c9b9c1c"
   },
   {
-    "settlement_id": "STL-e2f744d7b69e",
+    "settlement_id": "STL-cc88d65b18c7",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3045219.0,
     "currency": "IDR",
     "settlement_date": "2025-11-13T12:36:00",
     "fee_charged": 76130.48,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2ff12cc698ac",
-    "order_id": "ORD-03fcbd20835e"
+    "processor_reference": "PRC-fd4e3a803a51",
+    "order_id": "ORD-aa2eec13255b"
   },
   {
-    "settlement_id": "STL-ade65f6deaa6",
+    "settlement_id": "STL-32e53190b3dd",
     "merchant_id": "MCH-1001",
     "settlement_amount": 2641249.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T21:42:00",
     "fee_charged": 66031.23,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2d2b439e77f6",
-    "order_id": "ORD-4c00e2335333"
+    "processor_reference": "PRC-5dfea7291e99",
+    "order_id": "ORD-bef757fa7237"
   },
   {
-    "settlement_id": "STL-8560cb242e0f",
+    "settlement_id": "STL-d9214f0b1128",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4395903.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T16:22:00",
     "fee_charged": 109897.58,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4413bf854893",
-    "order_id": "ORD-e14577961434"
+    "processor_reference": "PRC-40944fe1da66",
+    "order_id": "ORD-6af62d13a9da"
   },
   {
-    "settlement_id": "STL-40c856ab756f",
+    "settlement_id": "STL-4cd1157397b5",
     "merchant_id": "MCH-1004",
     "settlement_amount": 236156.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T09:29:00",
     "fee_charged": 5903.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-9dd8aa478228",
-    "order_id": "ORD-9e53ad939a20"
+    "processor_reference": "PRC-03fd6b849e8a",
+    "order_id": "ORD-508e66fecf8c"
   },
   {
-    "settlement_id": "STL-e80195713d01",
+    "settlement_id": "STL-655942ba13f0",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3320326.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T13:11:00",
     "fee_charged": 83008.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-5b82e89795de",
-    "order_id": "ORD-a7d94aa1b1d7"
+    "processor_reference": "PRC-99da7403d6f1",
+    "order_id": "ORD-79ec8d4c2d5e"
   },
   {
-    "settlement_id": "STL-973d20734dfd",
+    "settlement_id": "STL-b5bee18cae15",
     "merchant_id": "MCH-1003",
     "settlement_amount": 4682336.0,
     "currency": "IDR",
     "settlement_date": "2025-11-10T04:30:00",
     "fee_charged": 117058.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e797c5239fd1",
-    "order_id": "ORD-f271967fde37"
+    "processor_reference": "PRC-7f059a62f3fa",
+    "order_id": "ORD-eb28e7617d40"
   },
   {
-    "settlement_id": "STL-961802699ccc",
+    "settlement_id": "STL-c2d1820833b7",
     "merchant_id": "MCH-1004",
     "settlement_amount": 3811953.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T15:40:00",
     "fee_charged": 95298.83,
     "settlement_status": "settled",
-    "processor_reference": "PRC-fc5f124d502e",
-    "order_id": "ORD-b84b434384f3"
+    "processor_reference": "PRC-abf9c353f843",
+    "order_id": "ORD-0e9347ac94bf"
   },
   {
-    "settlement_id": "STL-4b8aa1f13412",
+    "settlement_id": "STL-e590dc5f2af8",
     "merchant_id": "MCH-1001",
     "settlement_amount": 493613.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T13:06:00",
     "fee_charged": 12340.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-aa16f0f5999a",
-    "order_id": "ORD-564e9a7cf8a1"
+    "processor_reference": "PRC-cee1c99e219e",
+    "order_id": "ORD-08815a72dab1"
   },
   {
-    "settlement_id": "STL-e489516e58fa",
+    "settlement_id": "STL-414ae1ff11ef",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1322002.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T08:53:00",
     "fee_charged": 33050.05,
     "settlement_status": "settled",
-    "processor_reference": "PRC-792d6e31f6d0",
-    "order_id": "ORD-e088c86b3aff"
+    "processor_reference": "PRC-08f03592e692",
+    "order_id": "ORD-550c4002a063"
   },
   {
-    "settlement_id": "STL-b97f9937e0f0",
+    "settlement_id": "STL-5c854e212b6a",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2160054.0,
     "currency": "IDR",
     "settlement_date": "2025-11-04T01:30:00",
     "fee_charged": 54001.35,
     "settlement_status": "settled",
-    "processor_reference": "PRC-6a58917463db",
-    "order_id": "ORD-90be69cc8726"
+    "processor_reference": "PRC-57e3255b97b1",
+    "order_id": "ORD-8b3c5f9f94cf"
   },
   {
-    "settlement_id": "STL-3fff53949e22",
+    "settlement_id": "STL-f7126fd099f4",
     "merchant_id": "MCH-1002",
     "settlement_amount": 309831.0,
     "currency": "IDR",
     "settlement_date": "2025-11-19T07:40:00",
     "fee_charged": 7745.78,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4997807585db",
-    "order_id": "ORD-0fd3707833fa"
+    "processor_reference": "PRC-8ac4de044e4e",
+    "order_id": "ORD-cedde3a0c671"
   },
   {
-    "settlement_id": "STL-2648bfaf9718",
+    "settlement_id": "STL-cbb963543c8b",
     "merchant_id": "MCH-1005",
     "settlement_amount": 796187.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T21:37:00",
     "fee_charged": 19904.68,
     "settlement_status": "settled",
-    "processor_reference": "PRC-59c03132b7e7",
-    "order_id": "ORD-c65b7a845686"
+    "processor_reference": "PRC-2856439acea9",
+    "order_id": "ORD-2a823788e0a2"
   },
   {
-    "settlement_id": "STL-0021dc9785f3",
+    "settlement_id": "STL-4c31724380e4",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3404934.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T06:39:00",
     "fee_charged": 85123.35,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a34271d2e639",
-    "order_id": "ORD-0f721538f931"
+    "processor_reference": "PRC-76317d5d2efb",
+    "order_id": "ORD-c8defcbc2406"
   },
   {
-    "settlement_id": "STL-6c7421a4c721",
+    "settlement_id": "STL-51db825e6711",
     "merchant_id": "MCH-1003",
     "settlement_amount": 929304.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T06:30:00",
     "fee_charged": 23232.6,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a4b2fcabc4c8",
-    "order_id": "ORD-dd5a534a9911"
+    "processor_reference": "PRC-5682bcff6d8c",
+    "order_id": "ORD-9cafc7872bab"
   },
   {
-    "settlement_id": "STL-68b0716d2d7d",
+    "settlement_id": "STL-dd46f8b02daa",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1645408.0,
     "currency": "IDR",
     "settlement_date": "2025-12-01T23:37:00",
     "fee_charged": 41135.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-132ccfa17b0c",
-    "order_id": "ORD-d6926648efe2"
+    "processor_reference": "PRC-891beb6215eb",
+    "order_id": "ORD-a62ed906e0ce"
   },
   {
-    "settlement_id": "STL-d1b795cca56b",
+    "settlement_id": "STL-f9e47a1b003a",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1575879.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T13:08:00",
     "fee_charged": 39396.98,
     "settlement_status": "settled",
-    "processor_reference": "PRC-958c97a0d3c9",
-    "order_id": "ORD-864c2e6a3c18"
+    "processor_reference": "PRC-01cf7ccc4f51",
+    "order_id": "ORD-14bd99fb9f79"
   },
   {
-    "settlement_id": "STL-9aacc70618e8",
+    "settlement_id": "STL-59f51be478ad",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3884300.0,
     "currency": "IDR",
     "settlement_date": "2025-11-10T16:40:00",
     "fee_charged": 97107.5,
     "settlement_status": "settled",
-    "processor_reference": "PRC-074dd7bfd6a2",
-    "order_id": "ORD-fc7551a9f384"
+    "processor_reference": "PRC-aa2b9d73e637",
+    "order_id": "ORD-65c71a06b50f"
   },
   {
-    "settlement_id": "STL-3806cae91013",
+    "settlement_id": "STL-4cdc5788459d",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2977528.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T09:50:00",
     "fee_charged": 74438.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8d3ab6da6af7",
-    "order_id": "ORD-9eebff2bf82c"
+    "processor_reference": "PRC-4e613be71390",
+    "order_id": "ORD-add361c9dcb0"
   },
   {
-    "settlement_id": "STL-a7beceef1349",
+    "settlement_id": "STL-fc9232d72592",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4054766.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T05:53:00",
     "fee_charged": 101369.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ff69a3c4cd19",
-    "order_id": "ORD-c2db605754cb"
+    "processor_reference": "PRC-d3eedac078a2",
+    "order_id": "ORD-06186555a2eb"
   },
   {
-    "settlement_id": "STL-5d77f7328b8e",
+    "settlement_id": "STL-a3d040b4aed3",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2363659.0,
     "currency": "IDR",
     "settlement_date": "2025-11-13T17:36:00",
     "fee_charged": 59091.48,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e3eea19a9129",
-    "order_id": "ORD-cc7652bf4bcb"
+    "processor_reference": "PRC-e1b04a5578da",
+    "order_id": "ORD-5800c8526161"
   },
   {
-    "settlement_id": "STL-a119d96108d3",
+    "settlement_id": "STL-33eaba1421ec",
     "merchant_id": "MCH-1003",
     "settlement_amount": 4325405.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T19:50:00",
     "fee_charged": 108135.12,
     "settlement_status": "settled",
-    "processor_reference": "PRC-3133b192b6b2",
-    "order_id": "ORD-3b230c7a651e"
+    "processor_reference": "PRC-08581e6dfb41",
+    "order_id": "ORD-75beafe16088"
   },
   {
-    "settlement_id": "STL-d73b29762cd7",
+    "settlement_id": "STL-bcdac8c7f9ae",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2588442.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T09:16:00",
     "fee_charged": 64711.05,
     "settlement_status": "settled",
-    "processor_reference": "PRC-3ac6fdcb42e1",
-    "order_id": "ORD-289ceb5f0dbd"
+    "processor_reference": "PRC-9392511ccff8",
+    "order_id": "ORD-41c78058ecf0"
   },
   {
-    "settlement_id": "STL-5f5c9d56118f",
+    "settlement_id": "STL-c417049aa4a5",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2989342.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T23:40:00",
     "fee_charged": 74733.55,
     "settlement_status": "settled",
-    "processor_reference": "PRC-fb27baf25eb7",
-    "order_id": "ORD-ffeb135c6c3c"
+    "processor_reference": "PRC-219a5ac34279",
+    "order_id": "ORD-30f9d0c1f8b2"
   },
   {
-    "settlement_id": "STL-e1bff5ef7f9b",
+    "settlement_id": "STL-93bdf8913238",
     "merchant_id": "MCH-1003",
     "settlement_amount": 887865.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T14:10:00",
     "fee_charged": 22196.62,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2c5e3d3f9384",
-    "order_id": "ORD-9484f41451c3"
+    "processor_reference": "PRC-2011e13ece25",
+    "order_id": "ORD-3c2cd89850b3"
   },
   {
-    "settlement_id": "STL-9ae6117c0232",
+    "settlement_id": "STL-b3226764b5b9",
     "merchant_id": "MCH-1002",
     "settlement_amount": 2256604.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T22:36:00",
     "fee_charged": 56415.1,
     "settlement_status": "settled",
-    "processor_reference": "PRC-cc5eb5a1fe8d",
-    "order_id": "ORD-bbd7f2c24459"
+    "processor_reference": "PRC-7f86621aff75",
+    "order_id": "ORD-3a046a5f939f"
   },
   {
-    "settlement_id": "STL-b506df554536",
+    "settlement_id": "STL-ab293824bbf8",
     "merchant_id": "MCH-1004",
     "settlement_amount": 1603075.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T15:33:00",
     "fee_charged": 40076.88,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a956b983cc76",
-    "order_id": "ORD-5e9fc4fb9134"
+    "processor_reference": "PRC-b576fc9144f1",
+    "order_id": "ORD-da537126ad81"
   },
   {
-    "settlement_id": "STL-c572c510ddb0",
+    "settlement_id": "STL-4b87d1cbad2e",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1550781.0,
     "currency": "IDR",
     "settlement_date": "2025-11-17T06:55:00",
     "fee_charged": 38769.53,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8c5395902b4c",
-    "order_id": "ORD-fc2d4b147463"
+    "processor_reference": "PRC-73df90baa958",
+    "order_id": "ORD-601ced5c67d5"
   },
   {
-    "settlement_id": "STL-e164ed2a9780",
+    "settlement_id": "STL-da9f03c45ac0",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4846157.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T19:38:00",
     "fee_charged": 121153.93,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2e938318ce24",
-    "order_id": "ORD-c1be7d43da3b"
+    "processor_reference": "PRC-6f23c2e4c128",
+    "order_id": "ORD-ef0a84b298ca"
   },
   {
-    "settlement_id": "STL-a9e069597365",
+    "settlement_id": "STL-e4c7aa2baf50",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4340914.0,
     "currency": "IDR",
     "settlement_date": "2025-11-07T20:27:00",
     "fee_charged": 108522.85,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e8dfc3364096",
-    "order_id": "ORD-6049b51d65dd"
+    "processor_reference": "PRC-b2dc31208554",
+    "order_id": "ORD-f68d234c15cb"
   },
   {
-    "settlement_id": "STL-ea2261194f35",
+    "settlement_id": "STL-a43d70aefc74",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1290738.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T04:08:00",
     "fee_charged": 32268.45,
     "settlement_status": "settled",
-    "processor_reference": "PRC-c43bc463370b",
-    "order_id": "ORD-122347527547"
+    "processor_reference": "PRC-d2fb1ef7e296",
+    "order_id": "ORD-c9bcb796e366"
   },
   {
-    "settlement_id": "STL-9d133f9dee99",
+    "settlement_id": "STL-46597a65a715",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4980801.0,
     "currency": "IDR",
     "settlement_date": "2025-11-08T12:24:00",
     "fee_charged": 124520.03,
     "settlement_status": "settled",
-    "processor_reference": "PRC-3ed6abfde0d8",
-    "order_id": "ORD-52cd427f94b8"
+    "processor_reference": "PRC-e0c08a740ecd",
+    "order_id": "ORD-214f0f60d699"
   },
   {
-    "settlement_id": "STL-fe9ac7cfaaa2",
+    "settlement_id": "STL-ad86ba4aad9d",
     "merchant_id": "MCH-1002",
     "settlement_amount": 383090.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T00:15:00",
     "fee_charged": 9577.25,
     "settlement_status": "settled",
-    "processor_reference": "PRC-82035f70bef4",
-    "order_id": "ORD-f67049768d17"
+    "processor_reference": "PRC-88d6467e3759",
+    "order_id": "ORD-5efdfc75c2f2"
   },
   {
-    "settlement_id": "STL-b21dd63a843d",
+    "settlement_id": "STL-402263da41a5",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1474557.0,
     "currency": "IDR",
     "settlement_date": "2025-11-18T11:35:00",
     "fee_charged": 36863.93,
     "settlement_status": "settled",
-    "processor_reference": "PRC-dfa76c578f15",
-    "order_id": "ORD-c2760f37b642"
+    "processor_reference": "PRC-44b491cde5ba",
+    "order_id": "ORD-bd3794d7c787"
   },
   {
-    "settlement_id": "STL-55f2bb619bcf",
+    "settlement_id": "STL-b6a6c610be3a",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3630236.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T14:43:00",
     "fee_charged": 90755.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-65cfd4298ab3",
-    "order_id": "ORD-b6e6d7239a5a"
+    "processor_reference": "PRC-ba5bfea67ce3",
+    "order_id": "ORD-bf72bf93ba38"
   },
   {
-    "settlement_id": "STL-1cd34042677d",
+    "settlement_id": "STL-a82e5550660e",
     "merchant_id": "MCH-1001",
     "settlement_amount": 3783454.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T02:49:00",
     "fee_charged": 94586.35,
     "settlement_status": "settled",
-    "processor_reference": "PRC-f45aa7e0c55d",
-    "order_id": "ORD-53c86e5d5378"
+    "processor_reference": "PRC-bf4697b3f6c1",
+    "order_id": "ORD-ae8d251334bf"
   },
   {
-    "settlement_id": "STL-afd1e49a624a",
+    "settlement_id": "STL-bc769a21180d",
     "merchant_id": "MCH-1002",
     "settlement_amount": 3193533.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T02:16:00",
     "fee_charged": 79838.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-533d0e06f734",
-    "order_id": "ORD-4c45b17e00c4"
+    "processor_reference": "PRC-32b2228899ec",
+    "order_id": "ORD-15dc4e4b8dfd"
   },
   {
-    "settlement_id": "STL-8a5747ef10ae",
+    "settlement_id": "STL-49c548f07aee",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1117066.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T14:26:00",
     "fee_charged": 27926.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8e4c43222d6d",
-    "order_id": "ORD-1cf49592f398"
+    "processor_reference": "PRC-b165fbbe74f3",
+    "order_id": "ORD-4fbc10ec5562"
   },
   {
-    "settlement_id": "STL-73e37a51a34d",
+    "settlement_id": "STL-bcf26469eb1a",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1285578.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T10:41:00",
     "fee_charged": 32139.45,
     "settlement_status": "settled",
-    "processor_reference": "PRC-80105381ea90",
-    "order_id": "ORD-82a1fdde6f2f"
+    "processor_reference": "PRC-42bb947cfe07",
+    "order_id": "ORD-2731b5843e85"
   },
   {
-    "settlement_id": "STL-b8d6125eded0",
+    "settlement_id": "STL-97e4d7784c8c",
     "merchant_id": "MCH-1004",
     "settlement_amount": 2686283.0,
     "currency": "IDR",
     "settlement_date": "2025-11-19T05:08:00",
     "fee_charged": 67157.07,
     "settlement_status": "settled",
-    "processor_reference": "PRC-c6575b78f8a7",
-    "order_id": "ORD-f20dd2eca396"
+    "processor_reference": "PRC-1cbb0ba80ed9",
+    "order_id": "ORD-8786d8d87fff"
   },
   {
-    "settlement_id": "STL-c3725cb07531",
+    "settlement_id": "STL-831db38af7a9",
     "merchant_id": "MCH-1002",
     "settlement_amount": 3505790.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T00:48:00",
     "fee_charged": 87644.75,
     "settlement_status": "settled",
-    "processor_reference": "PRC-543f8e4cf0f1",
-    "order_id": "ORD-d968cee4cc43"
+    "processor_reference": "PRC-4f3bc8d27a80",
+    "order_id": "ORD-d8106130a075"
   },
   {
-    "settlement_id": "STL-3a0e5d63f24e",
+    "settlement_id": "STL-23d511edf688",
     "merchant_id": "MCH-1002",
     "settlement_amount": 2079394.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T14:00:00",
     "fee_charged": 51984.85,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e52413957eb1",
-    "order_id": "ORD-c65142a7b1bf"
+    "processor_reference": "PRC-bcee0c83cb83",
+    "order_id": "ORD-9878d7d42128"
   },
   {
-    "settlement_id": "STL-3fb8e56c1553",
+    "settlement_id": "STL-15df0061f068",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2207631.0,
     "currency": "IDR",
     "settlement_date": "2025-12-04T08:11:00",
     "fee_charged": 55190.78,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8e562563a169",
-    "order_id": "ORD-dc62675c62ae"
+    "processor_reference": "PRC-bf719fb06562",
+    "order_id": "ORD-f793cfdf4ac8"
   },
   {
-    "settlement_id": "STL-3631d0c89c69",
+    "settlement_id": "STL-c13b3b373e3c",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1932871.0,
     "currency": "IDR",
     "settlement_date": "2025-11-23T19:14:00",
     "fee_charged": 48321.78,
     "settlement_status": "settled",
-    "processor_reference": "PRC-944f1e655f3c",
-    "order_id": "ORD-b218e7009e6f"
+    "processor_reference": "PRC-4af1522af938",
+    "order_id": "ORD-04c521c08044"
   },
   {
-    "settlement_id": "STL-78f60f6e796b",
+    "settlement_id": "STL-843fa5b892d7",
     "merchant_id": "MCH-1002",
     "settlement_amount": 3096799.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T21:47:00",
     "fee_charged": 77419.98,
     "settlement_status": "settled",
-    "processor_reference": "PRC-18e3900500bb",
-    "order_id": "ORD-a602b0eb7659"
+    "processor_reference": "PRC-8ccea8680c6a",
+    "order_id": "ORD-1707cadb8f41"
   },
   {
-    "settlement_id": "STL-d3f0a3a97e65",
+    "settlement_id": "STL-1d6108a90574",
     "merchant_id": "MCH-1005",
     "settlement_amount": 3558728.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T12:08:00",
     "fee_charged": 88968.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a9861e2c367c",
-    "order_id": "ORD-c07187866deb"
+    "processor_reference": "PRC-ac0b2b30cb90",
+    "order_id": "ORD-948285f350e3"
   },
   {
-    "settlement_id": "STL-0c52af7ba0c7",
+    "settlement_id": "STL-3a4fea3971f8",
     "merchant_id": "MCH-1003",
     "settlement_amount": 4575936.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T23:30:00",
     "fee_charged": 114398.4,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e73973954522",
-    "order_id": "ORD-5e5c0b8e50f6"
+    "processor_reference": "PRC-0e49d722be21",
+    "order_id": "ORD-3fdb640b1a7f"
   },
   {
-    "settlement_id": "STL-6bb6af24ee07",
+    "settlement_id": "STL-f60d0089120a",
     "merchant_id": "MCH-1001",
     "settlement_amount": 2276182.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T18:35:00",
     "fee_charged": 56904.55,
     "settlement_status": "settled",
-    "processor_reference": "PRC-73646906b3e6",
-    "order_id": "ORD-f9af7e22395f"
+    "processor_reference": "PRC-5556623b4e50",
+    "order_id": "ORD-1415de97b4f9"
   },
   {
-    "settlement_id": "STL-95e623ab69f0",
+    "settlement_id": "STL-352b248c1eaa",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1536307.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T14:20:00",
     "fee_charged": 38407.68,
     "settlement_status": "settled",
-    "processor_reference": "PRC-35f52f414d95",
-    "order_id": "ORD-d24e17f51283"
+    "processor_reference": "PRC-443f22eadf36",
+    "order_id": "ORD-ce67df964c62"
   },
   {
-    "settlement_id": "STL-18b069e961c0",
+    "settlement_id": "STL-9b41f84b5b2c",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1036124.0,
     "currency": "IDR",
     "settlement_date": "2025-11-10T14:54:00",
     "fee_charged": 25903.1,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a1a2bad3b95c",
-    "order_id": "ORD-6e5b8d8bf27d"
+    "processor_reference": "PRC-0b4df9e5d443",
+    "order_id": "ORD-0c58e89c607d"
   },
   {
-    "settlement_id": "STL-4192b6c8577c",
+    "settlement_id": "STL-98ca767da529",
     "merchant_id": "MCH-1002",
     "settlement_amount": 4329798.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T23:09:00",
     "fee_charged": 108244.95,
     "settlement_status": "settled",
-    "processor_reference": "PRC-0a664c23f4ab",
-    "order_id": "ORD-8a7d7b8bcbb9"
+    "processor_reference": "PRC-fea31f73d603",
+    "order_id": "ORD-1b785bbce613"
   },
   {
-    "settlement_id": "STL-90f255232502",
+    "settlement_id": "STL-60bf8f9905b5",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2086126.0,
     "currency": "IDR",
     "settlement_date": "2025-11-05T00:34:00",
     "fee_charged": 52153.15,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d4f2de79a4d2",
-    "order_id": "ORD-4cd666d3718b"
+    "processor_reference": "PRC-147bc2557f1d",
+    "order_id": "ORD-dbb332213775"
   },
   {
-    "settlement_id": "STL-c2cd0ceeb8c7",
+    "settlement_id": "STL-976f45a6e06d",
     "merchant_id": "MCH-1005",
     "settlement_amount": 4568120.0,
     "currency": "IDR",
     "settlement_date": "2025-11-24T20:42:00",
     "fee_charged": 114203.0,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ca2f0249f47a",
-    "order_id": "ORD-0474ed958474"
+    "processor_reference": "PRC-ede88fae0914",
+    "order_id": "ORD-b6449b03a77e"
   },
   {
-    "settlement_id": "STL-db773ddd1830",
+    "settlement_id": "STL-255faf394e68",
     "merchant_id": "MCH-1002",
     "settlement_amount": 440893.0,
     "currency": "IDR",
     "settlement_date": "2025-11-29T05:10:00",
     "fee_charged": 11022.33,
     "settlement_status": "settled",
-    "processor_reference": "PRC-519a076601c3",
-    "order_id": "ORD-65695fbe2dcf"
+    "processor_reference": "PRC-05a758364d5e",
+    "order_id": "ORD-11728159aebe"
   },
   {
-    "settlement_id": "STL-e7749fc44eec",
+    "settlement_id": "STL-057587154a13",
     "merchant_id": "MCH-1001",
     "settlement_amount": 4468666.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T07:09:00",
     "fee_charged": 111716.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8bee3393a330",
-    "order_id": "ORD-58d1992cf735"
+    "processor_reference": "PRC-0e06ee0c6b14",
+    "order_id": "ORD-30e2f91723e2"
   },
   {
-    "settlement_id": "STL-27f488cb6f6c",
+    "settlement_id": "STL-6a491b5efa4d",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4716247.0,
     "currency": "IDR",
     "settlement_date": "2025-11-16T22:19:00",
     "fee_charged": 117906.18,
     "settlement_status": "settled",
-    "processor_reference": "PRC-f7ace68c9ca3",
-    "order_id": "ORD-f42ce0c840a8"
+    "processor_reference": "PRC-15488be8d37b",
+    "order_id": "ORD-74da7d939368"
   },
   {
-    "settlement_id": "STL-ff811cc380bc",
+    "settlement_id": "STL-91040a2cb113",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1768659.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T18:50:00",
     "fee_charged": 44216.48,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b6142b0d1be7",
-    "order_id": "ORD-fced8db19f74"
+    "processor_reference": "PRC-b6888ec8cbb8",
+    "order_id": "ORD-d80c9291be1d"
   },
   {
-    "settlement_id": "STL-36eca241147e",
+    "settlement_id": "STL-7cfac4ec01af",
     "merchant_id": "MCH-1001",
     "settlement_amount": 4454078.0,
     "currency": "IDR",
     "settlement_date": "2025-12-04T04:16:00",
     "fee_charged": 111351.95,
     "settlement_status": "settled",
-    "processor_reference": "PRC-a30c3858115e",
-    "order_id": "ORD-7179ba5212f7"
+    "processor_reference": "PRC-f5ac20add6d4",
+    "order_id": "ORD-99e657eeed15"
   },
   {
-    "settlement_id": "STL-45e992520396",
+    "settlement_id": "STL-3ee9ccf8bcf6",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1934276.0,
     "currency": "IDR",
     "settlement_date": "2025-11-13T17:20:00",
     "fee_charged": 48356.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-48d7fe4f8d10",
-    "order_id": "ORD-be1685bcab6e"
+    "processor_reference": "PRC-7bb0dca3aa56",
+    "order_id": "ORD-379db4dadffa"
   },
   {
-    "settlement_id": "STL-0fcd8017c1cd",
+    "settlement_id": "STL-17952349cc7f",
     "merchant_id": "MCH-1002",
     "settlement_amount": 189528.0,
     "currency": "IDR",
     "settlement_date": "2025-11-14T02:23:00",
     "fee_charged": 4738.2,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b875fa4400b9",
-    "order_id": "ORD-739c8eb5764e"
+    "processor_reference": "PRC-37c1df097f91",
+    "order_id": "ORD-b54d821f2b1c"
   },
   {
-    "settlement_id": "STL-52b548b155fd",
+    "settlement_id": "STL-e6b84e3025c5",
     "merchant_id": "MCH-1004",
     "settlement_amount": 4840427.0,
     "currency": "IDR",
     "settlement_date": "2025-11-15T09:47:00",
     "fee_charged": 121010.68,
     "settlement_status": "settled",
-    "processor_reference": "PRC-be25dc77b197",
-    "order_id": "ORD-f5b90115ca8b"
+    "processor_reference": "PRC-42a7e65c0a30",
+    "order_id": "ORD-15f3bef0e1b8"
   },
   {
-    "settlement_id": "STL-d0ad3902e2f6",
+    "settlement_id": "STL-8d16f9c5cb34",
     "merchant_id": "MCH-1002",
     "settlement_amount": 529218.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T14:15:00",
     "fee_charged": 13230.45,
     "settlement_status": "settled",
-    "processor_reference": "PRC-56d6c77c661c",
-    "order_id": "ORD-16588d43a820"
+    "processor_reference": "PRC-cb841bd7d53a",
+    "order_id": "ORD-d8d1fc5e6163"
   },
   {
-    "settlement_id": "STL-b0c3ff2c8451",
+    "settlement_id": "STL-d85eadcfe355",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2083436.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T23:30:00",
     "fee_charged": 52085.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-3ec39ec03f9d",
-    "order_id": "ORD-1000a5b32744"
+    "processor_reference": "PRC-eccd7197ad77",
+    "order_id": "ORD-e50d7154b254"
   },
   {
-    "settlement_id": "STL-90d15c806bd0",
+    "settlement_id": "STL-8c334a074602",
     "merchant_id": "MCH-1003",
     "settlement_amount": 2391871.22,
     "currency": "IDR",
     "settlement_date": "2025-11-08T16:30:00",
     "fee_charged": 60175.12,
     "settlement_status": "settled",
-    "processor_reference": "PRC-6f4c27d1b438",
-    "order_id": "ORD-bf96ddfa664f"
+    "processor_reference": "PRC-0a0e707370bf",
+    "order_id": "ORD-fe17d8751b6a"
   },
   {
-    "settlement_id": "STL-df1b286c9020",
+    "settlement_id": "STL-f41c1ce4b406",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2756385.81,
     "currency": "IDR",
     "settlement_date": "2025-11-18T17:32:00",
     "fee_charged": 69826.3,
     "settlement_status": "settled",
-    "processor_reference": "PRC-84a3b8f06140",
-    "order_id": "ORD-ba050bfa8b45"
+    "processor_reference": "PRC-5637471e2c2c",
+    "order_id": "ORD-92a15da240b5"
   },
   {
-    "settlement_id": "STL-3ced7fc8e8f0",
+    "settlement_id": "STL-704d215a7528",
     "merchant_id": "MCH-1004",
     "settlement_amount": 1408678.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T09:01:00",
     "fee_charged": 35216.95,
     "settlement_status": "settled",
-    "processor_reference": "PRC-124748074ad6",
-    "order_id": "ORD-a780d3f1263e"
+    "processor_reference": "PRC-3f74951ffef6",
+    "order_id": "ORD-0a1692c445aa"
   },
   {
-    "settlement_id": "STL-d7e24ab67a15",
+    "settlement_id": "STL-d0cfdc57bf1a",
     "merchant_id": "MCH-1001",
     "settlement_amount": 144069.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T00:57:00",
     "fee_charged": 3601.73,
     "settlement_status": "settled",
-    "processor_reference": "PRC-0e8d6bca3de9",
-    "order_id": "ORD-bec577ceb975"
+    "processor_reference": "PRC-a3577930dc07",
+    "order_id": "ORD-21a07b8d4da2"
   },
   {
-    "settlement_id": "STL-d6ae256ec907",
+    "settlement_id": "STL-2df8f489135c",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3621900.0,
     "currency": "IDR",
     "settlement_date": "2025-11-15T05:23:00",
     "fee_charged": 90547.5,
     "settlement_status": "settled",
-    "processor_reference": "PRC-99e9b21f01af",
-    "order_id": "ORD-263ef86a4e96"
+    "processor_reference": "PRC-d5b704df419e",
+    "order_id": "ORD-7fa6b0caf50f"
   },
   {
-    "settlement_id": "STL-972e4e800fd9",
+    "settlement_id": "STL-1c788927263f",
     "merchant_id": "MCH-1005",
     "settlement_amount": 115994.0,
     "currency": "IDR",
     "settlement_date": "2025-12-05T22:26:00",
     "fee_charged": 5799.7,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-2ff2708abba4",
-    "order_id": "ORD-eab13c70b2f8"
+    "processor_reference": "PRC-a828bd1b5d85",
+    "order_id": "ORD-184db54f8c3e"
   },
   {
-    "settlement_id": "STL-b9d439e0d716",
+    "settlement_id": "STL-de4bbfeab918",
     "merchant_id": "MCH-1005",
     "settlement_amount": 115994.0,
     "currency": "IDR",
     "settlement_date": "2025-12-01T22:26:00",
     "fee_charged": 5799.7,
     "settlement_status": "settled",
-    "processor_reference": "PRC-2ff2708abba4",
-    "order_id": "ORD-eab13c70b2f8"
+    "processor_reference": "PRC-a828bd1b5d85",
+    "order_id": "ORD-184db54f8c3e"
   },
   {
-    "settlement_id": "STL-82e72adbc4b1",
+    "settlement_id": "STL-2c02dd26294d",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1547146.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T02:41:00",
     "fee_charged": 77357.3,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-ebb165109b71",
-    "order_id": "ORD-1b36e413884a"
+    "processor_reference": "PRC-0007af4d2516",
+    "order_id": "ORD-54a9bb7008ef"
   },
   {
-    "settlement_id": "STL-398c12893da0",
+    "settlement_id": "STL-aef06ae891bc",
     "merchant_id": "MCH-1001",
     "settlement_amount": 1547146.0,
     "currency": "IDR",
     "settlement_date": "2025-11-15T02:41:00",
     "fee_charged": 77357.3,
     "settlement_status": "settled",
-    "processor_reference": "PRC-ebb165109b71",
-    "order_id": "ORD-1b36e413884a"
+    "processor_reference": "PRC-0007af4d2516",
+    "order_id": "ORD-54a9bb7008ef"
   },
   {
-    "settlement_id": "STL-d99beeb47378",
+    "settlement_id": "STL-71bd65247ad7",
     "merchant_id": "MCH-1005",
     "settlement_amount": 227909.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T19:02:00",
     "fee_charged": 11395.45,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-d6837694d8af",
-    "order_id": "ORD-d08bd27021f7"
+    "processor_reference": "PRC-f15fa42dfe60",
+    "order_id": "ORD-7914d666bdaa"
   },
   {
-    "settlement_id": "STL-4a61fd16b724",
+    "settlement_id": "STL-4545c7bfc62b",
     "merchant_id": "MCH-1005",
     "settlement_amount": 227909.0,
     "currency": "IDR",
     "settlement_date": "2025-11-22T19:02:00",
     "fee_charged": 11395.45,
     "settlement_status": "settled",
-    "processor_reference": "PRC-d6837694d8af",
-    "order_id": "ORD-d08bd27021f7"
+    "processor_reference": "PRC-f15fa42dfe60",
+    "order_id": "ORD-7914d666bdaa"
   },
   {
-    "settlement_id": "STL-6199149602c9",
+    "settlement_id": "STL-7c7b6982d8d4",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1982150.0,
     "currency": "IDR",
     "settlement_date": "2025-11-28T05:00:00",
     "fee_charged": 99107.5,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-0c166ff040d6",
-    "order_id": "ORD-3bca80f951f1"
+    "processor_reference": "PRC-9779b0ddd33d",
+    "order_id": "ORD-4668da93d210"
   },
   {
-    "settlement_id": "STL-f6657ca05b22",
+    "settlement_id": "STL-de2074f4433a",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1982150.0,
     "currency": "IDR",
     "settlement_date": "2025-11-26T05:00:00",
     "fee_charged": 99107.5,
     "settlement_status": "settled",
-    "processor_reference": "PRC-0c166ff040d6",
-    "order_id": "ORD-3bca80f951f1"
+    "processor_reference": "PRC-9779b0ddd33d",
+    "order_id": "ORD-4668da93d210"
   },
   {
-    "settlement_id": "STL-8e0c47b72347",
+    "settlement_id": "STL-e76345f787ee",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1721157.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T18:33:00",
     "fee_charged": 86057.85,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-8f172bac7a7c",
-    "order_id": "ORD-6b09022fbe1c"
+    "processor_reference": "PRC-d4fd9e85768d",
+    "order_id": "ORD-6c1314b80e80"
   },
   {
-    "settlement_id": "STL-5d8f381432e8",
+    "settlement_id": "STL-2c005fdd7bd1",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1721157.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T18:33:00",
     "fee_charged": 86057.85,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8f172bac7a7c",
-    "order_id": "ORD-6b09022fbe1c"
+    "processor_reference": "PRC-d4fd9e85768d",
+    "order_id": "ORD-6c1314b80e80"
   },
   {
-    "settlement_id": "STL-f5aae3acfb84",
+    "settlement_id": "STL-78391c682928",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1275754.5,
     "currency": "IDR",
     "settlement_date": "2025-11-05T02:13:00",
     "fee_charged": 63787.73,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-4586c19c5622",
-    "order_id": "ORD-d279cc40c16e"
+    "processor_reference": "PRC-d4a5874a5e37",
+    "order_id": "ORD-baa8ae2c3c9b"
   },
   {
-    "settlement_id": "STL-de64765bb08f",
+    "settlement_id": "STL-51d5d676261d",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1275754.5,
     "currency": "IDR",
     "settlement_date": "2025-11-05T02:13:00",
     "fee_charged": 63787.73,
     "settlement_status": "settled",
-    "processor_reference": "PRC-4586c19c5622",
-    "order_id": "ORD-d279cc40c16e"
+    "processor_reference": "PRC-d4a5874a5e37",
+    "order_id": "ORD-baa8ae2c3c9b"
   },
   {
-    "settlement_id": "STL-d761cb34c92e",
+    "settlement_id": "STL-8b90a6288b1f",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1869301.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T23:03:00",
     "fee_charged": 93465.05,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-be621fd2492d",
-    "order_id": "ORD-15d185c42fde"
+    "processor_reference": "PRC-b50a8dcdd9ae",
+    "order_id": "ORD-8115230355e5"
   },
   {
-    "settlement_id": "STL-e417e9626d98",
+    "settlement_id": "STL-6004a31dc09b",
     "merchant_id": "MCH-1005",
     "settlement_amount": 1869301.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T23:03:00",
     "fee_charged": 93465.05,
     "settlement_status": "settled",
-    "processor_reference": "PRC-be621fd2492d",
-    "order_id": "ORD-15d185c42fde"
+    "processor_reference": "PRC-b50a8dcdd9ae",
+    "order_id": "ORD-8115230355e5"
   },
   {
-    "settlement_id": "STL-cf2c94cde378",
+    "settlement_id": "STL-9fb8b76c51e1",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1372553.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T11:06:00",
     "fee_charged": 68627.65,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-17cd8548de17",
-    "order_id": "ORD-b37c9aadef74"
+    "processor_reference": "PRC-7a258959c31f",
+    "order_id": "ORD-0c57c0f76393"
   },
   {
-    "settlement_id": "STL-7ebaf6fe706d",
+    "settlement_id": "STL-14113462da4b",
     "merchant_id": "MCH-1003",
     "settlement_amount": 1372553.0,
     "currency": "IDR",
     "settlement_date": "2025-11-09T11:06:00",
     "fee_charged": 68627.65,
     "settlement_status": "settled",
-    "processor_reference": "PRC-17cd8548de17",
-    "order_id": "ORD-b37c9aadef74"
+    "processor_reference": "PRC-7a258959c31f",
+    "order_id": "ORD-0c57c0f76393"
   },
   {
-    "settlement_id": "STL-e2816b450a44",
+    "settlement_id": "STL-3dfe69f1ec31",
     "merchant_id": "MCH-1004",
     "settlement_amount": 556062.0,
     "currency": "IDR",
     "settlement_date": "2025-11-11T08:45:00",
     "fee_charged": 27803.1,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-1d36853b7042",
-    "order_id": "ORD-5de30003b357"
+    "processor_reference": "PRC-e072ec690e5b",
+    "order_id": "ORD-5ff1413c8b3e"
   },
   {
-    "settlement_id": "STL-70e44f72f9be",
+    "settlement_id": "STL-50b0cc667d6f",
     "merchant_id": "MCH-1004",
     "settlement_amount": 556062.0,
     "currency": "IDR",
     "settlement_date": "2025-11-12T08:45:00",
     "fee_charged": 27803.1,
     "settlement_status": "settled",
-    "processor_reference": "PRC-1d36853b7042",
-    "order_id": "ORD-5de30003b357"
+    "processor_reference": "PRC-e072ec690e5b",
+    "order_id": "ORD-5ff1413c8b3e"
   },
   {
-    "settlement_id": "STL-3733a95167e8",
+    "settlement_id": "STL-649e9766e0aa",
     "merchant_id": "MCH-1004",
     "settlement_amount": 129829.0,
     "currency": "IDR",
     "settlement_date": "2025-11-27T14:22:00",
     "fee_charged": 6491.45,
     "settlement_status": "partial_refund",
-    "processor_reference": "PRC-b7d7abc99d65",
-    "order_id": "ORD-cb84d7552de1"
+    "processor_reference": "PRC-eb4af3d2fc25",
+    "order_id": "ORD-8f575fba4aad"
   },
   {
-    "settlement_id": "STL-8579cce4cc21",
+    "settlement_id": "STL-7663e1d2c3a1",
     "merchant_id": "MCH-1004",
     "settlement_amount": 129829.0,
     "currency": "IDR",
     "settlement_date": "2025-11-25T14:22:00",
     "fee_charged": 6491.45,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b7d7abc99d65",
-    "order_id": "ORD-cb84d7552de1"
+    "processor_reference": "PRC-eb4af3d2fc25",
+    "order_id": "ORD-8f575fba4aad"
   },
   {
-    "settlement_id": "STL-e24d25f1f46f",
+    "settlement_id": "STL-6f6736eef8fb",
     "merchant_id": "MCH-1003",
     "settlement_amount": 3657557.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T00:00:00",
     "fee_charged": 91438.93,
     "settlement_status": "settled",
-    "processor_reference": "PRC-e3401f0b46ee",
-    "order_id": "ORD-14c9cb124520"
+    "processor_reference": "PRC-11c264302cf4",
+    "order_id": "ORD-0e27cba8f1a5"
   },
   {
-    "settlement_id": "STL-8e53403c0406",
+    "settlement_id": "STL-cb1fa9791987",
     "merchant_id": "MCH-1004",
     "settlement_amount": 3809492.0,
     "currency": "IDR",
     "settlement_date": "2025-11-19T00:00:00",
     "fee_charged": 95237.3,
     "settlement_status": "settled",
-    "processor_reference": "PRC-86a45b928f29",
-    "order_id": "ORD-7e7feccaba35"
+    "processor_reference": "PRC-4f9e2f857bcc",
+    "order_id": "ORD-b9b50e9456ad"
   },
   {
-    "settlement_id": "STL-55aedd1d42fe",
+    "settlement_id": "STL-0b8118b34b09",
     "merchant_id": "MCH-1005",
     "settlement_amount": 2046756.0,
     "currency": "IDR",
     "settlement_date": "2025-11-21T00:00:00",
     "fee_charged": 51168.9,
     "settlement_status": "settled",
-    "processor_reference": "PRC-b26845cf4770",
-    "order_id": "ORD-cfe0dbcab00e"
+    "processor_reference": "PRC-72fd0fbeebe6",
+    "order_id": "ORD-887e49597c78"
   },
   {
-    "settlement_id": "STL-5b700d262d99",
+    "settlement_id": "STL-454086ba63d3",
     "merchant_id": "MCH-1002",
     "settlement_amount": 1406189.0,
     "currency": "IDR",
     "settlement_date": "2025-11-20T00:00:00",
     "fee_charged": 35154.72,
     "settlement_status": "settled",
-    "processor_reference": "PRC-8ea6fc397957",
-    "order_id": "ORD-f3615bd726a0"
+    "processor_reference": "PRC-497a97038eba",
+    "order_id": "ORD-feeceffcc87c"
   }
 ]

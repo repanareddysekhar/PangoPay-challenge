@@ -253,6 +253,17 @@ def main() -> None:
     with (SETTLEMENTS_DIR / "scb_thailand.json").open("w") as f:
         json.dump(scb_settlements, f, indent=2)
 
+    demo_payload = {
+        "transactions": clean_ledger,
+        "settlements": {
+            "mpesa_tanzania": mpesa_settlements,
+            "ovo_indonesia": ovo_settlements,
+            "scb_thailand": scb_settlements,
+        },
+    }
+    with (DATA_DIR / "demo-payload.json").open("w") as f:
+        json.dump(demo_payload, f)
+
     total_stl = len(mpesa_settlements) + len(ovo_settlements) + len(scb_settlements)
     print(f"Generated {len(clean_ledger)} ledger transactions")
     print(f"Generated {total_stl} settlement records:")

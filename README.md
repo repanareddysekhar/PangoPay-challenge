@@ -2,40 +2,56 @@
 
 Stateless backend service that matches PangoPay's internal transaction ledger against external acquirer settlement reports, detects discrepancies, and returns a reconciliation report.
 
-Designed for **serverless deployment** (Vercel): upload files per request — no local filesystem or session state required.
+**Live API:** https://pango-pay-challenge.vercel.app  
+**Interactive docs:** https://pango-pay-challenge.vercel.app/docs
 
-## Quick Start (< 5 minutes)
+---
+
+## Quick Start
 
 ```bash
 cd pangopay-reconciliation
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
-python scripts/generate_test_data.py
+python scripts/generate_test_data.py   # creates data/ files + demo-payload.json
 python -m app.cli --demo
 ```
 
-## API Usage
+---
 
-### Primary endpoint — file upload (stateless)
+## API Reference
 
-`POST /api/v1/reconcile` — multipart form, **5MB max per file**
+All endpoints are under `/api/v1`. There are **4 POST endpoints** — two run full reconciliation, two validate files only.
 
-| Field | Required | Description |
-|-------|----------|-------------|
+| # | Method | Path | Purpose |
+|---|--------|------|---------|
+| 1 | `POST` | `/api/v1/reconcile` | Full reconciliation via **file upload** |
+| 2 | `POST` | `/api/v1/reconcile/json` | Full reconciliation via **JSON body** |
+| 3 | `POST` | `/api/v1/validate/ledger` | Validate ledger file parses correctly |
+| 4 | `POST` | `/api/v1/validate/settlements/{acquirer}` | Validate one settlement file |
+
+**Limits:** 5 MB per uploaded file. Supported formats: `.json`, `.csv`.
+
+**Acquirer path values:** `mpesa_tanzania`, `ovo_indonesia`, `scb_thailand`
+
+---
+
+### 1. `POST /api/v1/reconcile` — File upload (recommended)
+
+Upload the ledger plus one or more acquirer settlement files as multipart form data.
+
+| Form field | Required | Description |
+|------------|----------|-------------|
 | `ledger` | Yes | Internal ledger (`.json` or `.csv`) |
-| `mpesa_tanzania` | No* | M-Pesa settlement report |
-| `ovo_indonesia` | No* | OVO settlement report |
-| `scb_thailand` | No* | SCB settlement report |
+| `mpesa_tanzania` | No* | M-Pesa Tanzania settlement report |
+| `ovo_indonesia` | No* | OVO Indonesia settlement report |
+| `scb_thailand` | No* | SCB Thailand settlement report |
 
 \* At least one settlement file is required.
 
 ```bash
-# Start server locally
-uvicorn app.main:app --reload --port 8000
-
-# Upload files and get report
-curl -X POST http://localhost:8000/api/v1/reconcile \
+curl -X POST https://pango-pay-challenge.vercel.app/api/v1/reconcile \
   -F "ledger=@data/ledger.json" \
   -F "mpesa_tanzania=@data/settlements/mpesa_tanzania.json" \
   -F "ovo_indonesia=@data/settlements/ovo_indonesia.json" \
@@ -43,65 +59,175 @@ curl -X POST http://localhost:8000/api/v1/reconcile \
   | python -m json.tool
 ```
 
-Interactive docs: http://localhost:8000/docs
+**Response:** Full reconciliation report JSON (`summary`, `matches`, `discrepancies`).
 
-### JSON body (no files)
+---
 
-`POST /api/v1/reconcile/json`
+### 2. `POST /api/v1/reconcile/json` — JSON body
+
+Send ledger and settlements together in one JSON object. Use this when your client already has parsed data in memory.
+
+**Required body shape:**
 
 ```json
 {
-  "transactions": [ ... ],
+  "transactions": [ /* internal ledger rows */ ],
   "settlements": {
-    "mpesa_tanzania": [ ... ],
-    "ovo_indonesia": [ ... ],
-    "scb_thailand": [ ... ]
+    "mpesa_tanzania": [ /* settlement rows */ ],
+    "ovo_indonesia":  [ /* settlement rows */ ],
+    "scb_thailand":   [ /* settlement rows */ ]
   }
 }
 ```
 
-### Validation helpers
+At least one key under `settlements` must be present and non-empty.
 
-- `POST /api/v1/validate/ledger` — parse ledger file only
-- `POST /api/v1/validate/settlements/{acquirer}` — parse one settlement file
-
-## Deploy to Vercel
+**Correct curl** — use `@` so curl reads the file contents, and point to the **combined** payload (not a single settlement file):
 
 ```bash
-npm i -g vercel   # if needed
-cd pangopay-reconciliation
-vercel
+# After running: python scripts/generate_test_data.py
+curl -X POST https://pango-pay-challenge.vercel.app/api/v1/reconcile/json \
+  -H "Content-Type: application/json" \
+  -d @data/demo-payload.json \
+  | python -m json.tool
 ```
 
-The repo includes:
+**Common mistakes:**
 
-- `api/index.py` — exports the FastAPI app for `@vercel/python`
-- `vercel.json` — routes all traffic to the Python handler
-- `requirements.txt` — dependencies for Vercel builds
+| Wrong | Why it fails |
+|-------|--------------|
+| `-d data/settlements/scb_thailand.json` | Sends the path as a literal string, not file contents |
+| `-d @data/settlements/scb_thailand.json` | File is only an array of settlements — missing `transactions` wrapper |
+| Omitting `Content-Type: application/json` | Server may not parse the body as JSON |
 
-After deploy, call:
+`data/demo-payload.json` is auto-generated by `scripts/generate_test_data.py` and bundles all files into the correct shape.
+
+---
+
+### 3. `POST /api/v1/validate/ledger`
+
+Parse and validate a ledger file without running reconciliation.
+
+```bash
+curl -X POST https://pango-pay-challenge.vercel.app/api/v1/validate/ledger \
+  -F "ledger=@data/ledger.json"
+```
+
+**Response:**
+```json
+{ "valid": true, "transaction_count": 520 }
+```
+
+---
+
+### 4. `POST /api/v1/validate/settlements/{acquirer}`
+
+Parse and validate one acquirer settlement file.
+
+```bash
+curl -X POST https://pango-pay-challenge.vercel.app/api/v1/validate/settlements/mpesa_tanzania \
+  -F "file=@data/settlements/mpesa_tanzania.json"
+```
+
+**Response:**
+```json
+{ "valid": true, "acquirer": "mpesa_tanzania", "record_count": 146 }
+```
+
+Replace `mpesa_tanzania` with `ovo_indonesia` or `scb_thailand` to validate other acquirers.
+
+---
+
+### Health check
+
+```bash
+curl https://pango-pay-challenge.vercel.app/health
+# {"status":"ok","version":"1.0.0"}
+```
+
+---
+
+## Reconciliation Engine
+
+### Pipeline
 
 ```
-POST https://<your-project>.vercel.app/api/v1/reconcile
+Ledger + Settlement files
+        ↓
+   Ingestion (normalize 3 acquirer formats → common schema)
+        ↓
+   Matching Engine (3-pass cascade)
+        ↓
+   Discrepancy Detection (categorize + risk score)
+        ↓
+   Reconciliation Report
 ```
 
-with the same multipart form as the local curl example.
+### Acquirer formats
 
-**Limits:** 5MB per uploaded file (configurable in `app/config.py`). Vercel serverless functions also have a ~4.5MB request body limit on the Hobby plan — keep files under that for production.
+Each acquirer uses a different identifier scheme. The ingestion layer normalizes all three into `NormalizedSettlement` records.
 
-## Matching Strategies
+| Acquirer | Identifier used | Example fields |
+|----------|----------------|----------------|
+| M-Pesa Tanzania | PangoPay `transaction_id` | `transaction_id`, `settlement_amount`, `merchant_id` |
+| OVO Indonesia | Processor reference + order ID | `processor_reference`, `order_id`, `settlement_amount` |
+| SCB Thailand | Order ID only (fuzzy match) | `order_id`, `settlement_amount`, `merchant_id` |
 
-| Priority | Strategy | Acquirer | Confidence |
-|----------|----------|----------|------------|
-| 1 | Direct ID | M-Pesa Tanzania (`transaction_id`) | 1.0 |
-| 2 | Processor Reference | OVO Indonesia (`processor_reference`) | 0.95 |
-| 3 | Fuzzy | SCB Thailand (`order_id` + amount + date) | 0.7–1.0 |
+### Matching strategies (priority order)
 
-Fuzzy matching accepts partial settlement legs (split refunds) when `order_id` and `merchant_id` match.
+The engine runs three passes. Once a settlement is matched, it is not reconsidered by a lower-priority pass.
 
-## Expected Demo Output
+| Pass | Strategy | When used | Confidence |
+|------|----------|-----------|------------|
+| 1 | **Direct ID** | Settlement contains `transaction_id` matching ledger | 1.0 |
+| 2 | **Processor Reference** | Settlement `processor_reference` maps to ledger row | 0.95 |
+| 3 | **Fuzzy** | Only `order_id` + `merchant_id` available (SCB) | 0.7–1.0 |
 
-After `python -m app.cli --demo`:
+**Fuzzy match rules:**
+- `order_id` and `merchant_id` must match exactly
+- Settlement date within **48 hours** of transaction `created_at`
+- Amount within **2%** hard cutoff; **0.5%** flagged as tolerance review
+- Partial settlement legs accepted (split refunds where each row is < full amount)
+
+**One-to-many:** One internal transaction can match multiple settlement rows (split settlements, partial refunds). Amount tolerance is recalculated against the **sum** of all linked settlements.
+
+### Discrepancy categories
+
+| Category | Meaning | Risk |
+|----------|---------|------|
+| `matched` | Internal and external records align | Low |
+| `missing_settlement` | Internal `captured`/`settled`/`refunded` row with no settlement entry | Medium (Low if < $20) |
+| `orphaned_settlement` | Settlement entry with no internal record | High if > $100 |
+| `amount_mismatch` | Matched by ID but amounts differ > 0.5% | High if delta > $100 |
+| `status_conflict` | e.g. internal `refunded` but settlement `settled` | High |
+| `duplicate_settlement` | Same merchant + amount within 24h | High |
+
+### Report structure
+
+```json
+{
+  "run_id": "uuid",
+  "generated_at": "2026-06-09T...",
+  "summary": {
+    "total_internal": 520,
+    "total_settlements": 470,
+    "matched_count": 440,
+    "missing_settlement_count": 55,
+    "orphaned_settlement_count": 10,
+    "amount_mismatch_count": 10,
+    "status_conflict_count": 10,
+    "mismatch_rate_by_acquirer": { ... },
+    "discrepancy_breakdown_pct": { ... },
+    "total_unreconciled_value": 70242500.11
+  },
+  "matches": [ /* successful pairings with strategy + confidence */ ],
+  "discrepancies": [ /* all issues with risk level + suspected reason */ ]
+}
+```
+
+### Expected demo output
+
+After `python -m app.cli --demo` or calling either reconcile endpoint with test data:
 
 ```
 Matched:                440
@@ -111,13 +237,46 @@ Amount mismatches:      10
 Status conflicts:       10
 ```
 
+---
+
 ## Test Data
 
 ```bash
 python scripts/generate_test_data.py
 ```
 
-Creates `data/ledger.json` and `data/settlements/*.json` with 520 ledger rows and 470 settlement rows covering all discrepancy types.
+Generates:
+
+| File | Contents |
+|------|----------|
+| `data/ledger.json` | 520 internal transactions |
+| `data/settlements/mpesa_tanzania.json` | M-Pesa settlement rows |
+| `data/settlements/ovo_indonesia.json` | OVO settlement rows |
+| `data/settlements/scb_thailand.json` | SCB settlement rows |
+| `data/demo-payload.json` | Combined payload for `/reconcile/json` |
+
+Intentional test scenarios: 400 clean matches, 55 missing settlements, 10 orphaned, 10 amount mismatches, 10 status conflicts, 20 split settlements.
+
+---
+
+## Local Development
+
+```bash
+uvicorn app.main:app --reload --port 8000
+# Docs: http://localhost:8000/docs
+```
+
+## Deploy to Vercel
+
+```bash
+vercel
+```
+
+Uses `api/index.py`, `vercel.json`, and `requirements.txt`.
+
+> **Note:** Preview deployment URLs (`*.vercel.app` with a hash prefix) may require Vercel authentication. Use the production URL `https://pango-pay-challenge.vercel.app` or disable Deployment Protection in project settings.
+
+---
 
 ## Tests
 
@@ -125,17 +284,20 @@ Creates `data/ledger.json` and `data/settlements/*.json` with 520 ledger rows an
 pytest tests/ -v
 ```
 
+---
+
 ## Project Structure
 
 ```
 app/
-├── api/routes.py          # Stateless upload endpoints
-├── api/uploads.py         # File parsing + size limits
+├── api/routes.py           # 4 POST endpoints
+├── api/uploads.py          # File parsing + 5MB limit
 ├── ingestion/normalizers.py
-├── matching/engine.py     # 3-pass matching cascade
+├── matching/engine.py      # 3-pass matching cascade
 ├── reconciliation/service.py
-└── services/reconcile.py  # Core orchestration (no I/O)
-api/index.py               # Vercel entrypoint
+└── services/reconcile.py   # Core orchestration (no I/O)
+api/index.py                # Vercel entrypoint
+data/demo-payload.json      # Ready-to-use JSON for /reconcile/json
 ```
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for design details.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for deeper design notes.
